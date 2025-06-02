@@ -6,8 +6,8 @@ import argparse
 from utils import display_image # For sanity check
 
 # Define checkerboard parameters
-DEFAULT_CHECKERBOARD_SIZE = (8,5)  # Inner corners (width, height) - As per your camera_calibration.py (5,8) becomes (8,5) for findChessboardCorners if width first
-DEFAULT_SQUARE_SIZE = 0.0235  # Square size in meters
+DEFAULT_CHECKERBOARD_SIZE = (8,6)  # Inner corners (width, height) - As per your camera_calibration.py (5,8) becomes (8,5) for findChessboardCorners if width first
+DEFAULT_SQUARE_SIZE = 0.0185  # Square size in meters
 
 def calibrate_stereo_camera(images_dir, output_file, checkerboard_size, square_size, show_undistorted=False):
     """
