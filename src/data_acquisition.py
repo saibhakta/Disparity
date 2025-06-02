@@ -14,7 +14,7 @@ except ImportError:
     print("You can still use this script with --use_dummy_cameras for testing image saving logic.")
 
 
-def capture_stereo_images_picamera2(output_dir, num_pairs=10, delay_sec=2, preview=True):
+def capture_stereo_images_picamera2(output_dir, num_pairs=10, delay_sec=2):
     if not PICAMERA2_AVAILABLE:
         print("Error: Picamera2 not available. Cannot capture from Raspberry Pi cameras.")
         return
@@ -76,38 +76,13 @@ def capture_stereo_images_picamera2(output_dir, num_pairs=10, delay_sec=2, previ
     time.sleep(2) # Allow cameras to settle
 
     print(f"Starting capture of {num_pairs} stereo pairs.")
-    print(f"Press 'c' to capture a pair, or 'q' to quit early.")
-    if preview:
-        print("A preview window will be shown (if desktop environment is available).")
+    print("A preview window will be shown (if desktop environment is available).")
 
     captured_count = 0
     for i in range(num_pairs):
-        if preview:
-            # Capture a quick preview frame (might be lower res if using lores stream)
-            # For simplicity, just capture and then show
-            frame_l_preview = picam2_left.capture_array()
-            frame_r_preview = picam2_right.capture_array()
-            
-            # Reduce size for preview display
-            preview_l_small = cv2.resize(frame_l_preview, (0,0), fx=0.25, fy=0.25)
-            preview_r_small = cv2.resize(frame_r_preview, (0,0), fx=0.25, fy=0.25)
-            combined_preview = np.hstack((preview_l_small, preview_r_small))
-            cv2.imshow("Stereo Preview (L | R) - Press 'c' to capture, 'q' to quit", combined_preview)
-            
-            # key = cv2.waitKey(0) & 0xFF
-            # if key == ord('q'):
-            #     print("Quitting capture.")
-            #     break
-            # elif key == ord('c'):
-            #     print(f"Capturing pair {captured_count + 1} (Image index: {current_img_idx})...")
-            # else:
-            #     print("Invalid key. Continuing or press 'c'/'q'.")
-            cv2.destroyWindow("Stereo Preview (L | R) - Press 'c' to capture, 'q' to quit") # Close current before next
-            continue # Loop to show preview again or wait for 'c'/'q'
-        else:
-            print(f"Waiting {delay_sec} seconds before capturing pair {i+1}...")
-            time.sleep(delay_sec)
-            print(f"Capturing pair {i+1} (Image index: {current_img_idx})...")
+        print(f"Waiting {delay_sec} seconds before capturing pair {i+1}...")
+        time.sleep(delay_sec)
+        print(f"Capturing pair {i+1} (Image index: {current_img_idx})...")
 
         # Capture high-resolution frames for saving
         # It's crucial these are captured as close in time as possible.
@@ -117,6 +92,13 @@ def capture_stereo_images_picamera2(output_dir, num_pairs=10, delay_sec=2, previ
         # timestamp = int(time.time() * 1000) # Use one timestamp for the pair - replaced by index
         # Small delay to ensure second capture completes if there's any slight offset
         # time.sleep(0.05)
+
+        # Display the captured frames (resized for preview)
+        preview_l_small = cv2.resize(frame_left, (0,0), fx=0.25, fy=0.25)
+        preview_r_small = cv2.resize(frame_right, (0,0), fx=0.25, fy=0.25)
+        combined_preview = np.hstack((preview_l_small, preview_r_small))
+        cv2.imshow("Stereo Preview (L | R)", combined_preview)
+        cv2.waitKey(1) # Allow GUI to update, non-blocking
 
         left_filename = f"left_{current_img_idx:02d}.jpg" # Using 2-digit padding, adjust if more needed
         right_filename = f"right_{current_img_idx:02d}.jpg"
@@ -131,16 +113,15 @@ def capture_stereo_images_picamera2(output_dir, num_pairs=10, delay_sec=2, previ
         captured_count += 1
         current_img_idx += 1 # Increment for next pair
         
-        if preview: # Close the specific preview window after capture if 'c' was pressed
-             cv2.destroyWindow("Stereo Preview (L | R) - Press 'c' to capture, 'q' to quit")
+        # if preview: # Close the specific preview window after capture if 'c' was pressed # Removed
+        #      cv2.destroyWindow("Stereo Preview (L | R) - Press 'c' to capture, 'q' to quit") # Removed
 
 
     print(f"Captured {captured_count} pairs.")
     print("Stopping cameras...")
     picam2_left.stop()
     picam2_right.stop()
-    if preview:
-        cv2.destroyAllWindows()
+    cv2.destroyAllWindows() # Ensure all OpenCV windows are closed at the end
 
 def capture_stereo_images_dummy(output_dir, num_pairs=5, delay_sec=1):
     print("Using DUMMY camera capture. Will save placeholder images.")
@@ -196,12 +177,11 @@ if __name__ == "__main__":
     parser.add_argument("--num_pairs", type=int, default=10, help="Number of stereo pairs to capture.")
     parser.add_argument("--delay_sec", type=int, default=2, help="Delay in seconds between automatic captures (if not using manual 'c' key).")
     parser.add_argument("--use_dummy_cameras", action='store_true', help="Use dummy camera capture for testing without Pi hardware.")
-    parser.add_argument("--no_preview", action='store_true', help="Disable live preview and manual 'c' capture trigger (captures automatically with delay).")
     args = parser.parse_args()
 
     if args.use_dummy_cameras:
         capture_stereo_images_dummy(args.output_dir, args.num_pairs, args.delay_sec)
     elif PICAMERA2_AVAILABLE:
-        capture_stereo_images_picamera2(args.output_dir, args.num_pairs, args.delay_sec, preview=not args.no_preview)
+        capture_stereo_images_picamera2(args.output_dir, args.num_pairs, args.delay_sec)
     else:
         print("Picamera2 library is not available and --use_dummy_cameras was not specified. Exiting.")
