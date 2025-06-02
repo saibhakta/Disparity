@@ -1,0 +1,31 @@
+{
+    "image_pair_name": "2",
+    "left_image": "left_02.jpg",
+    "right_image": "right_02.jpg",
+    "annotated_points": [
+        {
+            "left_x_center": 1343.5,
+            "left_y_center": 539.5,
+            "right_x_center": 1284.5,
+            "right_y_center": 551.5,
+            "disparity": 59.0
+        },
+        {
+            "left_x_center": 1490.5,
+            "left_y_center": 530.5,
+            "right_x_center": 1421.5,
+            "right_y_center": 539.5,
+            "disparity": 69.0
+        },
+        {
+            "left_x_center": 1439.5,
+            "left_y_center": 569.5,
+            "right_x_center": 1362.5,
+            "right_y_center": 578.5,
+            "disparity": 77.0
+        }
+    ],
+    "avg_disparity": 68.33333333333333,
+    "std_dev_disparity": 7.363574011458175,
+    "num_points": 3
+}

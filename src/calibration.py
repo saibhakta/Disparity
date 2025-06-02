@@ -6,7 +6,7 @@ import argparse
 from utils import display_image # For sanity check
 
 # Define checkerboard parameters
-DEFAULT_CHECKERBOARD_SIZE = (5, 8)  # Inner corners (width, height) - As per your camera_calibration.py (5,8) becomes (8,5) for findChessboardCorners if width first
+DEFAULT_CHECKERBOARD_SIZE = (8,5)  # Inner corners (width, height) - As per your camera_calibration.py (5,8) becomes (8,5) for findChessboardCorners if width first
 DEFAULT_SQUARE_SIZE = 0.0235  # Square size in meters
 
 def calibrate_stereo_camera(images_dir, output_file, checkerboard_size, square_size, show_undistorted=False):
@@ -100,8 +100,10 @@ def calibrate_stereo_camera(images_dir, output_file, checkerboard_size, square_s
     # Calibrate each camera separately (initial guess)
     print("Calibrating left camera individually...")
     ret_l, mtx_l, dist_l, rvecs_l, tvecs_l = cv2.calibrateCamera(objpoints, imgpoints_left, img_shape, None, None)
+    print(f"Left camera calibration reprojection error: {ret_l}")
     print("Calibrating right camera individually...")
     ret_r, mtx_r, dist_r, rvecs_r, tvecs_r = cv2.calibrateCamera(objpoints, imgpoints_right, img_shape, None, None)
+    print(f"Right camera calibration reprojection error: {ret_r}")
 
     # Stereo calibration
     print("Performing stereo calibration...")

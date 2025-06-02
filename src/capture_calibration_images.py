@@ -66,7 +66,7 @@ def capture_calibration_stereo_images(
     print("Press 'n' to skip and try again (re-runs countdown).")
     print("Press 'q' to quit.")
 
-    img_counter = 10
+    img_counter = 0
     try:
         while True:
             print("Prepare for capture...")

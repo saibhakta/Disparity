@@ -1,0 +1,24 @@
+{
+    "image_pair_name": "4",
+    "left_image": "left_04.jpg",
+    "right_image": "right_04.jpg",
+    "annotated_points": [
+        {
+            "left_x_center": 814.5,
+            "left_y_center": 289.5,
+            "right_x_center": 834.5,
+            "right_y_center": 327.5,
+            "disparity": -20.0
+        },
+        {
+            "left_x_center": 1844.5,
+            "left_y_center": 496.5,
+            "right_x_center": 1793.5,
+            "right_y_center": 506.5,
+            "disparity": 51.0
+        }
+    ],
+    "avg_disparity": 15.5,
+    "std_dev_disparity": 35.5,
+    "num_points": 2
+}
