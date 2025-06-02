@@ -1,0 +1,24 @@
+{
+    "image_pair_name": "54",
+    "left_image": "left_54.jpg",
+    "right_image": "right_54.jpg",
+    "annotated_points": [
+        {
+            "left_x_center": 797.5,
+            "left_y_center": 726.5,
+            "right_x_center": 535.5,
+            "right_y_center": 729.5,
+            "disparity": 262.0
+        },
+        {
+            "left_x_center": 1206.5,
+            "left_y_center": 712.5,
+            "right_x_center": 965.5,
+            "right_y_center": 716.5,
+            "disparity": 241.0
+        }
+    ],
+    "avg_disparity": 251.5,
+    "std_dev_disparity": 10.5,
+    "num_points": 2
+}

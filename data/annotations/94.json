@@ -1,0 +1,24 @@
+{
+    "image_pair_name": "94",
+    "left_image": "left_94.jpg",
+    "right_image": "right_94.jpg",
+    "annotated_points": [
+        {
+            "left_x_center": 816.5,
+            "left_y_center": 441.5,
+            "right_x_center": 731.5,
+            "right_y_center": 422.5,
+            "disparity": 85.0
+        },
+        {
+            "left_x_center": 965.5,
+            "left_y_center": 451.5,
+            "right_x_center": 881.5,
+            "right_y_center": 431.5,
+            "disparity": 84.0
+        }
+    ],
+    "avg_disparity": 84.5,
+    "std_dev_disparity": 0.5,
+    "num_points": 2
+}

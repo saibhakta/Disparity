@@ -276,6 +276,7 @@ class AnnotationWindow(QMainWindow):
                 self.current_left_img_path_global = left_path
                 self.current_right_img_path_global = right_path
                 self._display_current_pair()
+                print(f"You have done {self.current_pair_index} pairs and have {len(self.all_image_pairs) - self.current_pair_index} left.")
                 return
             self.current_pair_index += 1
 

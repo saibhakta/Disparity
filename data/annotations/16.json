@@ -1,0 +1,24 @@
+{
+    "image_pair_name": "16",
+    "left_image": "left_16.jpg",
+    "right_image": "right_16.jpg",
+    "annotated_points": [
+        {
+            "left_x_center": 1029.5,
+            "left_y_center": 544.5,
+            "right_x_center": 944.5,
+            "right_y_center": 544.5,
+            "disparity": 85.0
+        },
+        {
+            "left_x_center": 1150.5,
+            "left_y_center": 550.5,
+            "right_x_center": 1065.5,
+            "right_y_center": 558.5,
+            "disparity": 85.0
+        }
+    ],
+    "avg_disparity": 85.0,
+    "std_dev_disparity": 0.0,
+    "num_points": 2
+}

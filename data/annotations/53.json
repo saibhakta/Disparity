@@ -1,0 +1,24 @@
+{
+    "image_pair_name": "53",
+    "left_image": "left_53.jpg",
+    "right_image": "right_53.jpg",
+    "annotated_points": [
+        {
+            "left_x_center": 1505.5,
+            "left_y_center": 719.5,
+            "right_x_center": 1277.5,
+            "right_y_center": 766.5,
+            "disparity": 228.0
+        },
+        {
+            "left_x_center": 1966.5,
+            "left_y_center": 660.5,
+            "right_x_center": 1682.5,
+            "right_y_center": 686.5,
+            "disparity": 284.0
+        }
+    ],
+    "avg_disparity": 256.0,
+    "std_dev_disparity": 28.0,
+    "num_points": 2
+}

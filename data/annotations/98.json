@@ -1,0 +1,24 @@
+{
+    "image_pair_name": "98",
+    "left_image": "left_98.jpg",
+    "right_image": "right_98.jpg",
+    "annotated_points": [
+        {
+            "left_x_center": 1783.5,
+            "left_y_center": 361.5,
+            "right_x_center": 1613.5,
+            "right_y_center": 358.5,
+            "disparity": 170.0
+        },
+        {
+            "left_x_center": 2203.5,
+            "left_y_center": 360.5,
+            "right_x_center": 2001.5,
+            "right_y_center": 348.5,
+            "disparity": 202.0
+        }
+    ],
+    "avg_disparity": 186.0,
+    "std_dev_disparity": 16.0,
+    "num_points": 2
+}

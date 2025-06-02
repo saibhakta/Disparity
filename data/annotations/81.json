@@ -1,0 +1,24 @@
+{
+    "image_pair_name": "81",
+    "left_image": "left_81.jpg",
+    "right_image": "right_81.jpg",
+    "annotated_points": [
+        {
+            "left_x_center": 1205.5,
+            "left_y_center": 824.5,
+            "right_x_center": 1146.5,
+            "right_y_center": 823.5,
+            "disparity": 59.0
+        },
+        {
+            "left_x_center": 1277.5,
+            "left_y_center": 877.5,
+            "right_x_center": 1215.5,
+            "right_y_center": 875.5,
+            "disparity": 62.0
+        }
+    ],
+    "avg_disparity": 60.5,
+    "std_dev_disparity": 1.5,
+    "num_points": 2
+}

@@ -1,0 +1,24 @@
+{
+    "image_pair_name": "92",
+    "left_image": "left_92.jpg",
+    "right_image": "right_92.jpg",
+    "annotated_points": [
+        {
+            "left_x_center": 1204.5,
+            "left_y_center": 770.5,
+            "right_x_center": 1088.5,
+            "right_y_center": 772.5,
+            "disparity": 116.0
+        },
+        {
+            "left_x_center": 1385.5,
+            "left_y_center": 757.5,
+            "right_x_center": 1274.5,
+            "right_y_center": 754.5,
+            "disparity": 111.0
+        }
+    ],
+    "avg_disparity": 113.5,
+    "std_dev_disparity": 2.5,
+    "num_points": 2
+}

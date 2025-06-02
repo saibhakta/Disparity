@@ -4,28 +4,21 @@
     "right_image": "right_01.jpg",
     "annotated_points": [
         {
-            "left_x_center": 1084.5,
-            "left_y_center": 570.5,
-            "right_x_center": 1048.5,
-            "right_y_center": 568.5,
-            "disparity": 36.0
+            "left_x_center": 922.5,
+            "left_y_center": 578.5,
+            "right_x_center": 838.5,
+            "right_y_center": 563.5,
+            "disparity": 84.0
         },
         {
-            "left_x_center": 1171.5,
-            "left_y_center": 529.5,
-            "right_x_center": 1121.5,
-            "right_y_center": 529.5,
-            "disparity": 50.0
-        },
-        {
-            "left_x_center": 1242.5,
-            "left_y_center": 572.5,
-            "right_x_center": 1195.5,
-            "right_y_center": 570.5,
-            "disparity": 47.0
+            "left_x_center": 1063.5,
+            "left_y_center": 581.5,
+            "right_x_center": 981.5,
+            "right_y_center": 567.5,
+            "disparity": 82.0
         }
     ],
-    "avg_disparity": 44.333333333333336,
-    "std_dev_disparity": 6.018490028422596,
-    "num_points": 3
+    "avg_disparity": 83.0,
+    "std_dev_disparity": 1.0,
+    "num_points": 2
 }

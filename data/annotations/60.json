@@ -1,0 +1,24 @@
+{
+    "image_pair_name": "60",
+    "left_image": "left_60.jpg",
+    "right_image": "right_60.jpg",
+    "annotated_points": [
+        {
+            "left_x_center": 753.5,
+            "left_y_center": 674.5,
+            "right_x_center": 549.5,
+            "right_y_center": 675.5,
+            "disparity": 204.0
+        },
+        {
+            "left_x_center": 1089.5,
+            "left_y_center": 651.5,
+            "right_x_center": 903.5,
+            "right_y_center": 635.5,
+            "disparity": 186.0
+        }
+    ],
+    "avg_disparity": 195.0,
+    "std_dev_disparity": 9.0,
+    "num_points": 2
+}
