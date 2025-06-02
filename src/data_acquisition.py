@@ -106,8 +106,8 @@ def capture_stereo_images_picamera2(output_dir, num_pairs=10, delay_sec=2):
         left_path = os.path.join(left_dir, left_filename)
         right_path = os.path.join(right_dir, right_filename)
 
-        cv2.imwrite(left_path, cv2.cvtColor(frame_left, cv2.COLOR_RGB2BGR)) # OpenCV expects BGR
-        cv2.imwrite(right_path, cv2.cvtColor(frame_right, cv2.COLOR_RGB2BGR))
+        cv2.imwrite(left_path, frame_left) # OpenCV expects BGR
+        cv2.imwrite(right_path, frame_right)
 
         print(f"Saved: {left_path} and {right_path}")
         captured_count += 1
