@@ -24,6 +24,20 @@ def capture_stereo_images_picamera2(output_dir, num_pairs=10, delay_sec=2, previ
     os.makedirs(left_dir, exist_ok=True)
     os.makedirs(right_dir, exist_ok=True)
 
+    # Determine starting image index
+    existing_files = os.listdir(left_dir)
+    max_idx = 0
+    for f in existing_files:
+        if f.startswith("left_") and f.endswith(".jpg"):
+            try:
+                idx = int(f.replace("left_", "").replace(".jpg", ""))
+                if idx > max_idx:
+                    max_idx = idx
+            except ValueError:
+                pass # Ignore files not matching the pattern
+    
+    current_img_idx = max_idx + 1
+
     # Initialize cameras - assuming camera 0 is right, 1 is left (as in your original script)
     # You might need to adjust camera indices (0 or 1) based on your hardware setup
     try:
@@ -80,38 +94,42 @@ def capture_stereo_images_picamera2(output_dir, num_pairs=10, delay_sec=2, previ
             combined_preview = np.hstack((preview_l_small, preview_r_small))
             cv2.imshow("Stereo Preview (L | R) - Press 'c' to capture, 'q' to quit", combined_preview)
             
-            key = cv2.waitKey(0) & 0xFF
-            if key == ord('q'):
-                print("Quitting capture.")
-                break
-            elif key == ord('c'):
-                print(f"Capturing pair {captured_count + 1}...")
-            else:
-                print("Invalid key. Continuing or press 'c'/'q'.")
-                cv2.destroyWindow("Stereo Preview (L | R) - Press 'c' to capture, 'q' to quit") # Close current before next
-                continue # Loop to show preview again or wait for 'c'/'q'
+            # key = cv2.waitKey(0) & 0xFF
+            # if key == ord('q'):
+            #     print("Quitting capture.")
+            #     break
+            # elif key == ord('c'):
+            #     print(f"Capturing pair {captured_count + 1} (Image index: {current_img_idx})...")
+            # else:
+            #     print("Invalid key. Continuing or press 'c'/'q'.")
+            cv2.destroyWindow("Stereo Preview (L | R) - Press 'c' to capture, 'q' to quit") # Close current before next
+            continue # Loop to show preview again or wait for 'c'/'q'
         else:
             print(f"Waiting {delay_sec} seconds before capturing pair {i+1}...")
             time.sleep(delay_sec)
-            print(f"Capturing pair {i+1}...")
+            print(f"Capturing pair {i+1} (Image index: {current_img_idx})...")
 
         # Capture high-resolution frames for saving
         # It's crucial these are captured as close in time as possible.
         # Picamera2's start() method for multiple cameras tries to sync them.
         frame_left = picam2_left.capture_array() # Captures from 'main' stream by default
         frame_right = picam2_right.capture_array()
-        timestamp = int(time.time() * 1000) # Use one timestamp for the pair
+        # timestamp = int(time.time() * 1000) # Use one timestamp for the pair - replaced by index
         # Small delay to ensure second capture completes if there's any slight offset
         # time.sleep(0.05)
 
-        left_path = os.path.join(left_dir, f"left_{timestamp}.jpg")
-        right_path = os.path.join(right_dir, f"right_{timestamp}.jpg")
+        left_filename = f"left_{current_img_idx:02d}.jpg" # Using 2-digit padding, adjust if more needed
+        right_filename = f"right_{current_img_idx:02d}.jpg"
+        
+        left_path = os.path.join(left_dir, left_filename)
+        right_path = os.path.join(right_dir, right_filename)
 
         cv2.imwrite(left_path, cv2.cvtColor(frame_left, cv2.COLOR_RGB2BGR)) # OpenCV expects BGR
         cv2.imwrite(right_path, cv2.cvtColor(frame_right, cv2.COLOR_RGB2BGR))
 
         print(f"Saved: {left_path} and {right_path}")
         captured_count += 1
+        current_img_idx += 1 # Increment for next pair
         
         if preview: # Close the specific preview window after capture if 'c' was pressed
              cv2.destroyWindow("Stereo Preview (L | R) - Press 'c' to capture, 'q' to quit")
@@ -133,21 +151,40 @@ def capture_stereo_images_dummy(output_dir, num_pairs=5, delay_sec=1):
 
     img_height, img_width = 480, 640 # Dummy image size
 
+    # Determine starting image index for dummy images
+    existing_files = os.listdir(left_dir)
+    max_idx = 0
+    for f in existing_files:
+        if f.startswith("left_") and f.endswith(".jpg"):
+            try:
+                idx = int(f.replace("left_", "").replace(".jpg", ""))
+                if idx > max_idx:
+                    max_idx = idx
+            except ValueError:
+                pass # Ignore files not matching the pattern
+    current_dummy_idx = max_idx + 1
+
+
     for i in range(num_pairs):
-        print(f"Capturing dummy pair {i+1}/{num_pairs}...")
-        timestamp = int(time.time() * 1000)
+        print(f"Capturing dummy pair {i+1}/{num_pairs} (Image index: {current_dummy_idx})...")
+        # timestamp = int(time.time() * 1000) # Replaced by index
 
         dummy_img_left = np.random.randint(0, 256, (img_height, img_width, 3), dtype=np.uint8)
-        cv2.putText(dummy_img_left, f"Left Dummy {timestamp}", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,0,0), 2)
-        left_path = os.path.join(left_dir, f"left_{timestamp}.jpg")
+        # cv2.putText(dummy_img_left, f"Left Dummy {timestamp}", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,0,0), 2)
+        cv2.putText(dummy_img_left, f"Left Dummy {current_dummy_idx:02d}", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,0,0), 2)
+        left_filename = f"left_{current_dummy_idx:02d}.jpg"
+        left_path = os.path.join(left_dir, left_filename)
         cv2.imwrite(left_path, dummy_img_left)
 
         dummy_img_right = np.random.randint(0, 256, (img_height, img_width, 3), dtype=np.uint8)
-        cv2.putText(dummy_img_right, f"Right Dummy {timestamp}", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2)
-        right_path = os.path.join(right_dir, f"right_{timestamp}.jpg")
+        # cv2.putText(dummy_img_right, f"Right Dummy {timestamp}", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2)
+        cv2.putText(dummy_img_right, f"Right Dummy {current_dummy_idx:02d}", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2)
+        right_filename = f"right_{current_dummy_idx:02d}.jpg"
+        right_path = os.path.join(right_dir, right_filename)
         cv2.imwrite(right_path, dummy_img_right)
 
         print(f"Saved: {left_path} and {right_path}")
+        current_dummy_idx +=1 # Increment for next pair
         if i < num_pairs - 1:
             time.sleep(delay_sec)
     print("Dummy capture complete.")
