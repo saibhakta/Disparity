@@ -1,0 +1,7 @@
+numpy
+opencv-python
+matplotlib
+# picamera2 # If running data_acquisition.py on a Raspberry Pi
+# pyalsaaudio # If picamera2 needs it for certain configurations
+# PyGObject # For GStreamer Python bindings
+# Hailo AI Python SDK (refer to Hailo documentation for specific installation)
