@@ -66,7 +66,7 @@ def capture_calibration_stereo_images(
     print("Press 'n' to skip and try again (re-runs countdown).")
     print("Press 'q' to quit.")
 
-    img_counter = 0
+    img_counter = 10
     try:
         while True:
             print("Prepare for capture...")
@@ -86,9 +86,9 @@ def capture_calibration_stereo_images(
             resized_image = cv2.resize(combined_frame, (preview_width, preview_height), interpolation=cv2.INTER_AREA)
             
             # Rotate resized image (as per user's example)
-            resized_image_rotated = cv2.rotate(resized_image, cv2.ROTATE_180)
+            # resized_image_rotated = cv2.rotate(resized_image, cv2.ROTATE_180)
 
-            cv2.imshow("Stereo Calibration Preview (L | R) - Rotated", resized_image_rotated)
+            cv2.imshow("Stereo Calibration Preview (L | R) - Rotated", resized_image)
             
             key = cv2.waitKey(0) & 0xFF
             
@@ -111,8 +111,8 @@ def capture_calibration_stereo_images(
                 right_path = os.path.join(right_dir, right_filename)
             
                 # Convert RGB to BGR for OpenCV imwrite
-                cv2.imwrite(left_path, cv2.cvtColor(frame_left, cv2.COLOR_RGB2BGR))
-                cv2.imwrite(right_path, cv2.cvtColor(frame_right, cv2.COLOR_RGB2BGR))
+                cv2.imwrite(left_path, frame_left)
+                cv2.imwrite(right_path, frame_right)
             
                 print(f"Captured and saved: {left_path} and {right_path}")
             

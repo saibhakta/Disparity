@@ -3,10 +3,10 @@ import numpy as np
 import glob
 import os
 import argparse
-from .utils import display_image # For sanity check
+from utils import display_image # For sanity check
 
 # Define checkerboard parameters
-DEFAULT_CHECKERBOARD_SIZE = (8, 5)  # Inner corners (width, height) - As per your camera_calibration.py (5,8) becomes (8,5) for findChessboardCorners if width first
+DEFAULT_CHECKERBOARD_SIZE = (5, 8)  # Inner corners (width, height) - As per your camera_calibration.py (5,8) becomes (8,5) for findChessboardCorners if width first
 DEFAULT_SQUARE_SIZE = 0.0235  # Square size in meters
 
 def calibrate_stereo_camera(images_dir, output_file, checkerboard_size, square_size, show_undistorted=False):
@@ -84,10 +84,10 @@ def calibrate_stereo_camera(images_dir, output_file, checkerboard_size, square_s
             imgpoints_right.append(corners_r)
 
             # Optionally, draw and display corners
-            # cv2.drawChessboardCorners(img_left, checkerboard_size, corners_l, ret_l)
-            # display_image('Left Corners', img_left, 1)
-            # cv2.drawChessboardCorners(img_right, checkerboard_size, corners_r, ret_r)
-            # display_image('Right Corners', img_right, 1)
+            cv2.drawChessboardCorners(img_left, checkerboard_size, corners_l, ret_l)
+            display_image('Left Corners', img_left, 1)
+            cv2.drawChessboardCorners(img_right, checkerboard_size, corners_r, ret_r)
+            display_image('Right Corners', img_right, 1)
         else:
             print(f"Checkerboard not found in one or both images: {os.path.basename(left_img_path)}, {os.path.basename(right_img_path)} (Left: {ret_l}, Right: {ret_r})")
 
@@ -140,7 +140,7 @@ def calibrate_stereo_camera(images_dir, output_file, checkerboard_size, square_s
 
     if show_undistorted and len(left_images) > 0:
         print("Displaying sample undistorted and rectified images. Press any key to continue...")
-        from .utils import CalibrationData # Local import for this optional block
+        from utils import CalibrationData # Local import for this optional block
         calib_data = CalibrationData(output_file)
         
         # Pick a sample image pair
@@ -163,6 +163,7 @@ def calibrate_stereo_camera(images_dir, output_file, checkerboard_size, square_s
             combined_view = cv2.resize(combined_view, (0,0), fx=scale, fy=scale)
         
         display_image('Rectified Stereo Pair (with epipolar lines)', combined_view)
+        cv2.waitKey(1)
         cv2.destroyAllWindows()
 
     return True
