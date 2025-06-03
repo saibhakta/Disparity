@@ -73,7 +73,7 @@ class YoloDetector:
             print("YOLO Detector already running.")
             return True
 
-        pipeline_str = PIPELINE_STRING(display=self.display_enabled)
+        pipeline_str = PIPELINE_STRING(display=False)
         print("Initializing GStreamer pipeline for YOLO detection...")
         
         try:
@@ -118,15 +118,16 @@ class YoloDetector:
         self.gst_thread.start()
         
         print("Waiting for GStreamer pipeline to be ready (timeout 10s)...")
-        ready = self._gst_ready_event.wait(timeout=10.0) 
+        # ready = self._gst_ready_event.wait(timeout=10.0) 
+        ready = True
         
         if not ready:
             print("Error: GStreamer pipeline did not reach PLAYING state in time.")
             current_state_after_wait = "UNKNOWN"
-            if self.pipeline:
-                 _, current_state_after_wait, _ = self.pipeline.get_state(Gst.CLOCK_TIME_NONE)
-                 current_state_after_wait = current_state_after_wait.value_nick
-            print(f"Pipeline state after timeout: {current_state_after_wait}")
+            # if self.pipeline:
+            #      _, current_state_after_wait, _ = self.pipeline.get_state(Gst.CLOCK_TIME_NONE)
+            #      current_state_after_wait = current_state_after_wait.value_nick
+            # print(f"Pipeline state after timeout: {current_state_after_wait}")
             
             if self.loop and self.loop.is_running():
                 self.loop.quit()
