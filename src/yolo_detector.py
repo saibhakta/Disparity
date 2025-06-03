@@ -15,11 +15,17 @@ DEFAULT_INPUT_WIDTH = 2304
 DEFAULT_INPUT_HEIGHT = 1296
 
 def PIPELINE_STRING(display=True):
+    # Caps for appsrc output
+    appsrc_output_caps = f"video/x-raw, format=RGB, width={DEFAULT_INPUT_WIDTH}, height={DEFAULT_INPUT_HEIGHT}, framerate=30/1, pixel-aspect-ratio=1/1"
+    
+    # Caps after source_convert (already fixed in a previous step, kept for clarity/safety)
+    post_convert_caps = f"video/x-raw, format=RGB, width={DEFAULT_INPUT_WIDTH}, height={DEFAULT_INPUT_HEIGHT}, pixel-aspect-ratio=1/1, framerate=30/1"
+
     if display:
-        return "appsrc name=app_source is-live=true leaky-type=downstream max-buffers=1 ! video/x-raw, format=RGB, width=2304, height=1296 !  queue name=source_scale_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoscale name=source_videoscale n-threads=2 ! queue name=source_convert_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoconvert n-threads=3 name=source_convert qos=false ! video/x-raw, format=RGB, width=2304, height=1296, pixel-aspect-ratio=1/1, framerate=30/1 ! queue name=inference_wrapper_input_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailocropper name=inference_wrapper_crop so-path=/usr/lib/aarch64-linux-gnu/hailo/tappas/post_processes/cropping_algorithms/libwhole_buffer.so function-name=create_crops use-letterbox=true resize-method=inter-area internal-offset=true hailoaggregator name=inference_wrapper_agg inference_wrapper_crop. ! queue name=inference_wrapper_bypass_q leaky=downstream max-size-buffers=10 max-size-bytes=0 max-size-time=0  ! inference_wrapper_agg.sink_0 inference_wrapper_crop. ! queue name=inference_scale_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoscale name=inference_videoscale n-threads=2 qos=false ! queue name=inference_convert_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! video/x-raw, pixel-aspect-ratio=1/1 ! videoconvert name=inference_videoconvert n-threads=2 ! queue name=inference_hailonet_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailonet name=inference_hailonet hef-path=/home/sai/Disparity/resources/yolov11n.hef batch-size=2  vdevice-group-id=1 nms-score-threshold=0.3 nms-iou-threshold=0.45 output-format-type=HAILO_FORMAT_TYPE_FLOAT32 force-writable=true  ! queue name=inference_hailofilter_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailofilter name=inference_hailofilter so-path=/home/sai/Disparity/resources/libyolo_hailortpp_postprocess.so   function-name=filter_letterbox  qos=false ! queue name=inference_output_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0   ! inference_wrapper_agg.sink_1 inference_wrapper_agg. ! queue name=inference_wrapper_output_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0   ! queue name=identity_callback_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! identity name=identity_callback ! queue name=hailo_display_overlay_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailooverlay name=hailo_display_overlay  ! queue name=hailo_display_videoconvert_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoconvert name=hailo_display_videoconvert n-threads=2 qos=false ! queue name=hailo_display_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! fpsdisplaysink name=hailo_display video-sink=autovideosink sync=false text-overlay=False signal-fps-measurements=true"
+        return f"appsrc name=app_source is-live=true leaky-type=downstream max-buffers=1 ! {appsrc_output_caps} !  queue name=source_scale_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoscale name=source_videoscale n-threads=2 ! queue name=source_convert_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoconvert n-threads=3 name=source_convert qos=false ! {post_convert_caps}  ! queue name=inference_wrapper_input_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailocropper name=inference_wrapper_crop so-path=/usr/lib/aarch64-linux-gnu/hailo/tappas/post_processes/cropping_algorithms/libwhole_buffer.so function-name=create_crops use-letterbox=true resize-method=inter-area internal-offset=true hailoaggregator name=inference_wrapper_agg inference_wrapper_crop. ! queue name=inference_wrapper_bypass_q leaky=downstream max-size-buffers=10 max-size-bytes=0 max-size-time=0  ! inference_wrapper_agg.sink_0 inference_wrapper_crop. ! queue name=inference_scale_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoscale name=inference_videoscale n-threads=2 qos=false ! queue name=inference_convert_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! video/x-raw, pixel-aspect-ratio=1/1 ! videoconvert name=inference_videoconvert n-threads=2 ! queue name=inference_hailonet_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailonet name=inference_hailonet hef-path=/home/sai/Disparity/resources/yolov11n.hef batch-size=2  vdevice-group-id=1 nms-score-threshold=0.3 nms-iou-threshold=0.45 output-format-type=HAILO_FORMAT_TYPE_FLOAT32 force-writable=true  ! queue name=inference_hailofilter_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailofilter name=inference_hailofilter so-path=/home/sai/Disparity/resources/libyolo_hailortpp_postprocess.so   function-name=filter_letterbox  qos=false ! queue name=inference_output_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0   ! inference_wrapper_agg.sink_1 inference_wrapper_agg. ! queue name=inference_wrapper_output_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0   ! queue name=identity_callback_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! identity name=identity_callback ! queue name=hailo_display_overlay_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailooverlay name=hailo_display_overlay  ! queue name=hailo_display_videoconvert_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoconvert name=hailo_display_videoconvert n-threads=2 qos=false ! queue name=hailo_display_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! fpsdisplaysink name=hailo_display video-sink=autovideosink sync=false text-overlay=False signal-fps-measurements=true"
     
     # No display
-    return "appsrc name=app_source is-live=true leaky-type=upstream max-buffers=1 ! video/x-raw, format=RGB, width=2304, height=1296 !  queue name=source_scale_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoscale name=source_videoscale n-threads=2 ! queue name=source_convert_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoconvert n-threads=3 name=source_convert qos=false ! video/x-raw, format=RGB, width=2304, height=1296, pixel-aspect-ratio=1/1, framerate=30/1 ! queue name=inference_wrapper_input_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailocropper name=inference_wrapper_crop so-path=/usr/lib/aarch64-linux-gnu/hailo/tappas/post_processes/cropping_algorithms/libwhole_buffer.so function-name=create_crops use-letterbox=true resize-method=inter-area internal-offset=true hailoaggregator name=inference_wrapper_agg inference_wrapper_crop. ! queue name=inference_wrapper_bypass_q leaky=downstream max-size-buffers=10 max-size-bytes=0 max-size-time=0  ! inference_wrapper_agg.sink_0 inference_wrapper_crop. ! queue name=inference_scale_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoscale name=inference_videoscale n-threads=2 qos=false ! queue name=inference_convert_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! video/x-raw, pixel-aspect-ratio=1/1 ! videoconvert name=inference_videoconvert n-threads=2 ! queue name=inference_hailonet_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailonet name=inference_hailonet hef-path=/home/sai/Disparity/resources/yolov11n.hef batch-size=2  vdevice-group-id=1 nms-score-threshold=0.3 nms-iou-threshold=0.45 output-format-type=HAILO_FORMAT_TYPE_FLOAT32 force-writable=true  ! queue name=inference_hailofilter_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailofilter name=inference_hailofilter so-path=/home/sai/Disparity/resources/libyolo_hailortpp_postprocess.so   function-name=filter_letterbox  qos=false ! queue name=inference_output_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0   ! inference_wrapper_agg.sink_1 inference_wrapper_agg. ! queue name=inference_wrapper_output_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0   ! queue name=identity_callback_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! identity name=identity_callback ! fakesink"
+    return f"appsrc name=app_source is-live=true leaky-type=upstream max-buffers=1 ! {appsrc_output_caps} !  queue name=source_scale_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoscale name=source_videoscale n-threads=2 ! queue name=source_convert_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoconvert n-threads=3 name=source_convert qos=false ! {post_convert_caps}  ! queue name=inference_wrapper_input_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailocropper name=inference_wrapper_crop so-path=/usr/lib/aarch64-linux-gnu/hailo/tappas/post_processes/cropping_algorithms/libwhole_buffer.so function-name=create_crops use-letterbox=true resize-method=inter-area internal-offset=true hailoaggregator name=inference_wrapper_agg inference_wrapper_crop. ! queue name=inference_wrapper_bypass_q leaky=downstream max-size-buffers=10 max-size-bytes=0 max-size-time=0  ! inference_wrapper_agg.sink_0 inference_wrapper_crop. ! queue name=inference_scale_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoscale name=inference_videoscale n-threads=2 qos=false ! queue name=inference_convert_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! video/x-raw, pixel-aspect-ratio=1/1 ! videoconvert name=inference_videoconvert n-threads=2 ! queue name=inference_hailonet_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailonet name=inference_hailonet hef-path=/home/sai/Disparity/resources/yolov11n.hef batch-size=2  vdevice-group-id=1 nms-score-threshold=0.3 nms-iou-threshold=0.45 output-format-type=HAILO_FORMAT_TYPE_FLOAT32 force-writable=true  ! queue name=inference_hailofilter_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailofilter name=inference_hailofilter so-path=/home/sai/Disparity/resources/libyolo_hailortpp_postprocess.so   function-name=filter_letterbox  qos=false ! queue name=inference_output_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0   ! inference_wrapper_agg.sink_1 inference_wrapper_agg. ! queue name=inference_wrapper_output_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0   ! queue name=identity_callback_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! identity name=identity_callback ! fakesink"
 
 
 
@@ -27,9 +33,11 @@ class YoloDetector:
     def __init__(self, 
                  input_width=DEFAULT_INPUT_WIDTH,
                  input_height=DEFAULT_INPUT_HEIGHT,
-                 target_class_id=0, min_confidence=0.3):
+                 target_class_id=0, min_confidence=0.3,
+                 display=False): # Default to False for headless operation
         
         Gst.init(None)
+        self.display_enabled = display
     
         self.input_width = input_width
         self.input_height = input_height
@@ -50,50 +58,44 @@ class YoloDetector:
         self.loop = GLib.MainLoop()
         self.loop.run() # This blocks until self.loop.quit() is called
         print("GStreamer loop exited.")
-        self._running = False
         
         if self.pipeline:
-            self.pipeline.set_state(Gst.State.NULL)
+            current_state = self.pipeline.get_state(0)[1]
+            if current_state != Gst.State.NULL:
+                 print(f"Cleaning up pipeline from state: {current_state.value_nick}")
+                 self.pipeline.set_state(Gst.State.NULL)
             self.pipeline = None
             self.appsrc = None
-        print("YOLO Detector GStreamer pipeline cleaned up.")
+        print("YOLO Detector GStreamer pipeline cleaned up from _gst_loop.")
 
     def start(self):
         if self._running:
             print("YOLO Detector already running.")
-            return
+            return True
 
-        pipeline_str = PIPELINE_STRING(display=True)
+        pipeline_str = PIPELINE_STRING(display=self.display_enabled)
         print("Initializing GStreamer pipeline for YOLO detection...")
         
         try:
             self.pipeline = Gst.parse_launch(pipeline_str)
         except GLib.Error as e:
             print(f"Failed to parse GStreamer pipeline: {e}")
-            print("Ensure GStreamer, Hailo plugins, and specified .hef/.so files are correctly installed and accessible.")
             print("Pipeline string was:")
             print(pipeline_str)
-            return
+            return False
 
         self.appsrc = self.pipeline.get_by_name("app_source")
         if not self.appsrc:
             print("Error: appsrc element not found in pipeline.")
-            self.pipeline.set_state(Gst.State.NULL) # Clean up
+            if self.pipeline:
+                self.pipeline.set_state(Gst.State.NULL) 
             self.pipeline = None
-            return
-
-        # Set up appsrc properties
-        # Caps should match what you're pushing
-        # The pipeline string already defines caps for appsrc, so explicit setting might not be needed
-        # unless pushing different format/size initially.
-        # For this project, input is assumed to be rectified image from file.
+            return False
         
-        # Setup bus message handling
         bus = self.pipeline.get_bus()
         bus.add_signal_watch()
         bus.connect("message", self._on_bus_message)
 
-        # Setup callback for detections
         identity_callback = self.pipeline.get_by_name("identity_callback")
         if identity_callback:
             id_pad = identity_callback.get_static_pad("src")
@@ -101,44 +103,77 @@ class YoloDetector:
         else:
             print("Warning: identity_callback element not found in pipeline.")
 
-        # Start the GStreamer pipeline
-        self.pipeline.set_state(Gst.State.PLAYING)
-        self._running = True
-        self._gst_ready_event.clear()
-
-        # Run GLib main loop in a separate thread
-        self.gst_thread = threading.Thread(target=self._gst_loop, daemon=True)
-        self.gst_thread.start()
-        
-        print("Waiting for GStreamer pipeline to be ready...")
-        # Wait for a short period or use an event signaled by the PLAYING state
-        ready = self._gst_ready_event.wait(timeout=5.0) # Wait up to 5 seconds
-        if not ready:
-            print("Warning: GStreamer pipeline might not have reached PLAYING state in time.")
-        else:
-            print("GStreamer pipeline is PLAYING.")
-
-
-    def stop(self):
-        if not self._running:
-            print("YOLO Detector not running.")
-            return
-        print("Stopping YOLO Detector...")
-        self._running = False # Signal threads to stop pushing data
-
-        if self.loop and self.loop.is_running():
-            self.loop.quit()
-        
-        if self.gst_thread and self.gst_thread.is_alive():
-            self.gst_thread.join(timeout=5.0) # Wait for GStreamer thread to finish
-            if self.gst_thread.is_alive():
-                print("Warning: GStreamer thread did not terminate cleanly.")
-        
-        # Pipeline state set to NULL is handled in _gst_loop on exit or here if loop didn't run
-        if self.pipeline:
+        ret = self.pipeline.set_state(Gst.State.PLAYING)
+        if ret == Gst.StateChangeReturn.FAILURE:
+            print("Failed to set pipeline to PLAYING state initially.")
             self.pipeline.set_state(Gst.State.NULL)
             self.pipeline = None
             self.appsrc = None
+            return False
+
+        self._gst_ready_event.clear()
+        self._running = False 
+
+        self.gst_thread = threading.Thread(target=self._gst_loop, daemon=True)
+        self.gst_thread.start()
+        
+        print("Waiting for GStreamer pipeline to be ready (timeout 10s)...")
+        ready = self._gst_ready_event.wait(timeout=10.0) 
+        
+        if not ready:
+            print("Error: GStreamer pipeline did not reach PLAYING state in time.")
+            current_state_after_wait = "UNKNOWN"
+            if self.pipeline:
+                 _, current_state_after_wait, _ = self.pipeline.get_state(Gst.CLOCK_TIME_NONE)
+                 current_state_after_wait = current_state_after_wait.value_nick
+            print(f"Pipeline state after timeout: {current_state_after_wait}")
+            
+            if self.loop and self.loop.is_running():
+                self.loop.quit()
+            
+            if self.gst_thread and self.gst_thread.is_alive():
+                self.gst_thread.join(timeout=3.0)
+                if self.gst_thread.is_alive():
+                    print("Warning: GStreamer thread did not terminate after timeout.")
+
+            if self.pipeline:
+                self.pipeline.set_state(Gst.State.NULL)
+            self.pipeline = None
+            self.appsrc = None
+            self._running = False
+            return False
+        else:
+            print("GStreamer pipeline is PLAYING.")
+            self._running = True 
+            return True
+
+
+    def stop(self):
+        # Check if already stopped or not fully started
+        if not self._running and not (self.loop and self.loop.is_running()) and not self.pipeline:
+            print("YOLO Detector already stopped or not fully started.")
+            self._running = False 
+            return
+
+        print("Stopping YOLO Detector...")
+        self._running = False 
+
+        if self.loop and self.loop.is_running():
+            GLib.idle_add(self.loop.quit) # Quit from loop's context
+        
+        if self.gst_thread and self.gst_thread.is_alive():
+            self.gst_thread.join(timeout=5.0) 
+            if self.gst_thread.is_alive():
+                print("Warning: GStreamer thread did not terminate cleanly during stop.")
+        
+        if self.pipeline:
+            print("Ensuring pipeline is set to NULL in stop().")
+            self.pipeline.set_state(Gst.State.NULL)
+            self.pipeline = None
+            self.appsrc = None
+        
+        self.gst_thread = None
+        self.loop = None
         print("YOLO Detector stopped.")
 
 
@@ -146,11 +181,13 @@ class YoloDetector:
         t = message.type
         if t == Gst.MessageType.EOS:
             print("YOLO Detector: End-of-stream")
-            if self.loop: self.loop.quit()
+            self._running = False 
+            if self.loop and self.loop.is_running(): GLib.idle_add(self.loop.quit)
         elif t == Gst.MessageType.ERROR:
             err, debug = message.parse_error()
             print(f"YOLO Detector Error: {err}, {debug}")
-            if self.loop: self.loop.quit()
+            self._running = False 
+            if self.loop and self.loop.is_running(): GLib.idle_add(self.loop.quit)
         elif t == Gst.MessageType.STATE_CHANGED:
             if message.src == self.pipeline:
                 old_state, new_state, pending_state = message.parse_state_changed()
@@ -205,16 +242,14 @@ class YoloDetector:
         Returns:
             A tuple (x, y, width, height) for the ROI, or None if not found.
         """
-        if not self._running or not self.appsrc or not self.pipeline or self.pipeline.get_state(0)[1] != Gst.State.PLAYING:
-            print("YOLO Detector is not running or pipeline not in PLAYING state.")
-            # Try to start it if it's not running at all
-            if not self._running:
-                print("Attempting to start YOLO detector...")
-                self.start()
-                if not self._running:
-                    return None # Failed to start
-                # Wait a bit for pipeline to be ready after manual start
-                time.sleep(1.0) if not self._gst_ready_event.is_set() else None
+        if not self._running or not self.appsrc or not self.pipeline:
+            print("YOLO Detector is not running or essential components are missing. Cannot process image.")
+            return None
+        
+        _ret, current_state, pending_state = self.pipeline.get_state(Gst.CLOCK_TIME_NONE)
+        if current_state != Gst.State.PLAYING:
+            print(f"YOLO Detector pipeline not in PLAYING state (current: {current_state.value_nick}, pending: {pending_state.value_nick}). Cannot process image.")
+            return None
 
 
         h, w, c = image_np.shape
@@ -264,6 +299,8 @@ if __name__ == "__main__":
                         help="Folder containing images to process (e.g., data/basketball_images). Expects 'left' and 'right' subfolders.")
     parser.add_argument("--output_folder", type=str, default="data/cropped_images",
                         help="Folder to save cropped images (e.g., data/cropped_images). Will replicate 'left'/'right' subfolder structure.")
+    parser.add_argument("--nodisplay", action="store_true", help="Run GStreamer with fakesink (no video display output).")
+
     args = parser.parse_args()
 
     input_base_folder = args.input_folder
@@ -272,12 +309,18 @@ if __name__ == "__main__":
     print(f"Starting YOLO Detector image processing...")
     print(f"Input folder: {input_base_folder}")
     print(f"Output folder: {output_base_folder}")
+    
+    use_display = not args.nodisplay # If --nodisplay is True, use_display is False
+    if not use_display:
+        print("GStreamer display output is DISABLED (using fakesink).")
+    else:
+        print("GStreamer display output is ENABLED (will use display sink if available).")
 
-    detector = YoloDetector()
-    detector.start()
 
-    if not detector._running:
-        print("Failed to start detector. Exiting.")
+    detector = YoloDetector(display=use_display) 
+    
+    if not detector.start():
+        print("Failed to start YOLO detector. Exiting.")
         sys.exit(1)
 
     processed_files = 0
