@@ -4,21 +4,42 @@
     "right_image": "right_03.jpg",
     "annotated_points": [
         {
-            "left_x_center": 1197.5,
-            "left_y_center": 569.5,
-            "right_x_center": 1105.5,
-            "right_y_center": 569.5,
-            "disparity": 92.0
+            "left_x_center": 1202.5,
+            "left_y_center": 540.5,
+            "right_x_center": 1112.5,
+            "right_y_center": 541.5,
+            "disparity": 90.0
         },
         {
-            "left_x_center": 1348.5,
-            "left_y_center": 570.5,
-            "right_x_center": 1258.5,
-            "right_y_center": 571.5,
-            "disparity": 90.0
+            "left_x_center": 1201.5,
+            "left_y_center": 596.5,
+            "right_x_center": 1110.5,
+            "right_y_center": 595.5,
+            "disparity": 91.0
+        },
+        {
+            "left_x_center": 1302.5,
+            "left_y_center": 637.5,
+            "right_x_center": 1211.5,
+            "right_y_center": 637.5,
+            "disparity": 91.0
+        },
+        {
+            "left_x_center": 1347.5,
+            "left_y_center": 575.5,
+            "right_x_center": 1256.5,
+            "right_y_center": 576.5,
+            "disparity": 91.0
+        },
+        {
+            "left_x_center": 1325.5,
+            "left_y_center": 515.5,
+            "right_x_center": 1234.5,
+            "right_y_center": 513.5,
+            "disparity": 91.0
         }
     ],
-    "avg_disparity": 91.0,
-    "std_dev_disparity": 1.0,
-    "num_points": 2
+    "avg_disparity": 90.8,
+    "std_dev_disparity": 0.4,
+    "num_points": 5
 }

@@ -7,84 +7,30 @@ import time
 import sys
 import os # For TAPPAS_POST_PROC_DIR
 import cv2 # Added cv2 import
+import hailo
+import argparse # Added for command-line arguments
 
-# Attempt to import Hailo specific modules
-try:
-    import hailo
-    HAILO_AVAILABLE = True
-except ImportError:
-    HAILO_AVAILABLE = False
-    # print("Warning: Hailo Python module not found. YOLO detector will not function.")
 
-# Import GStreamer helpers from your original codebase if they are in PYTHONPATH
-# Or, include them directly/modify paths. For this standalone project, let's assume
-# they might be needed if we were to parse raw buffers for debugging.
-# from gst_pipeline.gstreamer_helpers import get_caps_from_pad, get_numpy_from_buffer
-
-# This is the GStreamer pipeline string for fast detection from your original codebase.
-# IMPORTANT: Ensure the .hef path and .so path are correct for this project's environment.
-# The original paths are /home/sai/Robot/resources/yolov11n.hef and
-# /path/to/libyolo_hailortpp_postprocess.so (which was a placeholder).
-# You need to replace "/path/to/libyolo_hailortpp_postprocess.so" with the actual path
-# to your Hailo postprocess .so file for YOLOv11.
-# e.g., /usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstha Mypostprocess.so or similar.
-# A common path for TAPPAS postprocess .so is often found via TAPPAS_POST_PROC_DIR
-# or within the Hailo SDK installation.
-
-# For this project, let's make the .hef path configurable.
-DEFAULT_HEF_PATH = "resources/yolov11n.hef" # Relative to project root
-# The postprocess .so path is more tricky. It's often system-installed.
-# Let's try to use TAPPAS_POST_PROC_DIR if set, otherwise provide a placeholder.
-TAPPAS_POST_PROC_DIR = os.environ.get('TAPPAS_POST_PROC_DIR', '/usr/lib/aarch64-linux-gnu/hailo/tappas/post_processes/')
-DEFAULT_POSTPROCESS_SO_PATH = os.path.join(TAPPAS_POST_PROC_DIR, "libyolo_hailortpp_postprocess.so") # Check actual name
-DEFAULT_CROPPER_SO_PATH = "/usr/lib/aarch64-linux-gnu/hailo/tappas/post_processes/cropping_algorithms/libwhole_buffer.so" # Default cropper path
 DEFAULT_INPUT_WIDTH = 2304
 DEFAULT_INPUT_HEIGHT = 1296
 
+def PIPELINE_STRING(display=True):
+    if display:
+        return "appsrc name=app_source is-live=true leaky-type=downstream max-buffers=1 ! video/x-raw, format=RGB, width=2304, height=1296 !  queue name=source_scale_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoscale name=source_videoscale n-threads=2 ! queue name=source_convert_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoconvert n-threads=3 name=source_convert qos=false ! video/x-raw, pixel-aspect-ratio=1/1, format=RGB, width=2304, height=1296  ! queue name=inference_wrapper_input_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailocropper name=inference_wrapper_crop so-path=/usr/lib/aarch64-linux-gnu/hailo/tappas/post_processes/cropping_algorithms/libwhole_buffer.so function-name=create_crops use-letterbox=true resize-method=inter-area internal-offset=true hailoaggregator name=inference_wrapper_agg inference_wrapper_crop. ! queue name=inference_wrapper_bypass_q leaky=downstream max-size-buffers=10 max-size-bytes=0 max-size-time=0  ! inference_wrapper_agg.sink_0 inference_wrapper_crop. ! queue name=inference_scale_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoscale name=inference_videoscale n-threads=2 qos=false ! queue name=inference_convert_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! video/x-raw, pixel-aspect-ratio=1/1 ! videoconvert name=inference_videoconvert n-threads=2 ! queue name=inference_hailonet_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailonet name=inference_hailonet hef-path=/home/sai/Disparity/resources/yolov11n.hef batch-size=2  vdevice-group-id=1 nms-score-threshold=0.3 nms-iou-threshold=0.45 output-format-type=HAILO_FORMAT_TYPE_FLOAT32 force-writable=true  ! queue name=inference_hailofilter_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailofilter name=inference_hailofilter so-path=/home/sai/Disparity/resources/libyolo_hailortpp_postprocess.so   function-name=filter_letterbox  qos=false ! queue name=inference_output_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0   ! inference_wrapper_agg.sink_1 inference_wrapper_agg. ! queue name=inference_wrapper_output_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0   ! queue name=identity_callback_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! identity name=identity_callback ! queue name=hailo_display_overlay_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailooverlay name=hailo_display_overlay  ! queue name=hailo_display_videoconvert_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoconvert name=hailo_display_videoconvert n-threads=2 qos=false ! queue name=hailo_display_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! fpsdisplaysink name=hailo_display video-sink=autovideosink sync=false text-overlay=False signal-fps-measurements=true"
+    
+    # No display
+    return "appsrc name=app_source is-live=true leaky-type=upstream max-buffers=1 ! video/x-raw, format=RGB, width=2304, height=1296 !  queue name=source_scale_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoscale name=source_videoscale n-threads=2 ! queue name=source_convert_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoconvert n-threads=3 name=source_convert qos=false ! video/x-raw, pixel-aspect-ratio=1/1, format=RGB, width=2304, height=1296  ! queue name=inference_wrapper_input_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailocropper name=inference_wrapper_crop so-path=/usr/lib/aarch64-linux-gnu/hailo/tappas/post_processes/cropping_algorithms/libwhole_buffer.so function-name=create_crops use-letterbox=true resize-method=inter-area internal-offset=true hailoaggregator name=inference_wrapper_agg inference_wrapper_crop. ! queue name=inference_wrapper_bypass_q leaky=downstream max-size-buffers=10 max-size-bytes=0 max-size-time=0  ! inference_wrapper_agg.sink_0 inference_wrapper_crop. ! queue name=inference_scale_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! videoscale name=inference_videoscale n-threads=2 qos=false ! queue name=inference_convert_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! video/x-raw, pixel-aspect-ratio=1/1 ! videoconvert name=inference_videoconvert n-threads=2 ! queue name=inference_hailonet_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailonet name=inference_hailonet hef-path=/home/sai/Disparity/resources/yolov11n.hef batch-size=2  vdevice-group-id=1 nms-score-threshold=0.3 nms-iou-threshold=0.45 output-format-type=HAILO_FORMAT_TYPE_FLOAT32 force-writable=true  ! queue name=inference_hailofilter_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! hailofilter name=inference_hailofilter so-path=/home/sai/Disparity/resources/libyolo_hailortpp_postprocess.so   function-name=filter_letterbox  qos=false ! queue name=inference_output_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0   ! inference_wrapper_agg.sink_1 inference_wrapper_agg. ! queue name=inference_wrapper_output_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0   ! queue name=identity_callback_q leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0  ! identity name=identity_callback ! fakesink"
 
-def get_pipeline_string_fast_detection(hef_path, postprocess_so_path, cropper_so_path, input_width, input_height):
-    # Check if the postprocess .so file exists, otherwise GStreamer will fail to parse.
-    if not os.path.exists(postprocess_so_path):
-        print(f"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-        print(f"WARNING: Postprocess SO file NOT FOUND: {postprocess_so_path}")
-        print(f"The YOLO GStreamer pipeline will likely FAIL.")
-        print(f"Please ensure the path is correct or the Hailo environment is set up.")
-        print(f"Searched based on TAPPAS_POST_PROC_DIR: {TAPPAS_POST_PROC_DIR}")
-        print(f"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-        # Fallback to a generic name if a common one exists or provide an obvious placeholder.
-        # For now, we'll use the provided path and let GStreamer error out if it's wrong.
-
-    return (
-        f"appsrc name=app_source is-live=true do-timestamp=true format=time leaky-type=upstream max-buffers=2 ! " 
-        f"video/x-raw, format=RGB, width={input_width}, height={input_height}, framerate=10/1 ! " 
-        "queue name=pre_crop_q leaky=downstream max-size-buffers=2 ! "
-        # Hailocropper might resize. YOLOv11n often expects 640x640.
-        # If input to hailocropper is already desired size, `use-letterbox=false` might be better.
-        # If hailocropper is resizing to model input, ensure `internal-offset=true` is what you want.
-        f"hailocropper name=inference_wrapper_crop so-path={cropper_so_path} function-name=create_crops use-letterbox=true resize-method=inter-area internal-offset=true ! "
-        "queue name=pre_infer_q leaky=downstream max-size-buffers=2 ! "
-        f"hailonet name=inference_hailonet hef-path={hef_path} batch-size=1 nms-score-threshold=0.3 nms-iou-threshold=0.45 output-format-type=HAILO_FORMAT_TYPE_FLOAT32 force-writable=true ! " # batch-size=1 for single image processing
-        "queue name=pre_postproc_q leaky=downstream max-size-buffers=2 ! "
-        f"hailofilter name=inference_hailofilter so-path={postprocess_so_path} function-name=filter_letterbox qos=false ! "
-        "identity name=identity_callback ! " # Callback to get detections
-        "fakesink name=fakesink sync=false async=false" # Ensure fakesink doesn't block
-    )
 
 
 class YoloDetector:
-    def __init__(self, hef_path=DEFAULT_HEF_PATH, 
-                 postprocess_so_path=DEFAULT_POSTPROCESS_SO_PATH, 
-                 cropper_so_path=DEFAULT_CROPPER_SO_PATH,
+    def __init__(self, 
                  input_width=DEFAULT_INPUT_WIDTH,
                  input_height=DEFAULT_INPUT_HEIGHT,
                  target_class_id=0, min_confidence=0.3):
-        if not HAILO_AVAILABLE:
-            raise ImportError("Hailo Python module is not available. YoloDetector cannot be initialized.")
         
         Gst.init(None)
-        self.hef_path = hef_path
-        self.postprocess_so_path = postprocess_so_path
-        self.cropper_so_path = cropper_so_path
+    
         self.input_width = input_width
         self.input_height = input_height
         self.target_class_id = target_class_id # Assuming basketball is class 0 in your YOLO model
@@ -117,16 +63,8 @@ class YoloDetector:
             print("YOLO Detector already running.")
             return
 
-        pipeline_str = get_pipeline_string_fast_detection(
-            self.hef_path, 
-            self.postprocess_so_path,
-            self.cropper_so_path,
-            self.input_width,
-            self.input_height
-        )
+        pipeline_str = PIPELINE_STRING(display=True)
         print("Initializing GStreamer pipeline for YOLO detection...")
-        print(f"Using HEF: {self.hef_path}")
-        print(f"Using Postprocess SO: {self.postprocess_so_path}")
         
         try:
             self.pipeline = Gst.parse_launch(pipeline_str)
@@ -321,61 +259,93 @@ class YoloDetector:
         self.stop()
 
 if __name__ == "__main__":
-    # Example Usage (requires a running X server for GStreamer video sinks if pipeline had one)
-    # This example will use fakesink, so no visual output from GStreamer itself.
-    
-    if not HAILO_AVAILABLE:
-        print("Hailo SDK not available, cannot run YoloDetector example.")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(description="Detect basketballs in images and save cropped versions.")
+    parser.add_argument("--input_folder", type=str, default="data/basketball_images",
+                        help="Folder containing images to process (e.g., data/basketball_images). Expects 'left' and 'right' subfolders.")
+    parser.add_argument("--output_folder", type=str, default="data/cropped_images",
+                        help="Folder to save cropped images (e.g., data/cropped_images). Will replicate 'left'/'right' subfolder structure.")
+    args = parser.parse_args()
 
-    print("Starting YOLO Detector example...")
-    # You might need to adjust these paths based on your setup for the example
-    # Ensure 'resources/yolov11n.hef' exists or provide the correct path.
-    custom_hef_path = "resources/yolov11n.hef" # Adjust if your .hef is elsewhere
-    if not os.path.exists(custom_hef_path):
-        print(f"Error: HEF file not found at {custom_hef_path}. Please place it there or update path.")
-        sys.exit(1)
-    
-    # The postprocess_so_path is critical. Check Hailo examples or SDK for the correct one.
-    # This is just a guess based on common TAPPAS structure.
-    custom_so_path = os.path.join(os.environ.get('TAPPAS_POST_PROC_DIR', '/usr/lib/aarch64-linux-gnu/hailo/tappas/post_processes/'), 'libyolo_hailortpp_postprocess.so')
+    input_base_folder = args.input_folder
+    output_base_folder = args.output_folder
 
+    print(f"Starting YOLO Detector image processing...")
+    print(f"Input folder: {input_base_folder}")
+    print(f"Output folder: {output_base_folder}")
 
-    detector = YoloDetector(hef_path=custom_hef_path, postprocess_so_path=custom_so_path)
+    detector = YoloDetector()
     detector.start()
 
     if not detector._running:
-        print("Failed to start detector. Exiting example.")
+        print("Failed to start detector. Exiting.")
         sys.exit(1)
 
-    # Create a dummy image (2304x1296 RGB)
-    dummy_image = np.random.randint(0, 255, size=(1296, 2304, 3), dtype=np.uint8)
-    # Put a colored square to simulate a basketball for visual debugging if you were to save/show the image
-    cv2.rectangle(dummy_image, (500, 500), (700, 700), (0, 165, 255), -1) # Orange-ish
+    processed_files = 0
+    detected_and_saved_files = 0
+    skipped_files = 0
 
-    print("Detecting ROI in dummy image...")
-    roi = detector.detect_basketball_roi(dummy_image)
+    # Process images in 'left' and 'right' subdirectories
+    for subfolder_name in ["left", "right"]:
+        input_subfolder = os.path.join(input_base_folder, subfolder_name)
+        output_subfolder = os.path.join(output_base_folder, subfolder_name)
 
-    if roi:
-        print(f"Detected basketball ROI: {roi}")
-        # For visualization:
-        # import cv2
-        # from utils import draw_roi, display_image
-        # img_with_roi = draw_roi(cv2.cvtColor(dummy_image, cv2.COLOR_RGB2BGR), roi) # Convert to BGR for OpenCV display
-        # display_image("Dummy Image with ROI", img_with_roi)
-        # cv2.destroyAllWindows()
-    else:
-        print("No basketball detected in the dummy image.")
+        if not os.path.isdir(input_subfolder):
+            print(f"Warning: Input subfolder {input_subfolder} not found. Skipping.")
+            continue
 
+        os.makedirs(output_subfolder, exist_ok=True)
+        
+        print(f"Processing images in {input_subfolder}...")
+
+        for filename in os.listdir(input_subfolder):
+            if not (filename.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.tiff'))):
+                if filename != ".DS_Store": # Common macOS file, safe to ignore
+                     print(f"Skipping non-image file: {filename} in {input_subfolder}")
+                continue
+
+            input_image_path = os.path.join(input_subfolder, filename)
+            output_image_path = os.path.join(output_subfolder, filename) # Save with the same name
+
+            processed_files += 1
+            print(f"Processing {input_image_path}... ", end="")
+
+            if os.path.exists(output_image_path):
+                print(f"Skipped (already exists: {output_image_path})")
+                skipped_files += 1
+                continue
+
+            try:
+                # Read the image using OpenCV
+                image_np = cv2.imread(input_image_path)
+                if image_np is None:
+                    print(f"Failed to read image {input_image_path}. Skipping.")
+                    continue
+                
+                # Image needs to be in RGB for the detector if cv2 reads in BGR by default
+                image_np_rgb = cv2.cvtColor(image_np, cv2.COLOR_BGR2RGB)
+
+                roi = detector.detect_basketball_roi(image_np_rgb)
+
+                if roi:
+                    x, y, w, h = roi
+                    # Ensure ROI coordinates are valid
+                    if w > 0 and h > 0 and x >= 0 and y >= 0 and (x + w) <= image_np.shape[1] and (y + h) <= image_np.shape[0]:
+                        cropped_image = image_np[y:y+h, x:x+w]
+                        cv2.imwrite(output_image_path, cropped_image)
+                        print(f"Detected. Saved cropped image to {output_image_path}")
+                        detected_and_saved_files +=1
+                    else:
+                        print(f"Detected, but ROI {roi} is invalid for image size {image_np.shape[:2]}. Not saving.")
+                else:
+                    print("No basketball detected.")
+            except Exception as e:
+                print(f"Error processing file {input_image_path}: {e}")
+
+    print("\nProcessing summary:")
+    print(f"Total files considered for processing: {processed_files}")
+    print(f"Files skipped (already existed in output): {skipped_files}")
+    print(f"Files where basketball was detected and cropped image saved: {detected_and_saved_files}")
+    
     print("Stopping YOLO detector...")
     detector.stop()
-    print("YOLO Detector example finished.")
-
-    # For visualization (needs cv2 and utils):
-    # from .utils import draw_roi, display_image 
-    # import cv2
-
-# Ensure imports for main example are also present if uncommented
-# import cv2
-# import sys
-# from .utils import draw_roi, display_image # If example uses these
+    print("YOLO Detector image processing finished.")
