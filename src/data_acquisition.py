@@ -60,7 +60,8 @@ def capture_stereo_images_picamera2(output_dir, num_pairs=10, delay_sec=2):
     
     # For calibration images, exposure control might be less critical if scene is static
     # For basketball, you might need to tune ExposureTime, AnalogueGain
-    controls = {'FrameRate': 10, 'ExposureTime': 8000, 'AnalogueGain': 10.0} 
+    controls = {'FrameRate': 10, 'ExposureTime': 500, 'AnalogueGain': 2.0} 
+
 
     config_right = picam2_right.create_still_configuration(main=capture_config, controls=controls)
     config_left = picam2_left.create_still_configuration(main=capture_config, controls=controls)
