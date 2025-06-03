@@ -115,7 +115,7 @@ def camera_callback(pad, info):
                 name_part, ext_part = os.path.splitext(base_name)
                 
                 # Using a more descriptive name for the single highest confidence detection
-                cropped_filename = f"{name_part}_highest_confidence_detection{ext_part}"
+                cropped_filename = f"{name_part}_cropped_{ext_part}"
                 
                 final_output_dir = os.path.join(OUTPUT_CROPPED_BASE_DIR, output_subdir_name)
                 full_output_path = os.path.join(final_output_dir, cropped_filename)
