@@ -66,14 +66,7 @@ def camera_callback(pad, info):
         logging.error("Failed to get height from caps.")
         return Gst.PadProbeReturn.OK # Or use a default/error
     
-    # Assuming get_numpy_from_buffer returns a BGR numpy array.
-    # format_name = s.get_name() # e.g. "video/x-raw"
-    # format_str = s.get_string("format") # e.g. "RGB"
-    # This call needs to be robust and use available info from caps.
-    # The existing get_numpy_from_buffer used format, width, height.
-    # If a global get_numpy_from_buffer is not available, this will fail.
-    # For now, assuming it uses the format string from caps correctly.
-    bgr_frame = get_numpy_from_buffer(buffer, s.get_string("format")[1] if s.has_field("format") else "RGB", frame_width, frame_height)
+    bgr_frame = get_numpy_from_buffer(buffer, s.get_string("format") if s.has_field("format") else "RGB", frame_width, frame_height)
 
     if bgr_frame is None:
         logging.error("Failed to get numpy array from buffer.")
@@ -86,7 +79,22 @@ def camera_callback(pad, info):
     padding = 20  # pixels
     detections_saved_count = 0
 
-    for idx, detection in enumerate(hailo_detections):
+    if not hailo_detections:
+        logging.info(f"No detections found in {original_filepath if original_filepath else 'unknown file'}.")
+        return Gst.PadProbeReturn.OK
+
+    # Find the detection with the highest confidence
+    highest_confidence_detection = None
+    max_confidence = -1.0
+
+    for detection in hailo_detections:
+        confidence = detection.get_confidence()
+        if confidence > max_confidence:
+            max_confidence = confidence
+            highest_confidence_detection = detection
+    
+    if highest_confidence_detection:
+        detection = highest_confidence_detection # Use this detection for further processing
         bbox = detection.get_bbox()
 
         xmin_abs = bbox.xmin() * frame_width
@@ -106,66 +114,36 @@ def camera_callback(pad, info):
                 base_name = os.path.basename(original_filepath)
                 name_part, ext_part = os.path.splitext(base_name)
                 
-                cropped_filename = f"{name_part}_detection_{idx}{ext_part}"
+                # Using a more descriptive name for the single highest confidence detection
+                cropped_filename = f"{name_part}_highest_confidence_detection{ext_part}"
                 
                 final_output_dir = os.path.join(OUTPUT_CROPPED_BASE_DIR, output_subdir_name)
                 full_output_path = os.path.join(final_output_dir, cropped_filename)
                 
                 try:
                     cv2.imwrite(full_output_path, cropped_bgr_image)
-                    logging.info(f"Saved cropped image to {full_output_path}")
+                    logging.info(f"Saved highest confidence cropped image (confidence: {max_confidence:.2f}) to {full_output_path}")
                     detections_saved_count += 1
                 except Exception as e:
                     logging.error(f"Failed to save cropped image {full_output_path}: {e}")
             else:
                 if not original_filepath:
-                    logging.warning(f"Detection {idx}: Original filepath missing, cannot save cropped image.")
+                    logging.warning(f"Highest confidence detection: Original filepath missing, cannot save cropped image.")
                 if not output_subdir_name:
-                    logging.warning(f"Detection {idx}: Output subdirectory not determined, cannot save cropped image.")
+                    logging.warning(f"Highest confidence detection: Output subdirectory not determined, cannot save cropped image.")
         else:
-            logging.warning(f"Detection {idx} in {original_filepath if original_filepath else 'Unknown file'}: Invalid crop dimensions ({crop_x1, crop_y1, crop_x2, crop_y2}). Skipping crop.")
+            logging.warning(f"Highest confidence detection in {original_filepath if original_filepath else 'Unknown file'} (confidence: {max_confidence:.2f}): Invalid crop dimensions ({crop_x1, crop_y1, crop_x2, crop_y2}). Skipping crop.")
+    else:
+        # This case should ideally not be reached if hailo_detections was not empty,
+        # but as a safeguard:
+        logging.info(f"No valid highest confidence detection found in {original_filepath if original_filepath else 'unknown file'}, though detections were present.")
+
 
     if detections_saved_count > 0:
-        logging.info(f"Saved {detections_saved_count} cropped images from {original_filepath if original_filepath else 'unknown file'}.")
-    elif hailo_detections:
-        logging.warning(f"Found {len(hailo_detections)} detections in {original_filepath if original_filepath else 'unknown file'}, but none were saved.")
-
-    # --- Original logic for processing detections for output_stream (commented out as per plan) ---
-    # if hailo_detections:
-    #     rgb_frame_for_downstream = cv2.cvtColor(bgr_frame.copy(), cv2.COLOR_BGR2RGB) 
-    #     # from typing import List # Would be needed at top of file
-    #     # from datetime import datetime # Would be needed
-    #     # current_processed_detections_list: List[Detection] = [] # Assuming Detection class exists
-    #     # cameraside_enum_val = None # Logic to map buffer flags to a CameraSide enum if used
-    #     # if buffer.has_flags(Gst.BufferFlags(1)): cameraside_enum_val = CameraSide.LEFT
-    #     # elif buffer.has_flags(Gst.BufferFlags(2)): cameraside_enum_val = CameraSide.RIGHT
-
-    #     for detection in hailo_detections:
-    #         bbox = detection.get_bbox()
-    #         confidence = detection.get_confidence()
-    #         bbox_min_tuple = (bbox.xmin() * frame_width, bbox.ymin() * frame_height)
-            
-    #         # detection_obj = Detection(
-    #         #     frame=None, 
-    #         #     bbox_min=bbox_min_tuple,
-    #         #     width=bbox.width() * frame_width,
-    #         #     height=bbox.height() * frame_height,
-    #         #     timestamp=buffer.pts,
-    #         #     confidence=confidence,
-    #         #     side=cameraside_enum_val, 
-    #         #     time=datetime.now()
-    #         # )
-    #         # current_processed_detections_list.append(detection_obj)
-        
-    #     # if current_processed_detections_list and 'output_stream' in globals():
-    #     #    output_stream.put(current_processed_detections_list)
-    #     #    logging.info(f"Pushed {len(current_processed_detections_list)} detections to output_stream.")
-    #     # elif not 'output_stream' in globals():
-    #     #    logging.warning("output_stream not defined. Cannot push detections.")
-    # else:
-    #     # logging.info("No detections found in this frame.")
-    #     pass
-
+        logging.info(f"Saved 1 highest confidence cropped image from {original_filepath if original_filepath else 'unknown file'}.")
+    elif hailo_detections: # Detections were present but highest confidence one was not saved
+        logging.warning(f"Found {len(hailo_detections)} detections in {original_filepath if original_filepath else 'unknown file'}, but the highest confidence one was not saved.")
+    # If no hailo_detections at all, this was handled at the start of the function.
     return Gst.PadProbeReturn.OK
 
 
@@ -420,7 +398,7 @@ def picamera_thread(pipeline):
         
         # Ensure image is in the correct format (e.g., RGB) and dimensions if necessary
         # Example: if images are BGR (OpenCV default) and pipeline expects RGB
-        left_image_rgb = cv2.cvtColor(left_image, cv2.COLOR_BGR2RGB)
+        left_image_rgb = left_image
         # Example: resize if necessary
         if left_image_rgb.shape[1] != image_width or left_image_rgb.shape[0] != image_height:
             left_image_rgb = cv2.resize(left_image_rgb, (image_width, image_height))
@@ -448,7 +426,7 @@ def picamera_thread(pipeline):
             logging.error(f"Failed to read right image: {right_img_path}")
             continue
 
-        right_image_rgb = cv2.cvtColor(right_image, cv2.COLOR_BGR2RGB)
+        right_image_rgb = right_image
         if right_image_rgb.shape[1] != image_width or right_image_rgb.shape[0] != image_height:
             right_image_rgb = cv2.resize(right_image_rgb, (image_width, image_height))
         
