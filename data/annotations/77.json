@@ -1,0 +1,24 @@
+{
+    "image_pair_name": "77",
+    "left_image": "left_77.jpg",
+    "right_image": "right_77.jpg",
+    "annotated_points": [
+        {
+            "left_x_center": 958.5,
+            "left_y_center": 585.5,
+            "right_x_center": 902.5,
+            "right_y_center": 582.5,
+            "disparity": 56.0
+        },
+        {
+            "left_x_center": 1050.5,
+            "left_y_center": 586.5,
+            "right_x_center": 994.5,
+            "right_y_center": 581.5,
+            "disparity": 56.0
+        }
+    ],
+    "avg_disparity": 56.0,
+    "std_dev_disparity": 0.0,
+    "num_points": 2
+}

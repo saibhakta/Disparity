@@ -4,21 +4,21 @@
     "right_image": "right_04.jpg",
     "annotated_points": [
         {
-            "left_x_center": 814.5,
-            "left_y_center": 289.5,
-            "right_x_center": 834.5,
-            "right_y_center": 327.5,
-            "disparity": -20.0
+            "left_x_center": 1448.5,
+            "left_y_center": 607.5,
+            "right_x_center": 1366.5,
+            "right_y_center": 609.5,
+            "disparity": 82.0
         },
         {
-            "left_x_center": 1844.5,
-            "left_y_center": 496.5,
-            "right_x_center": 1793.5,
-            "right_y_center": 506.5,
-            "disparity": 51.0
+            "left_x_center": 1588.5,
+            "left_y_center": 570.5,
+            "right_x_center": 1504.5,
+            "right_y_center": 571.5,
+            "disparity": 84.0
         }
     ],
-    "avg_disparity": 15.5,
-    "std_dev_disparity": 35.5,
+    "avg_disparity": 83.0,
+    "std_dev_disparity": 1.0,
     "num_points": 2
 }
