@@ -125,7 +125,7 @@ class App:
         self.batch_size = 2
         self.video_width = 2304
         self.video_height = 1296
-        self.video_format = "RGB888"
+        self.video_format = "RGB"
         self.threads = []
         self.create_pipeline()
 
@@ -287,7 +287,7 @@ def picamera_thread(pipeline):
 
     image_width = 2304 # Assuming this from your class App init, adjust if needed
     image_height = 1296 # Assuming this from your class App init, adjust if needed
-    image_format = "RGB888" # Assuming this from your class App init, adjust if needed
+    image_format = "RGB" # Assuming this from your class App init, adjust if needed
 
     # Path to images - adjust base path as necessary
     base_image_path = "data/basketball_images"
@@ -303,6 +303,8 @@ def picamera_thread(pipeline):
         print("Warning: Mismatch in number of left and right images. Processing shorter list.")
         # Process only the number of pairs available
         num_pairs = min(len(left_image_files), len(right_image_files))
+        print(f"number left: {len(left_image_files)} number right: {len(right_image_files)}")
+
         left_image_files = left_image_files[:num_pairs]
         right_image_files = right_image_files[:num_pairs]
 
