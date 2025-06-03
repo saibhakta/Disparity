@@ -245,7 +245,7 @@ class App:
         # Disable QoS to prevent frame drops
         disable_qos(self.pipeline)
 
-        picam_thread = threading.Thread(target=picamera_thread, args=(self.pipeline))
+        picam_thread = threading.Thread(target=picamera_thread, args=[self.pipeline])
         self.threads.append(picam_thread)
         picam_thread.start()
 
@@ -374,7 +374,7 @@ def picamera_thread(pipeline):
 
     # After loop finishes or breaks, signal End Of Stream
     print("All images processed, sending EOS to appsrc.")
-    appsrc.end_of_stream()
+    # appsrc.end_of_stream()
 
 
 if __name__ == "__main__":
