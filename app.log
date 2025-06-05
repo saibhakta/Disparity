@@ -1,134 +1,1185 @@
-INFO: Pushed left frame for left_01.jpg PTS: 0 at 1165.084508982
-INFO: Pushed right frame for right_01.jpg PTS: 100000000 at 1165.149208528
-INFO: Pushed left frame for left_02.jpg PTS: 200000000 at 1165.311859334
-INFO: Pushed right frame for right_02.jpg PTS: 300000000 at 1165.359904208
-INFO: Pushed left frame for left_03.jpg PTS: 400000000 at 1165.502329687
-INFO: Pushed right frame for right_03.jpg PTS: 500000000 at 1165.542271801
-INFO: Pushed left frame for left_04.jpg PTS: 600000000 at 1165.685673917
-INFO: Pushed right frame for right_04.jpg PTS: 700000000 at 1165.736416272
-INFO: Pushed left frame for left_05.jpg PTS: 800000000 at 1165.88549159
-INFO: Pushed right frame for right_05.jpg PTS: 900000000 at 1165.921793436
-INFO: Pushed left frame for left_06.jpg PTS: 1000000000 at 1166.058751925
-INFO: Pushed right frame for right_06.jpg PTS: 1100000000 at 1166.096952654
-INFO: Pushed left frame for left_07.jpg PTS: 1200000000 at 1166.23537945
-INFO: Pushed right frame for right_07.jpg PTS: 1300000000 at 1166.278249878
-INFO: Pushed left frame for left_08.jpg PTS: 1400000000 at 1166.412923889
-INFO: Pushed right frame for right_08.jpg PTS: 1500000000 at 1166.456822583
-INFO: Pushed left frame for left_09.jpg PTS: 1600000000 at 1166.591090351
-INFO: Pushed right frame for right_09.jpg PTS: 1700000000 at 1166.628392925
-INFO: Pushed left frame for left_10.jpg PTS: 1800000000 at 1166.761807724
-INFO: Pushed right frame for right_10.jpg PTS: 1900000000 at 1166.805006061
-INFO: Pushed left frame for left_100.jpg PTS: 2000000000 at 1166.941673246
-INFO: Pushed right frame for right_100.jpg PTS: 2100000000 at 1166.978973985
-INFO: Pushed left frame for left_101.jpg PTS: 2200000000 at 1167.11643686
-INFO: Pushed right frame for right_101.jpg PTS: 2300000000 at 1167.15595567
-INFO: Pushed left frame for left_102.jpg PTS: 2400000000 at 1167.305771334
-INFO: Pushed right frame for right_102.jpg PTS: 2500000000 at 1167.351465594
-INFO: Pushed left frame for left_103.jpg PTS: 2600000000 at 1167.488538374
-INFO: Pushed right frame for right_103.jpg PTS: 2700000000 at 1167.549577592
-INFO: Pushed left frame for left_104.jpg PTS: 2800000000 at 1167.688401199
-INFO: Pushed right frame for right_104.jpg PTS: 2900000000 at 1167.725811143
-INFO: Pushed left frame for left_105.jpg PTS: 3000000000 at 1167.862152915
-INFO: Pushed right frame for right_105.jpg PTS: 3100000000 at 1167.900143101
-INFO: Pushed left frame for left_11.jpg PTS: 3200000000 at 1168.035878346
-INFO: Pushed right frame for right_11.jpg PTS: 3300000000 at 1168.072961971
-INFO: Pushed left frame for left_110.jpg PTS: 3400000000 at 1168.197429102
-INFO: Pushed right frame for right_110.jpg PTS: 3500000000 at 1168.229789139
-INFO: Pushed left frame for left_111.jpg PTS: 3600000000 at 1168.35202981
-INFO: Pushed right frame for right_111.jpg PTS: 3700000000 at 1168.379444461
-INFO: Pushed left frame for left_112.jpg PTS: 3800000000 at 1168.502757844
-INFO: Pushed right frame for right_112.jpg PTS: 3900000000 at 1168.529560768
-INFO: Pushed left frame for left_113.jpg PTS: 4000000000 at 1168.656461398
-INFO: Pushed right frame for right_113.jpg PTS: 4100000000 at 1168.689278345
-INFO: Pushed left frame for left_114.jpg PTS: 4200000000 at 1168.811325496
-INFO: Pushed right frame for right_114.jpg PTS: 4300000000 at 1168.835138028
-INFO: Pushed left frame for left_115.jpg PTS: 4400000000 at 1168.957776104
-INFO: Pushed right frame for right_115.jpg PTS: 4500000000 at 1168.981641192
-INFO: Pushed left frame for left_116.jpg PTS: 4600000000 at 1169.103238705
-INFO: Pushed right frame for right_116.jpg PTS: 4700000000 at 1169.132625294
-INFO: Pushed left frame for left_117.jpg PTS: 4800000000 at 1169.254541624
-INFO: Pushed right frame for right_117.jpg PTS: 4900000000 at 1169.278089321
-INFO: Pushed left frame for left_118.jpg PTS: 5000000000 at 1169.404064049
-INFO: Pushed right frame for right_118.jpg PTS: 5100000000 at 1169.43217387
-INFO: Pushed left frame for left_119.jpg PTS: 5200000000 at 1169.552620393
-INFO: Pushed right frame for right_119.jpg PTS: 5300000000 at 1169.584568185
-INFO: Pushed left frame for left_12.jpg PTS: 5400000000 at 1169.726148482
-INFO: Pushed right frame for right_12.jpg PTS: 5500000000 at 1169.762163634
-INFO: Pushed left frame for left_120.jpg PTS: 5600000000 at 1169.889844369
-INFO: Pushed right frame for right_120.jpg PTS: 5700000000 at 1169.924772864
-INFO: Pushed left frame for left_121.jpg PTS: 5800000000 at 1170.059454182
-INFO: Pushed right frame for right_121.jpg PTS: 5900000000 at 1170.091713807
-INFO: Pushed left frame for left_122.jpg PTS: 6000000000 at 1170.22182926
-INFO: Pushed right frame for right_122.jpg PTS: 6100000000 at 1170.251861241
-INFO: Pushed left frame for left_123.jpg PTS: 6200000000 at 1170.378093761
-INFO: Pushed right frame for right_123.jpg PTS: 6300000000 at 1170.41215688
-INFO: Pushed left frame for left_124.jpg PTS: 6400000000 at 1170.538836198
-INFO: Pushed right frame for right_124.jpg PTS: 6500000000 at 1170.569873353
-INFO: Pushed left frame for left_125.jpg PTS: 6600000000 at 1170.695916667
-INFO: Pushed right frame for right_125.jpg PTS: 6700000000 at 1170.740421764
-INFO: Pushed left frame for left_126.jpg PTS: 6800000000 at 1170.869771561
-INFO: Pushed right frame for right_126.jpg PTS: 6900000000 at 1170.901129512
-INFO: Pushed left frame for left_127.jpg PTS: 7000000000 at 1171.03325399
-INFO: Pushed right frame for right_127.jpg PTS: 7100000000 at 1171.075209846
-INFO: Pushed left frame for left_128.jpg PTS: 7200000000 at 1171.20210779
-INFO: Pushed right frame for right_128.jpg PTS: 7300000000 at 1171.234197153
-INFO: Pushed left frame for left_129.jpg PTS: 7400000000 at 1171.383793601
-INFO: Pushed right frame for right_129.jpg PTS: 7500000000 at 1171.448680351
-INFO: Pushed left frame for left_13.jpg PTS: 7600000000 at 1171.592989874
-INFO: Pushed right frame for right_13.jpg PTS: 7700000000 at 1171.636147701
-INFO: Pushed left frame for left_130.jpg PTS: 7800000000 at 1171.775930934
-INFO: Pushed right frame for right_130.jpg PTS: 7900000000 at 1171.813750039
-INFO: Pushed left frame for left_131.jpg PTS: 8000000000 at 1171.946411571
-INFO: Pushed right frame for right_131.jpg PTS: 8100000000 at 1171.983216779
-INFO: Pushed left frame for left_132.jpg PTS: 8200000000 at 1172.118771829
-INFO: Pushed right frame for right_132.jpg PTS: 8300000000 at 1172.15468905
-INFO: Pushed left frame for left_133.jpg PTS: 8400000000 at 1172.287604287
-INFO: Pushed right frame for right_133.jpg PTS: 8500000000 at 1172.33213949
-INFO: Pushed left frame for left_134.jpg PTS: 8600000000 at 1172.474999238
-INFO: Pushed right frame for right_134.jpg PTS: 8700000000 at 1172.524088268
-INFO: Pushed left frame for left_135.jpg PTS: 8800000000 at 1172.657768251
-INFO: Pushed right frame for right_135.jpg PTS: 8900000000 at 1172.697606016
-INFO: Pushed left frame for left_136.jpg PTS: 9000000000 at 1172.831705
-INFO: Pushed right frame for right_137.jpg PTS: 9100000000 at 1172.877322005
-INFO: Pushed left frame for left_137.jpg PTS: 9200000000 at 1173.011939839
-INFO: Pushed right frame for right_138.jpg PTS: 9300000000 at 1173.056882562
-INFO: Pushed left frame for left_138.jpg PTS: 9400000000 at 1173.19501679
-INFO: Pushed right frame for right_139.jpg PTS: 9500000000 at 1173.237432107
-INFO: Pushed left frame for left_139.jpg PTS: 9600000000 at 1173.375261518
-INFO: Pushed right frame for right_14.jpg PTS: 9700000000 at 1173.410417676
-INFO: Pushed left frame for left_14.jpg PTS: 9800000000 at 1173.54440808
-INFO: Pushed right frame for right_140.jpg PTS: 9900000000 at 1173.582923038
-INFO: Pushed left frame for left_140.jpg PTS: 10000000000 at 1173.721499269
-INFO: Pushed right frame for right_141.jpg PTS: 10100000000 at 1173.758212715
-INFO: Pushed left frame for left_141.jpg PTS: 10200000000 at 1173.897078628
-INFO: Pushed right frame for right_142.jpg PTS: 10300000000 at 1173.941095232
-INFO: Pushed left frame for left_142.jpg PTS: 10400000000 at 1174.087006504
-INFO: Pushed right frame for right_143.jpg PTS: 10500000000 at 1174.128397738
-INFO: Pushed left frame for left_143.jpg PTS: 10600000000 at 1174.268471342
-INFO: Pushed right frame for right_144.jpg PTS: 10700000000 at 1174.324211763
-INFO: Pushed left frame for left_144.jpg PTS: 10800000000 at 1174.465780007
-INFO: Pushed right frame for right_145.jpg PTS: 10900000000 at 1174.508190526
-INFO: Pushed left frame for left_145.jpg PTS: 11000000000 at 1174.645393129
-INFO: Pushed right frame for right_146.jpg PTS: 11100000000 at 1174.684235625
-INFO: Pushed left frame for left_146.jpg PTS: 11200000000 at 1174.85034236
-INFO: Pushed right frame for right_147.jpg PTS: 11300000000 at 1174.916310234
-INFO: Pushed left frame for left_147.jpg PTS: 11400000000 at 1175.071656542
-INFO: Pushed right frame for right_148.jpg PTS: 11500000000 at 1175.121120234
-INFO: Pushed left frame for left_148.jpg PTS: 11600000000 at 1175.259516987
-INFO: Pushed right frame for right_149.jpg PTS: 11700000000 at 1175.305792899
-INFO: Pushed left frame for left_149.jpg PTS: 11800000000 at 1175.455591486
-INFO: Pushed right frame for right_15.jpg PTS: 11900000000 at 1175.493423047
-INFO: Pushed left frame for left_15.jpg PTS: 12000000000 at 1175.630702015
-INFO: Pushed right frame for right_150.jpg PTS: 12100000000 at 1175.675751863
-INFO: Pushed left frame for left_150.jpg PTS: 12200000000 at 1175.810632334
-INFO: Pushed right frame for right_151.jpg PTS: 12300000000 at 1175.857288987
-INFO: Pushed left frame for left_151.jpg PTS: 12400000000 at 1175.990815091
-INFO: Pushed right frame for right_152.jpg PTS: 12500000000 at 1176.027505717
-INFO: Pushed left frame for left_152.jpg PTS: 12600000000 at 1176.162456237
-INFO: Pushed right frame for right_153.jpg PTS: 12700000000 at 1176.200631076
-INFO: Pushed left frame for left_153.jpg PTS: 12800000000 at 1176.340998483
-INFO: Pushed right frame for right_154.jpg PTS: 12900000000 at 1176.39608921
-INFO: Pushed left frame for left_154.jpg PTS: 13000000000 at 1176.5481721
-INFO: Pushed right frame for right_155.jpg PTS: 13100000000 at 1176.59635767
-INFO: Pushed left frame for left_155.jpg PTS: 13200000000 at 1176.737446156
-INFO: Pushed right frame for right_156.jpg PTS: 13300000000 at 1176.787373868
+2025-06-04 20:21:18,192 ERROR: Calibration file not found at data/calibration_data/stereo_calibration.npz. Proceeding without rectification.
+2025-06-04 20:21:18,194 WARNING: Warning: Mismatch in number of left and right images. Processing shorter list.
+2025-06-04 20:21:18,194 INFO: Number of left images: 175, number of right images: 174. Processing 174 pairs.
+2025-06-04 20:21:18,426 DEBUG: Pushed left frame left_01.jpg (rectified) with PTS 0
+2025-06-04 20:21:18,459 DEBUG: Pushed right frame right_01.jpg (rectified) with PTS 100000000
+2025-06-04 20:21:18,505 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/left/left_01_cropped.jpg
+2025-06-04 20:21:18,506 DEBUG: Stored ROI metadata for left_01_cropped.jpg
+2025-06-04 20:21:18,506 INFO: Saved 1 highest confidence cropped image from left_01.jpg.
+2025-06-04 20:21:18,516 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_01_cropped.jpg
+2025-06-04 20:21:18,516 DEBUG: Stored ROI metadata for right_01_cropped.jpg
+2025-06-04 20:21:18,516 INFO: Saved 1 highest confidence cropped image from right_01.jpg.
+2025-06-04 20:21:18,651 DEBUG: Pushed left frame left_02.jpg (rectified) with PTS 200000000
+2025-06-04 20:21:18,670 DEBUG: Pushed right frame right_02.jpg (rectified) with PTS 300000000
+2025-06-04 20:21:18,716 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_02_cropped.jpg
+2025-06-04 20:21:18,717 DEBUG: Stored ROI metadata for left_02_cropped.jpg
+2025-06-04 20:21:18,717 INFO: Saved 1 highest confidence cropped image from left_02.jpg.
+2025-06-04 20:21:18,737 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_02_cropped.jpg
+2025-06-04 20:21:18,737 DEBUG: Stored ROI metadata for right_02_cropped.jpg
+2025-06-04 20:21:18,738 INFO: Saved 1 highest confidence cropped image from right_02.jpg.
+2025-06-04 20:21:18,853 DEBUG: Pushed left frame left_03.jpg (rectified) with PTS 400000000
+2025-06-04 20:21:18,863 DEBUG: Pushed right frame right_03.jpg (rectified) with PTS 500000000
+2025-06-04 20:21:18,928 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/left/left_03_cropped.jpg
+2025-06-04 20:21:18,929 DEBUG: Stored ROI metadata for left_03_cropped.jpg
+2025-06-04 20:21:18,929 INFO: Saved 1 highest confidence cropped image from left_03.jpg.
+2025-06-04 20:21:18,938 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/right/right_03_cropped.jpg
+2025-06-04 20:21:18,939 DEBUG: Stored ROI metadata for right_03_cropped.jpg
+2025-06-04 20:21:18,939 INFO: Saved 1 highest confidence cropped image from right_03.jpg.
+2025-06-04 20:21:19,040 DEBUG: Pushed left frame left_04.jpg (rectified) with PTS 600000000
+2025-06-04 20:21:19,054 DEBUG: Pushed right frame right_04.jpg (rectified) with PTS 700000000
+2025-06-04 20:21:19,091 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/left/left_04_cropped.jpg
+2025-06-04 20:21:19,091 DEBUG: Stored ROI metadata for left_04_cropped.jpg
+2025-06-04 20:21:19,091 INFO: Saved 1 highest confidence cropped image from left_04.jpg.
+2025-06-04 20:21:19,099 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_04_cropped.jpg
+2025-06-04 20:21:19,099 DEBUG: Stored ROI metadata for right_04_cropped.jpg
+2025-06-04 20:21:19,099 INFO: Saved 1 highest confidence cropped image from right_04.jpg.
+2025-06-04 20:21:19,222 DEBUG: Pushed left frame left_05.jpg (rectified) with PTS 800000000
+2025-06-04 20:21:19,234 DEBUG: Pushed right frame right_05.jpg (rectified) with PTS 900000000
+2025-06-04 20:21:19,286 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/left/left_05_cropped.jpg
+2025-06-04 20:21:19,286 DEBUG: Stored ROI metadata for left_05_cropped.jpg
+2025-06-04 20:21:19,286 INFO: Saved 1 highest confidence cropped image from left_05.jpg.
+2025-06-04 20:21:19,296 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/right/right_05_cropped.jpg
+2025-06-04 20:21:19,296 DEBUG: Stored ROI metadata for right_05_cropped.jpg
+2025-06-04 20:21:19,296 INFO: Saved 1 highest confidence cropped image from right_05.jpg.
+2025-06-04 20:21:19,412 DEBUG: Pushed left frame left_06.jpg (rectified) with PTS 1000000000
+2025-06-04 20:21:19,426 DEBUG: Pushed right frame right_06.jpg (rectified) with PTS 1100000000
+2025-06-04 20:21:19,463 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/left/left_06_cropped.jpg
+2025-06-04 20:21:19,463 DEBUG: Stored ROI metadata for left_06_cropped.jpg
+2025-06-04 20:21:19,463 INFO: Saved 1 highest confidence cropped image from left_06.jpg.
+2025-06-04 20:21:19,475 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/right/right_06_cropped.jpg
+2025-06-04 20:21:19,476 DEBUG: Stored ROI metadata for right_06_cropped.jpg
+2025-06-04 20:21:19,476 INFO: Saved 1 highest confidence cropped image from right_06.jpg.
+2025-06-04 20:21:19,595 DEBUG: Pushed left frame left_07.jpg (rectified) with PTS 1200000000
+2025-06-04 20:21:19,608 DEBUG: Pushed right frame right_07.jpg (rectified) with PTS 1300000000
+2025-06-04 20:21:19,653 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/left/left_07_cropped.jpg
+2025-06-04 20:21:19,653 DEBUG: Stored ROI metadata for left_07_cropped.jpg
+2025-06-04 20:21:19,653 INFO: Saved 1 highest confidence cropped image from left_07.jpg.
+2025-06-04 20:21:19,676 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_07_cropped.jpg
+2025-06-04 20:21:19,676 DEBUG: Stored ROI metadata for right_07_cropped.jpg
+2025-06-04 20:21:19,676 INFO: Saved 1 highest confidence cropped image from right_07.jpg.
+2025-06-04 20:21:19,814 DEBUG: Pushed left frame left_08.jpg (rectified) with PTS 1400000000
+2025-06-04 20:21:19,824 DEBUG: Pushed right frame right_08.jpg (rectified) with PTS 1500000000
+2025-06-04 20:21:19,869 INFO: Saved highest confidence cropped image (conf: 0.87) to data/cropped_images/left/left_08_cropped.jpg
+2025-06-04 20:21:19,869 DEBUG: Stored ROI metadata for left_08_cropped.jpg
+2025-06-04 20:21:19,869 INFO: Saved 1 highest confidence cropped image from left_08.jpg.
+2025-06-04 20:21:19,885 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_08_cropped.jpg
+2025-06-04 20:21:19,885 DEBUG: Stored ROI metadata for right_08_cropped.jpg
+2025-06-04 20:21:19,885 INFO: Saved 1 highest confidence cropped image from right_08.jpg.
+2025-06-04 20:21:19,998 DEBUG: Pushed left frame left_09.jpg (rectified) with PTS 1600000000
+2025-06-04 20:21:20,005 DEBUG: Pushed right frame right_09.jpg (rectified) with PTS 1700000000
+2025-06-04 20:21:20,029 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/left/left_09_cropped.jpg
+2025-06-04 20:21:20,030 DEBUG: Stored ROI metadata for left_09_cropped.jpg
+2025-06-04 20:21:20,030 INFO: Saved 1 highest confidence cropped image from left_09.jpg.
+2025-06-04 20:21:20,041 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_09_cropped.jpg
+2025-06-04 20:21:20,041 DEBUG: Stored ROI metadata for right_09_cropped.jpg
+2025-06-04 20:21:20,042 INFO: Saved 1 highest confidence cropped image from right_09.jpg.
+2025-06-04 20:21:20,174 DEBUG: Pushed left frame left_10.jpg (rectified) with PTS 1800000000
+2025-06-04 20:21:20,184 DEBUG: Pushed right frame right_10.jpg (rectified) with PTS 1900000000
+2025-06-04 20:21:20,227 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_10_cropped.jpg
+2025-06-04 20:21:20,227 DEBUG: Stored ROI metadata for left_10_cropped.jpg
+2025-06-04 20:21:20,227 INFO: Saved 1 highest confidence cropped image from left_10.jpg.
+2025-06-04 20:21:20,237 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/right/right_10_cropped.jpg
+2025-06-04 20:21:20,238 DEBUG: Stored ROI metadata for right_10_cropped.jpg
+2025-06-04 20:21:20,238 INFO: Saved 1 highest confidence cropped image from right_10.jpg.
+2025-06-04 20:21:20,348 DEBUG: Pushed left frame left_100.jpg (rectified) with PTS 2000000000
+2025-06-04 20:21:20,360 DEBUG: Pushed right frame right_100.jpg (rectified) with PTS 2100000000
+2025-06-04 20:21:20,385 INFO: Saved highest confidence cropped image (conf: 0.87) to data/cropped_images/left/left_100_cropped.jpg
+2025-06-04 20:21:20,385 DEBUG: Stored ROI metadata for left_100_cropped.jpg
+2025-06-04 20:21:20,385 INFO: Saved 1 highest confidence cropped image from left_100.jpg.
+2025-06-04 20:21:20,394 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_100_cropped.jpg
+2025-06-04 20:21:20,394 DEBUG: Stored ROI metadata for right_100_cropped.jpg
+2025-06-04 20:21:20,394 INFO: Saved 1 highest confidence cropped image from right_100.jpg.
+2025-06-04 20:21:20,523 DEBUG: Pushed left frame left_101.jpg (rectified) with PTS 2200000000
+2025-06-04 20:21:20,533 DEBUG: Pushed right frame right_101.jpg (rectified) with PTS 2300000000
+2025-06-04 20:21:20,562 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/left/left_101_cropped.jpg
+2025-06-04 20:21:20,563 DEBUG: Stored ROI metadata for left_101_cropped.jpg
+2025-06-04 20:21:20,563 INFO: Saved 1 highest confidence cropped image from left_101.jpg.
+2025-06-04 20:21:20,577 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/right/right_101_cropped.jpg
+2025-06-04 20:21:20,578 DEBUG: Stored ROI metadata for right_101_cropped.jpg
+2025-06-04 20:21:20,578 INFO: Saved 1 highest confidence cropped image from right_101.jpg.
+2025-06-04 20:21:20,708 DEBUG: Pushed left frame left_102.jpg (rectified) with PTS 2400000000
+2025-06-04 20:21:20,717 DEBUG: Pushed right frame right_102.jpg (rectified) with PTS 2500000000
+2025-06-04 20:21:20,766 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/left/left_102_cropped.jpg
+2025-06-04 20:21:20,766 DEBUG: Stored ROI metadata for left_102_cropped.jpg
+2025-06-04 20:21:20,767 INFO: Saved 1 highest confidence cropped image from left_102.jpg.
+2025-06-04 20:21:20,777 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_102_cropped.jpg
+2025-06-04 20:21:20,777 DEBUG: Stored ROI metadata for right_102_cropped.jpg
+2025-06-04 20:21:20,777 INFO: Saved 1 highest confidence cropped image from right_102.jpg.
+2025-06-04 20:21:20,885 DEBUG: Pushed left frame left_103.jpg (rectified) with PTS 2600000000
+2025-06-04 20:21:20,892 DEBUG: Pushed right frame right_103.jpg (rectified) with PTS 2700000000
+2025-06-04 20:21:20,939 INFO: Saved highest confidence cropped image (conf: 0.85) to data/cropped_images/left/left_103_cropped.jpg
+2025-06-04 20:21:20,939 DEBUG: Stored ROI metadata for left_103_cropped.jpg
+2025-06-04 20:21:20,939 INFO: Saved 1 highest confidence cropped image from left_103.jpg.
+2025-06-04 20:21:20,951 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/right/right_103_cropped.jpg
+2025-06-04 20:21:20,952 DEBUG: Stored ROI metadata for right_103_cropped.jpg
+2025-06-04 20:21:20,952 INFO: Saved 1 highest confidence cropped image from right_103.jpg.
+2025-06-04 20:21:21,053 DEBUG: Pushed left frame left_104.jpg (rectified) with PTS 2800000000
+2025-06-04 20:21:21,061 DEBUG: Pushed right frame right_104.jpg (rectified) with PTS 2900000000
+2025-06-04 20:21:21,083 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_104_cropped.jpg
+2025-06-04 20:21:21,083 DEBUG: Stored ROI metadata for left_104_cropped.jpg
+2025-06-04 20:21:21,084 INFO: Saved 1 highest confidence cropped image from left_104.jpg.
+2025-06-04 20:21:21,096 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_104_cropped.jpg
+2025-06-04 20:21:21,096 DEBUG: Stored ROI metadata for right_104_cropped.jpg
+2025-06-04 20:21:21,096 INFO: Saved 1 highest confidence cropped image from right_104.jpg.
+2025-06-04 20:21:21,234 DEBUG: Pushed left frame left_105.jpg (rectified) with PTS 3000000000
+2025-06-04 20:21:21,249 DEBUG: Pushed right frame right_105.jpg (rectified) with PTS 3100000000
+2025-06-04 20:21:21,300 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_105_cropped.jpg
+2025-06-04 20:21:21,301 DEBUG: Stored ROI metadata for left_105_cropped.jpg
+2025-06-04 20:21:21,302 INFO: Saved 1 highest confidence cropped image from left_105.jpg.
+2025-06-04 20:21:21,311 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/right/right_105_cropped.jpg
+2025-06-04 20:21:21,312 DEBUG: Stored ROI metadata for right_105_cropped.jpg
+2025-06-04 20:21:21,312 INFO: Saved 1 highest confidence cropped image from right_105.jpg.
+2025-06-04 20:21:21,430 DEBUG: Pushed left frame left_11.jpg (rectified) with PTS 3200000000
+2025-06-04 20:21:21,441 DEBUG: Pushed right frame right_11.jpg (rectified) with PTS 3300000000
+2025-06-04 20:21:21,478 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_11_cropped.jpg
+2025-06-04 20:21:21,478 DEBUG: Stored ROI metadata for left_11_cropped.jpg
+2025-06-04 20:21:21,478 INFO: Saved 1 highest confidence cropped image from left_11.jpg.
+2025-06-04 20:21:21,488 INFO: Saved highest confidence cropped image (conf: 0.91) to data/cropped_images/right/right_11_cropped.jpg
+2025-06-04 20:21:21,488 DEBUG: Stored ROI metadata for right_11_cropped.jpg
+2025-06-04 20:21:21,488 INFO: Saved 1 highest confidence cropped image from right_11.jpg.
+2025-06-04 20:21:21,590 DEBUG: Pushed left frame left_110.jpg (rectified) with PTS 3400000000
+2025-06-04 20:21:21,603 DEBUG: Pushed right frame right_110.jpg (rectified) with PTS 3500000000
+2025-06-04 20:21:21,618 INFO: No detections found in left_110.jpg.
+2025-06-04 20:21:21,637 INFO: No detections found in right_110.jpg.
+2025-06-04 20:21:21,744 DEBUG: Pushed left frame left_111.jpg (rectified) with PTS 3600000000
+2025-06-04 20:21:21,759 DEBUG: Pushed right frame right_111.jpg (rectified) with PTS 3700000000
+2025-06-04 20:21:21,778 INFO: No detections found in left_111.jpg.
+2025-06-04 20:21:21,794 INFO: No detections found in right_111.jpg.
+2025-06-04 20:21:21,915 DEBUG: Pushed left frame left_112.jpg (rectified) with PTS 3800000000
+2025-06-04 20:21:21,931 DEBUG: Pushed right frame right_112.jpg (rectified) with PTS 3900000000
+2025-06-04 20:21:21,983 INFO: No detections found in left_112.jpg.
+2025-06-04 20:21:21,994 INFO: No detections found in right_112.jpg.
+2025-06-04 20:21:22,098 DEBUG: Pushed left frame left_113.jpg (rectified) with PTS 4000000000
+2025-06-04 20:21:22,107 DEBUG: Pushed right frame right_113.jpg (rectified) with PTS 4100000000
+2025-06-04 20:21:22,134 INFO: No detections found in left_113.jpg.
+2025-06-04 20:21:22,143 INFO: No detections found in right_113.jpg.
+2025-06-04 20:21:22,259 DEBUG: Pushed left frame left_114.jpg (rectified) with PTS 4200000000
+2025-06-04 20:21:22,273 DEBUG: Pushed right frame right_114.jpg (rectified) with PTS 4300000000
+2025-06-04 20:21:22,315 INFO: No detections found in left_114.jpg.
+2025-06-04 20:21:22,327 INFO: No detections found in right_114.jpg.
+2025-06-04 20:21:22,426 DEBUG: Pushed left frame left_115.jpg (rectified) with PTS 4400000000
+2025-06-04 20:21:22,449 DEBUG: Pushed right frame right_115.jpg (rectified) with PTS 4500000000
+2025-06-04 20:21:22,476 INFO: No detections found in left_115.jpg.
+2025-06-04 20:21:22,493 INFO: No detections found in right_115.jpg.
+2025-06-04 20:21:22,600 DEBUG: Pushed left frame left_116.jpg (rectified) with PTS 4600000000
+2025-06-04 20:21:22,614 DEBUG: Pushed right frame right_116.jpg (rectified) with PTS 4700000000
+2025-06-04 20:21:22,657 INFO: No detections found in left_116.jpg.
+2025-06-04 20:21:22,666 INFO: No detections found in right_116.jpg.
+2025-06-04 20:21:22,775 DEBUG: Pushed left frame left_117.jpg (rectified) with PTS 4800000000
+2025-06-04 20:21:22,793 DEBUG: Pushed right frame right_117.jpg (rectified) with PTS 4900000000
+2025-06-04 20:21:22,826 INFO: No detections found in left_117.jpg.
+2025-06-04 20:21:22,841 INFO: No detections found in right_117.jpg.
+2025-06-04 20:21:22,945 DEBUG: Pushed left frame left_118.jpg (rectified) with PTS 5000000000
+2025-06-04 20:21:22,960 DEBUG: Pushed right frame right_118.jpg (rectified) with PTS 5100000000
+2025-06-04 20:21:22,988 INFO: No detections found in left_118.jpg.
+2025-06-04 20:21:23,007 INFO: No detections found in right_118.jpg.
+2025-06-04 20:21:23,100 DEBUG: Pushed left frame left_119.jpg (rectified) with PTS 5200000000
+2025-06-04 20:21:23,107 DEBUG: Pushed right frame right_119.jpg (rectified) with PTS 5300000000
+2025-06-04 20:21:23,145 INFO: No detections found in left_119.jpg.
+2025-06-04 20:21:23,159 INFO: No detections found in right_119.jpg.
+2025-06-04 20:21:23,286 DEBUG: Pushed left frame left_12.jpg (rectified) with PTS 5400000000
+2025-06-04 20:21:23,300 DEBUG: Pushed right frame right_12.jpg (rectified) with PTS 5500000000
+2025-06-04 20:21:23,347 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/left/left_12_cropped.jpg
+2025-06-04 20:21:23,347 DEBUG: Stored ROI metadata for left_12_cropped.jpg
+2025-06-04 20:21:23,347 INFO: Saved 1 highest confidence cropped image from left_12.jpg.
+2025-06-04 20:21:23,358 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/right/right_12_cropped.jpg
+2025-06-04 20:21:23,358 DEBUG: Stored ROI metadata for right_12_cropped.jpg
+2025-06-04 20:21:23,358 INFO: Saved 1 highest confidence cropped image from right_12.jpg.
+2025-06-04 20:21:23,486 DEBUG: Pushed left frame left_120.jpg (rectified) with PTS 5600000000
+2025-06-04 20:21:23,515 DEBUG: Pushed right frame right_120.jpg (rectified) with PTS 5700000000
+2025-06-04 20:21:23,545 INFO: No detections found in left_120.jpg.
+2025-06-04 20:21:23,556 INFO: No detections found in right_120.jpg.
+2025-06-04 20:21:23,668 DEBUG: Pushed left frame left_121.jpg (rectified) with PTS 5800000000
+2025-06-04 20:21:23,678 DEBUG: Pushed right frame right_121.jpg (rectified) with PTS 5900000000
+2025-06-04 20:21:23,703 INFO: No detections found in left_121.jpg.
+2025-06-04 20:21:23,716 INFO: No detections found in right_121.jpg.
+2025-06-04 20:21:23,833 DEBUG: Pushed left frame left_122.jpg (rectified) with PTS 6000000000
+2025-06-04 20:21:23,843 DEBUG: Pushed right frame right_122.jpg (rectified) with PTS 6100000000
+2025-06-04 20:21:23,871 INFO: No detections found in left_122.jpg.
+2025-06-04 20:21:23,886 INFO: No detections found in right_122.jpg.
+2025-06-04 20:21:24,006 DEBUG: Pushed left frame left_123.jpg (rectified) with PTS 6200000000
+2025-06-04 20:21:24,024 DEBUG: Pushed right frame right_123.jpg (rectified) with PTS 6300000000
+2025-06-04 20:21:24,046 INFO: No detections found in left_123.jpg.
+2025-06-04 20:21:24,056 INFO: No detections found in right_123.jpg.
+2025-06-04 20:21:24,190 DEBUG: Pushed left frame left_124.jpg (rectified) with PTS 6400000000
+2025-06-04 20:21:24,210 DEBUG: Pushed right frame right_124.jpg (rectified) with PTS 6500000000
+2025-06-04 20:21:24,252 INFO: No detections found in left_124.jpg.
+2025-06-04 20:21:24,262 INFO: No detections found in right_124.jpg.
+2025-06-04 20:21:24,372 DEBUG: Pushed left frame left_125.jpg (rectified) with PTS 6600000000
+2025-06-04 20:21:24,385 DEBUG: Pushed right frame right_125.jpg (rectified) with PTS 6700000000
+2025-06-04 20:21:24,439 INFO: No detections found in left_125.jpg.
+2025-06-04 20:21:24,447 INFO: No detections found in right_125.jpg.
+2025-06-04 20:21:24,549 DEBUG: Pushed left frame left_126.jpg (rectified) with PTS 6800000000
+2025-06-04 20:21:24,566 DEBUG: Pushed right frame right_126.jpg (rectified) with PTS 6900000000
+2025-06-04 20:21:24,595 INFO: No detections found in left_126.jpg.
+2025-06-04 20:21:24,604 INFO: No detections found in right_126.jpg.
+2025-06-04 20:21:24,736 DEBUG: Pushed left frame left_127.jpg (rectified) with PTS 7000000000
+2025-06-04 20:21:24,755 DEBUG: Pushed right frame right_127.jpg (rectified) with PTS 7100000000
+2025-06-04 20:21:24,791 INFO: Saved highest confidence cropped image (conf: 0.30) to data/cropped_images/left/left_127_cropped.jpg
+2025-06-04 20:21:24,792 DEBUG: Stored ROI metadata for left_127_cropped.jpg
+2025-06-04 20:21:24,792 INFO: Saved 1 highest confidence cropped image from left_127.jpg.
+2025-06-04 20:21:24,801 INFO: No detections found in right_127.jpg.
+2025-06-04 20:21:24,914 DEBUG: Pushed left frame left_128.jpg (rectified) with PTS 7200000000
+2025-06-04 20:21:24,925 DEBUG: Pushed right frame right_128.jpg (rectified) with PTS 7300000000
+2025-06-04 20:21:24,947 INFO: No detections found in left_128.jpg.
+2025-06-04 20:21:24,956 INFO: No detections found in right_128.jpg.
+2025-06-04 20:21:25,071 DEBUG: Pushed left frame left_129.jpg (rectified) with PTS 7400000000
+2025-06-04 20:21:25,079 DEBUG: Pushed right frame right_129.jpg (rectified) with PTS 7500000000
+2025-06-04 20:21:25,105 INFO: Saved highest confidence cropped image (conf: 0.58) to data/cropped_images/left/left_129_cropped.jpg
+2025-06-04 20:21:25,105 DEBUG: Stored ROI metadata for left_129_cropped.jpg
+2025-06-04 20:21:25,105 INFO: Saved 1 highest confidence cropped image from left_129.jpg.
+2025-06-04 20:21:25,115 INFO: No detections found in right_129.jpg.
+2025-06-04 20:21:25,243 DEBUG: Pushed left frame left_13.jpg (rectified) with PTS 7600000000
+2025-06-04 20:21:25,252 DEBUG: Pushed right frame right_13.jpg (rectified) with PTS 7700000000
+2025-06-04 20:21:25,284 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/left/left_13_cropped.jpg
+2025-06-04 20:21:25,285 DEBUG: Stored ROI metadata for left_13_cropped.jpg
+2025-06-04 20:21:25,285 INFO: Saved 1 highest confidence cropped image from left_13.jpg.
+2025-06-04 20:21:25,297 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_13_cropped.jpg
+2025-06-04 20:21:25,297 DEBUG: Stored ROI metadata for right_13_cropped.jpg
+2025-06-04 20:21:25,297 INFO: Saved 1 highest confidence cropped image from right_13.jpg.
+2025-06-04 20:21:25,416 DEBUG: Pushed left frame left_130.jpg (rectified) with PTS 7800000000
+2025-06-04 20:21:25,425 DEBUG: Pushed right frame right_130.jpg (rectified) with PTS 7900000000
+2025-06-04 20:21:25,448 INFO: No detections found in left_130.jpg.
+2025-06-04 20:21:25,463 INFO: No detections found in right_130.jpg.
+2025-06-04 20:21:25,585 DEBUG: Pushed left frame left_131.jpg (rectified) with PTS 8000000000
+2025-06-04 20:21:25,594 DEBUG: Pushed right frame right_131.jpg (rectified) with PTS 8100000000
+2025-06-04 20:21:25,616 INFO: Saved highest confidence cropped image (conf: 0.80) to data/cropped_images/left/left_131_cropped.jpg
+2025-06-04 20:21:25,616 DEBUG: Stored ROI metadata for left_131_cropped.jpg
+2025-06-04 20:21:25,616 INFO: Saved 1 highest confidence cropped image from left_131.jpg.
+2025-06-04 20:21:25,653 INFO: No detections found in right_131.jpg.
+2025-06-04 20:21:25,799 DEBUG: Pushed left frame left_132.jpg (rectified) with PTS 8200000000
+2025-06-04 20:21:25,808 DEBUG: Pushed right frame right_132.jpg (rectified) with PTS 8300000000
+2025-06-04 20:21:25,844 INFO: No detections found in left_132.jpg.
+2025-06-04 20:21:25,852 INFO: No detections found in right_132.jpg.
+2025-06-04 20:21:25,970 DEBUG: Pushed left frame left_133.jpg (rectified) with PTS 8400000000
+2025-06-04 20:21:25,981 DEBUG: Pushed right frame right_133.jpg (rectified) with PTS 8500000000
+2025-06-04 20:21:26,003 INFO: No detections found in left_133.jpg.
+2025-06-04 20:21:26,017 INFO: No detections found in right_133.jpg.
+2025-06-04 20:21:26,145 DEBUG: Pushed left frame left_134.jpg (rectified) with PTS 8600000000
+2025-06-04 20:21:26,154 DEBUG: Pushed right frame right_134.jpg (rectified) with PTS 8700000000
+2025-06-04 20:21:26,184 INFO: No detections found in left_134.jpg.
+2025-06-04 20:21:26,196 INFO: No detections found in right_134.jpg.
+2025-06-04 20:21:26,316 DEBUG: Pushed left frame left_135.jpg (rectified) with PTS 8800000000
+2025-06-04 20:21:26,332 DEBUG: Pushed right frame right_135.jpg (rectified) with PTS 8900000000
+2025-06-04 20:21:26,343 INFO: No detections found in left_135.jpg.
+2025-06-04 20:21:26,367 INFO: No detections found in right_135.jpg.
+2025-06-04 20:21:26,495 DEBUG: Pushed left frame left_136.jpg (rectified) with PTS 9000000000
+2025-06-04 20:21:26,508 DEBUG: Pushed right frame right_137.jpg (rectified) with PTS 9100000000
+2025-06-04 20:21:26,529 INFO: No detections found in left_136.jpg.
+2025-06-04 20:21:26,542 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_137_cropped.jpg
+2025-06-04 20:21:26,542 DEBUG: Stored ROI metadata for right_137_cropped.jpg
+2025-06-04 20:21:26,542 INFO: Saved 1 highest confidence cropped image from right_137.jpg.
+2025-06-04 20:21:26,685 DEBUG: Pushed left frame left_137.jpg (rectified) with PTS 9200000000
+2025-06-04 20:21:26,710 DEBUG: Pushed right frame right_138.jpg (rectified) with PTS 9300000000
+2025-06-04 20:21:26,740 INFO: Saved highest confidence cropped image (conf: 0.86) to data/cropped_images/left/left_137_cropped.jpg
+2025-06-04 20:21:26,741 DEBUG: Stored ROI metadata for left_137_cropped.jpg
+2025-06-04 20:21:26,741 INFO: Saved 1 highest confidence cropped image from left_137.jpg.
+2025-06-04 20:21:26,768 INFO: Saved highest confidence cropped image (conf: 0.87) to data/cropped_images/right/right_138_cropped.jpg
+2025-06-04 20:21:26,768 DEBUG: Stored ROI metadata for right_138_cropped.jpg
+2025-06-04 20:21:26,769 INFO: Saved 1 highest confidence cropped image from right_138.jpg.
+2025-06-04 20:21:26,883 DEBUG: Pushed left frame left_138.jpg (rectified) with PTS 9400000000
+2025-06-04 20:21:26,897 DEBUG: Pushed right frame right_139.jpg (rectified) with PTS 9500000000
+2025-06-04 20:21:26,934 INFO: Saved highest confidence cropped image (conf: 0.84) to data/cropped_images/left/left_138_cropped.jpg
+2025-06-04 20:21:26,934 DEBUG: Stored ROI metadata for left_138_cropped.jpg
+2025-06-04 20:21:26,934 INFO: Saved 1 highest confidence cropped image from left_138.jpg.
+2025-06-04 20:21:26,945 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_139_cropped.jpg
+2025-06-04 20:21:26,945 DEBUG: Stored ROI metadata for right_139_cropped.jpg
+2025-06-04 20:21:26,945 INFO: Saved 1 highest confidence cropped image from right_139.jpg.
+2025-06-04 20:21:27,067 DEBUG: Pushed left frame left_139.jpg (rectified) with PTS 9600000000
+2025-06-04 20:21:27,078 DEBUG: Pushed right frame right_14.jpg (rectified) with PTS 9700000000
+2025-06-04 20:21:27,124 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/left/left_139_cropped.jpg
+2025-06-04 20:21:27,124 DEBUG: Stored ROI metadata for left_139_cropped.jpg
+2025-06-04 20:21:27,125 INFO: Saved 1 highest confidence cropped image from left_139.jpg.
+2025-06-04 20:21:27,138 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_14_cropped.jpg
+2025-06-04 20:21:27,138 DEBUG: Stored ROI metadata for right_14_cropped.jpg
+2025-06-04 20:21:27,138 INFO: Saved 1 highest confidence cropped image from right_14.jpg.
+2025-06-04 20:21:27,251 DEBUG: Pushed left frame left_14.jpg (rectified) with PTS 9800000000
+2025-06-04 20:21:27,268 DEBUG: Pushed right frame right_140.jpg (rectified) with PTS 9900000000
+2025-06-04 20:21:27,304 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_14_cropped.jpg
+2025-06-04 20:21:27,304 DEBUG: Stored ROI metadata for left_14_cropped.jpg
+2025-06-04 20:21:27,304 INFO: Saved 1 highest confidence cropped image from left_14.jpg.
+2025-06-04 20:21:27,321 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_140_cropped.jpg
+2025-06-04 20:21:27,322 DEBUG: Stored ROI metadata for right_140_cropped.jpg
+2025-06-04 20:21:27,322 INFO: Saved 1 highest confidence cropped image from right_140.jpg.
+2025-06-04 20:21:27,462 DEBUG: Pushed left frame left_140.jpg (rectified) with PTS 10000000000
+2025-06-04 20:21:27,473 DEBUG: Pushed right frame right_141.jpg (rectified) with PTS 10100000000
+2025-06-04 20:21:27,513 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/left/left_140_cropped.jpg
+2025-06-04 20:21:27,513 DEBUG: Stored ROI metadata for left_140_cropped.jpg
+2025-06-04 20:21:27,514 INFO: Saved 1 highest confidence cropped image from left_140.jpg.
+2025-06-04 20:21:27,529 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/right/right_141_cropped.jpg
+2025-06-04 20:21:27,531 DEBUG: Stored ROI metadata for right_141_cropped.jpg
+2025-06-04 20:21:27,534 INFO: Saved 1 highest confidence cropped image from right_141.jpg.
+2025-06-04 20:21:27,659 DEBUG: Pushed left frame left_141.jpg (rectified) with PTS 10200000000
+2025-06-04 20:21:27,682 DEBUG: Pushed right frame right_142.jpg (rectified) with PTS 10300000000
+2025-06-04 20:21:27,708 INFO: Saved highest confidence cropped image (conf: 0.83) to data/cropped_images/left/left_141_cropped.jpg
+2025-06-04 20:21:27,709 DEBUG: Stored ROI metadata for left_141_cropped.jpg
+2025-06-04 20:21:27,710 INFO: Saved 1 highest confidence cropped image from left_141.jpg.
+2025-06-04 20:21:27,735 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_142_cropped.jpg
+2025-06-04 20:21:27,736 DEBUG: Stored ROI metadata for right_142_cropped.jpg
+2025-06-04 20:21:27,736 INFO: Saved 1 highest confidence cropped image from right_142.jpg.
+2025-06-04 20:21:27,865 DEBUG: Pushed left frame left_142.jpg (rectified) with PTS 10400000000
+2025-06-04 20:21:27,877 DEBUG: Pushed right frame right_143.jpg (rectified) with PTS 10500000000
+2025-06-04 20:21:27,903 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/left/left_142_cropped.jpg
+2025-06-04 20:21:27,903 DEBUG: Stored ROI metadata for left_142_cropped.jpg
+2025-06-04 20:21:27,903 INFO: Saved 1 highest confidence cropped image from left_142.jpg.
+2025-06-04 20:21:27,915 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_143_cropped.jpg
+2025-06-04 20:21:27,916 DEBUG: Stored ROI metadata for right_143_cropped.jpg
+2025-06-04 20:21:27,916 INFO: Saved 1 highest confidence cropped image from right_143.jpg.
+2025-06-04 20:21:28,064 DEBUG: Pushed left frame left_143.jpg (rectified) with PTS 10600000000
+2025-06-04 20:21:28,078 DEBUG: Pushed right frame right_144.jpg (rectified) with PTS 10700000000
+2025-06-04 20:21:28,122 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_143_cropped.jpg
+2025-06-04 20:21:28,123 DEBUG: Stored ROI metadata for left_143_cropped.jpg
+2025-06-04 20:21:28,123 INFO: Saved 1 highest confidence cropped image from left_143.jpg.
+2025-06-04 20:21:28,135 INFO: Saved highest confidence cropped image (conf: 0.91) to data/cropped_images/right/right_144_cropped.jpg
+2025-06-04 20:21:28,135 DEBUG: Stored ROI metadata for right_144_cropped.jpg
+2025-06-04 20:21:28,136 INFO: Saved 1 highest confidence cropped image from right_144.jpg.
+2025-06-04 20:21:28,248 DEBUG: Pushed left frame left_144.jpg (rectified) with PTS 10800000000
+2025-06-04 20:21:28,259 DEBUG: Pushed right frame right_145.jpg (rectified) with PTS 10900000000
+2025-06-04 20:21:28,278 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/left/left_144_cropped.jpg
+2025-06-04 20:21:28,279 DEBUG: Stored ROI metadata for left_144_cropped.jpg
+2025-06-04 20:21:28,279 INFO: Saved 1 highest confidence cropped image from left_144.jpg.
+2025-06-04 20:21:28,290 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_145_cropped.jpg
+2025-06-04 20:21:28,290 DEBUG: Stored ROI metadata for right_145_cropped.jpg
+2025-06-04 20:21:28,290 INFO: Saved 1 highest confidence cropped image from right_145.jpg.
+2025-06-04 20:21:28,426 DEBUG: Pushed left frame left_145.jpg (rectified) with PTS 11000000000
+2025-06-04 20:21:28,437 DEBUG: Pushed right frame right_146.jpg (rectified) with PTS 11100000000
+2025-06-04 20:21:28,483 INFO: Saved highest confidence cropped image (conf: 0.86) to data/cropped_images/left/left_145_cropped.jpg
+2025-06-04 20:21:28,483 DEBUG: Stored ROI metadata for left_145_cropped.jpg
+2025-06-04 20:21:28,483 INFO: Saved 1 highest confidence cropped image from left_145.jpg.
+2025-06-04 20:21:28,493 INFO: Saved highest confidence cropped image (conf: 0.46) to data/cropped_images/right/right_146_cropped.jpg
+2025-06-04 20:21:28,493 DEBUG: Stored ROI metadata for right_146_cropped.jpg
+2025-06-04 20:21:28,493 INFO: Saved 1 highest confidence cropped image from right_146.jpg.
+2025-06-04 20:21:28,598 DEBUG: Pushed left frame left_146.jpg (rectified) with PTS 11200000000
+2025-06-04 20:21:28,607 DEBUG: Pushed right frame right_147.jpg (rectified) with PTS 11300000000
+2025-06-04 20:21:28,638 INFO: No detections found in left_146.jpg.
+2025-06-04 20:21:28,649 INFO: No detections found in right_147.jpg.
+2025-06-04 20:21:28,770 DEBUG: Pushed left frame left_147.jpg (rectified) with PTS 11400000000
+2025-06-04 20:21:28,779 DEBUG: Pushed right frame right_148.jpg (rectified) with PTS 11500000000
+2025-06-04 20:21:28,806 INFO: Saved highest confidence cropped image (conf: 0.43) to data/cropped_images/left/left_147_cropped.jpg
+2025-06-04 20:21:28,806 DEBUG: Stored ROI metadata for left_147_cropped.jpg
+2025-06-04 20:21:28,806 INFO: Saved 1 highest confidence cropped image from left_147.jpg.
+2025-06-04 20:21:28,818 INFO: No detections found in right_148.jpg.
+2025-06-04 20:21:28,938 DEBUG: Pushed left frame left_148.jpg (rectified) with PTS 11600000000
+2025-06-04 20:21:28,952 DEBUG: Pushed right frame right_149.jpg (rectified) with PTS 11700000000
+2025-06-04 20:21:28,967 INFO: No detections found in left_148.jpg.
+2025-06-04 20:21:28,979 INFO: No detections found in right_149.jpg.
+2025-06-04 20:21:29,115 DEBUG: Pushed left frame left_149.jpg (rectified) with PTS 11800000000
+2025-06-04 20:21:29,134 DEBUG: Pushed right frame right_15.jpg (rectified) with PTS 11900000000
+2025-06-04 20:21:29,148 INFO: No detections found in left_149.jpg.
+2025-06-04 20:21:29,167 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_15_cropped.jpg
+2025-06-04 20:21:29,168 DEBUG: Stored ROI metadata for right_15_cropped.jpg
+2025-06-04 20:21:29,168 INFO: Saved 1 highest confidence cropped image from right_15.jpg.
+2025-06-04 20:21:29,297 DEBUG: Pushed left frame left_15.jpg (rectified) with PTS 12000000000
+2025-06-04 20:21:29,306 DEBUG: Pushed right frame right_150.jpg (rectified) with PTS 12100000000
+2025-06-04 20:21:29,334 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_15_cropped.jpg
+2025-06-04 20:21:29,334 DEBUG: Stored ROI metadata for left_15_cropped.jpg
+2025-06-04 20:21:29,334 INFO: Saved 1 highest confidence cropped image from left_15.jpg.
+2025-06-04 20:21:29,348 INFO: No detections found in right_150.jpg.
+2025-06-04 20:21:29,473 DEBUG: Pushed left frame left_150.jpg (rectified) with PTS 12200000000
+2025-06-04 20:21:29,482 DEBUG: Pushed right frame right_151.jpg (rectified) with PTS 12300000000
+2025-06-04 20:21:29,509 INFO: No detections found in left_150.jpg.
+2025-06-04 20:21:29,523 INFO: No detections found in right_151.jpg.
+2025-06-04 20:21:29,643 DEBUG: Pushed left frame left_151.jpg (rectified) with PTS 12400000000
+2025-06-04 20:21:29,652 DEBUG: Pushed right frame right_152.jpg (rectified) with PTS 12500000000
+2025-06-04 20:21:29,690 INFO: Saved highest confidence cropped image (conf: 0.77) to data/cropped_images/left/left_151_cropped.jpg
+2025-06-04 20:21:29,691 DEBUG: Stored ROI metadata for left_151_cropped.jpg
+2025-06-04 20:21:29,691 INFO: Saved 1 highest confidence cropped image from left_151.jpg.
+2025-06-04 20:21:29,713 INFO: No detections found in right_152.jpg.
+2025-06-04 20:21:29,864 DEBUG: Pushed left frame left_152.jpg (rectified) with PTS 12600000000
+2025-06-04 20:21:29,872 DEBUG: Pushed right frame right_153.jpg (rectified) with PTS 12700000000
+2025-06-04 20:21:29,906 INFO: Saved highest confidence cropped image (conf: 0.77) to data/cropped_images/left/left_152_cropped.jpg
+2025-06-04 20:21:29,907 DEBUG: Stored ROI metadata for left_152_cropped.jpg
+2025-06-04 20:21:29,907 INFO: Saved 1 highest confidence cropped image from left_152.jpg.
+2025-06-04 20:21:29,916 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_153_cropped.jpg
+2025-06-04 20:21:29,916 DEBUG: Stored ROI metadata for right_153_cropped.jpg
+2025-06-04 20:21:29,916 INFO: Saved 1 highest confidence cropped image from right_153.jpg.
+2025-06-04 20:21:30,047 DEBUG: Pushed left frame left_153.jpg (rectified) with PTS 12800000000
+2025-06-04 20:21:30,061 DEBUG: Pushed right frame right_154.jpg (rectified) with PTS 12900000000
+2025-06-04 20:21:30,082 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/left/left_153_cropped.jpg
+2025-06-04 20:21:30,082 DEBUG: Stored ROI metadata for left_153_cropped.jpg
+2025-06-04 20:21:30,082 INFO: Saved 1 highest confidence cropped image from left_153.jpg.
+2025-06-04 20:21:30,094 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/right/right_154_cropped.jpg
+2025-06-04 20:21:30,094 DEBUG: Stored ROI metadata for right_154_cropped.jpg
+2025-06-04 20:21:30,094 INFO: Saved 1 highest confidence cropped image from right_154.jpg.
+2025-06-04 20:21:30,227 DEBUG: Pushed left frame left_154.jpg (rectified) with PTS 13000000000
+2025-06-04 20:21:30,245 DEBUG: Pushed right frame right_155.jpg (rectified) with PTS 13100000000
+2025-06-04 20:21:30,265 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/left/left_154_cropped.jpg
+2025-06-04 20:21:30,266 DEBUG: Stored ROI metadata for left_154_cropped.jpg
+2025-06-04 20:21:30,266 INFO: Saved 1 highest confidence cropped image from left_154.jpg.
+2025-06-04 20:21:30,286 INFO: Saved highest confidence cropped image (conf: 0.80) to data/cropped_images/right/right_155_cropped.jpg
+2025-06-04 20:21:30,287 DEBUG: Stored ROI metadata for right_155_cropped.jpg
+2025-06-04 20:21:30,287 INFO: Saved 1 highest confidence cropped image from right_155.jpg.
+2025-06-04 20:21:30,419 DEBUG: Pushed left frame left_155.jpg (rectified) with PTS 13200000000
+2025-06-04 20:21:30,428 DEBUG: Pushed right frame right_156.jpg (rectified) with PTS 13300000000
+2025-06-04 20:21:30,472 INFO: Saved highest confidence cropped image (conf: 0.71) to data/cropped_images/left/left_155_cropped.jpg
+2025-06-04 20:21:30,473 DEBUG: Stored ROI metadata for left_155_cropped.jpg
+2025-06-04 20:21:30,473 INFO: Saved 1 highest confidence cropped image from left_155.jpg.
+2025-06-04 20:21:30,480 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/right/right_156_cropped.jpg
+2025-06-04 20:21:30,480 DEBUG: Stored ROI metadata for right_156_cropped.jpg
+2025-06-04 20:21:30,481 INFO: Saved 1 highest confidence cropped image from right_156.jpg.
+2025-06-04 20:21:30,592 DEBUG: Pushed left frame left_156.jpg (rectified) with PTS 13400000000
+2025-06-04 20:21:30,603 DEBUG: Pushed right frame right_157.jpg (rectified) with PTS 13500000000
+2025-06-04 20:21:30,627 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/left/left_156_cropped.jpg
+2025-06-04 20:21:30,627 DEBUG: Stored ROI metadata for left_156_cropped.jpg
+2025-06-04 20:21:30,627 INFO: Saved 1 highest confidence cropped image from left_156.jpg.
+2025-06-04 20:21:30,636 INFO: Saved highest confidence cropped image (conf: 0.76) to data/cropped_images/right/right_157_cropped.jpg
+2025-06-04 20:21:30,636 DEBUG: Stored ROI metadata for right_157_cropped.jpg
+2025-06-04 20:21:30,636 INFO: Saved 1 highest confidence cropped image from right_157.jpg.
+2025-06-04 20:21:30,772 DEBUG: Pushed left frame left_157.jpg (rectified) with PTS 13600000000
+2025-06-04 20:21:30,782 DEBUG: Pushed right frame right_158.jpg (rectified) with PTS 13700000000
+2025-06-04 20:21:30,819 INFO: Saved highest confidence cropped image (conf: 0.76) to data/cropped_images/left/left_157_cropped.jpg
+2025-06-04 20:21:30,819 DEBUG: Stored ROI metadata for left_157_cropped.jpg
+2025-06-04 20:21:30,819 INFO: Saved 1 highest confidence cropped image from left_157.jpg.
+2025-06-04 20:21:30,828 INFO: Saved highest confidence cropped image (conf: 0.34) to data/cropped_images/right/right_158_cropped.jpg
+2025-06-04 20:21:30,829 DEBUG: Stored ROI metadata for right_158_cropped.jpg
+2025-06-04 20:21:30,829 INFO: Saved 1 highest confidence cropped image from right_158.jpg.
+2025-06-04 20:21:30,945 DEBUG: Pushed left frame left_158.jpg (rectified) with PTS 13800000000
+2025-06-04 20:21:30,961 DEBUG: Pushed right frame right_159.jpg (rectified) with PTS 13900000000
+2025-06-04 20:21:30,975 INFO: Saved highest confidence cropped image (conf: 0.34) to data/cropped_images/left/left_158_cropped.jpg
+2025-06-04 20:21:30,975 DEBUG: Stored ROI metadata for left_158_cropped.jpg
+2025-06-04 20:21:30,975 INFO: Saved 1 highest confidence cropped image from left_158.jpg.
+2025-06-04 20:21:30,994 INFO: Saved highest confidence cropped image (conf: 0.55) to data/cropped_images/right/right_159_cropped.jpg
+2025-06-04 20:21:30,995 DEBUG: Stored ROI metadata for right_159_cropped.jpg
+2025-06-04 20:21:30,995 INFO: Saved 1 highest confidence cropped image from right_159.jpg.
+2025-06-04 20:21:31,127 DEBUG: Pushed left frame left_159.jpg (rectified) with PTS 14000000000
+2025-06-04 20:21:31,138 DEBUG: Pushed right frame right_16.jpg (rectified) with PTS 14100000000
+2025-06-04 20:21:31,162 INFO: Saved highest confidence cropped image (conf: 0.66) to data/cropped_images/left/left_159_cropped.jpg
+2025-06-04 20:21:31,163 DEBUG: Stored ROI metadata for left_159_cropped.jpg
+2025-06-04 20:21:31,163 INFO: Saved 1 highest confidence cropped image from left_159.jpg.
+2025-06-04 20:21:31,181 INFO: Saved highest confidence cropped image (conf: 0.87) to data/cropped_images/right/right_16_cropped.jpg
+2025-06-04 20:21:31,181 DEBUG: Stored ROI metadata for right_16_cropped.jpg
+2025-06-04 20:21:31,181 INFO: Saved 1 highest confidence cropped image from right_16.jpg.
+2025-06-04 20:21:31,309 DEBUG: Pushed left frame left_16.jpg (rectified) with PTS 14200000000
+2025-06-04 20:21:31,319 DEBUG: Pushed right frame right_160.jpg (rectified) with PTS 14300000000
+2025-06-04 20:21:31,350 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/left/left_16_cropped.jpg
+2025-06-04 20:21:31,350 DEBUG: Stored ROI metadata for left_16_cropped.jpg
+2025-06-04 20:21:31,351 INFO: Saved 1 highest confidence cropped image from left_16.jpg.
+2025-06-04 20:21:31,365 INFO: Saved highest confidence cropped image (conf: 0.52) to data/cropped_images/right/right_160_cropped.jpg
+2025-06-04 20:21:31,366 DEBUG: Stored ROI metadata for right_160_cropped.jpg
+2025-06-04 20:21:31,366 INFO: Saved 1 highest confidence cropped image from right_160.jpg.
+2025-06-04 20:21:31,497 DEBUG: Pushed left frame left_160.jpg (rectified) with PTS 14400000000
+2025-06-04 20:21:31,508 DEBUG: Pushed right frame right_161.jpg (rectified) with PTS 14500000000
+2025-06-04 20:21:31,545 INFO: Saved highest confidence cropped image (conf: 0.61) to data/cropped_images/left/left_160_cropped.jpg
+2025-06-04 20:21:31,546 DEBUG: Stored ROI metadata for left_160_cropped.jpg
+2025-06-04 20:21:31,547 INFO: Saved 1 highest confidence cropped image from left_160.jpg.
+2025-06-04 20:21:31,559 INFO: Saved highest confidence cropped image (conf: 0.65) to data/cropped_images/right/right_161_cropped.jpg
+2025-06-04 20:21:31,560 DEBUG: Stored ROI metadata for right_161_cropped.jpg
+2025-06-04 20:21:31,560 INFO: Saved 1 highest confidence cropped image from right_161.jpg.
+2025-06-04 20:21:31,702 DEBUG: Pushed left frame left_161.jpg (rectified) with PTS 14600000000
+2025-06-04 20:21:31,711 DEBUG: Pushed right frame right_162.jpg (rectified) with PTS 14700000000
+2025-06-04 20:21:31,736 INFO: Saved highest confidence cropped image (conf: 0.67) to data/cropped_images/left/left_161_cropped.jpg
+2025-06-04 20:21:31,737 DEBUG: Stored ROI metadata for left_161_cropped.jpg
+2025-06-04 20:21:31,737 INFO: Saved 1 highest confidence cropped image from left_161.jpg.
+2025-06-04 20:21:31,743 INFO: Saved highest confidence cropped image (conf: 0.37) to data/cropped_images/right/right_162_cropped.jpg
+2025-06-04 20:21:31,743 DEBUG: Stored ROI metadata for right_162_cropped.jpg
+2025-06-04 20:21:31,743 INFO: Saved 1 highest confidence cropped image from right_162.jpg.
+2025-06-04 20:21:31,897 DEBUG: Pushed left frame left_162.jpg (rectified) with PTS 14800000000
+2025-06-04 20:21:31,930 DEBUG: Pushed right frame right_163.jpg (rectified) with PTS 14900000000
+2025-06-04 20:21:31,945 INFO: Saved highest confidence cropped image (conf: 0.47) to data/cropped_images/left/left_162_cropped.jpg
+2025-06-04 20:21:31,945 DEBUG: Stored ROI metadata for left_162_cropped.jpg
+2025-06-04 20:21:31,945 INFO: Saved 1 highest confidence cropped image from left_162.jpg.
+2025-06-04 20:21:31,962 INFO: No detections found in right_163.jpg.
+2025-06-04 20:21:32,106 DEBUG: Pushed left frame left_163.jpg (rectified) with PTS 15000000000
+2025-06-04 20:21:32,114 DEBUG: Pushed right frame right_164.jpg (rectified) with PTS 15100000000
+2025-06-04 20:21:32,141 INFO: No detections found in left_163.jpg.
+2025-06-04 20:21:32,156 INFO: No detections found in right_164.jpg.
+2025-06-04 20:21:32,304 DEBUG: Pushed left frame left_164.jpg (rectified) with PTS 15200000000
+2025-06-04 20:21:32,323 DEBUG: Pushed right frame right_165.jpg (rectified) with PTS 15300000000
+2025-06-04 20:21:32,361 INFO: No detections found in left_164.jpg.
+2025-06-04 20:21:32,369 INFO: No detections found in right_165.jpg.
+2025-06-04 20:21:32,507 DEBUG: Pushed left frame left_165.jpg (rectified) with PTS 15400000000
+2025-06-04 20:21:32,520 DEBUG: Pushed right frame right_166.jpg (rectified) with PTS 15500000000
+2025-06-04 20:21:32,549 INFO: No detections found in left_165.jpg.
+2025-06-04 20:21:32,568 INFO: No detections found in right_166.jpg.
+2025-06-04 20:21:32,689 DEBUG: Pushed left frame left_166.jpg (rectified) with PTS 15600000000
+2025-06-04 20:21:32,699 DEBUG: Pushed right frame right_167.jpg (rectified) with PTS 15700000000
+2025-06-04 20:21:32,740 INFO: No detections found in left_166.jpg.
+2025-06-04 20:21:32,753 INFO: No detections found in right_167.jpg.
+2025-06-04 20:21:32,882 DEBUG: Pushed left frame left_167.jpg (rectified) with PTS 15800000000
+2025-06-04 20:21:32,899 DEBUG: Pushed right frame right_168.jpg (rectified) with PTS 15900000000
+2025-06-04 20:21:32,942 INFO: No detections found in left_167.jpg.
+2025-06-04 20:21:32,953 INFO: No detections found in right_168.jpg.
+2025-06-04 20:21:33,072 DEBUG: Pushed left frame left_168.jpg (rectified) with PTS 16000000000
+2025-06-04 20:21:33,083 DEBUG: Pushed right frame right_169.jpg (rectified) with PTS 16100000000
+2025-06-04 20:21:33,111 INFO: No detections found in left_168.jpg.
+2025-06-04 20:21:33,122 INFO: No detections found in right_169.jpg.
+2025-06-04 20:21:33,258 DEBUG: Pushed left frame left_169.jpg (rectified) with PTS 16200000000
+2025-06-04 20:21:33,273 DEBUG: Pushed right frame right_17.jpg (rectified) with PTS 16300000000
+2025-06-04 20:21:33,299 INFO: No detections found in left_169.jpg.
+2025-06-04 20:21:33,314 INFO: Saved highest confidence cropped image (conf: 0.85) to data/cropped_images/right/right_17_cropped.jpg
+2025-06-04 20:21:33,314 DEBUG: Stored ROI metadata for right_17_cropped.jpg
+2025-06-04 20:21:33,315 INFO: Saved 1 highest confidence cropped image from right_17.jpg.
+2025-06-04 20:21:33,438 DEBUG: Pushed left frame left_17.jpg (rectified) with PTS 16400000000
+2025-06-04 20:21:33,448 DEBUG: Pushed right frame right_170.jpg (rectified) with PTS 16500000000
+2025-06-04 20:21:33,469 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/left/left_17_cropped.jpg
+2025-06-04 20:21:33,470 DEBUG: Stored ROI metadata for left_17_cropped.jpg
+2025-06-04 20:21:33,470 INFO: Saved 1 highest confidence cropped image from left_17.jpg.
+2025-06-04 20:21:33,485 INFO: No detections found in right_170.jpg.
+2025-06-04 20:21:33,640 DEBUG: Pushed left frame left_170.jpg (rectified) with PTS 16600000000
+2025-06-04 20:21:33,654 DEBUG: Pushed right frame right_171.jpg (rectified) with PTS 16700000000
+2025-06-04 20:21:33,687 INFO: No detections found in left_170.jpg.
+2025-06-04 20:21:33,705 INFO: No detections found in right_171.jpg.
+2025-06-04 20:21:33,820 DEBUG: Pushed left frame left_171.jpg (rectified) with PTS 16800000000
+2025-06-04 20:21:33,830 DEBUG: Pushed right frame right_172.jpg (rectified) with PTS 16900000000
+2025-06-04 20:21:33,852 INFO: No detections found in left_171.jpg.
+2025-06-04 20:21:33,867 INFO: No detections found in right_172.jpg.
+2025-06-04 20:21:34,004 DEBUG: Pushed left frame left_172.jpg (rectified) with PTS 17000000000
+2025-06-04 20:21:34,014 DEBUG: Pushed right frame right_173.jpg (rectified) with PTS 17100000000
+2025-06-04 20:21:34,045 INFO: No detections found in left_172.jpg.
+2025-06-04 20:21:34,055 INFO: No detections found in right_173.jpg.
+2025-06-04 20:21:34,190 DEBUG: Pushed left frame left_173.jpg (rectified) with PTS 17200000000
+2025-06-04 20:21:34,203 DEBUG: Pushed right frame right_174.jpg (rectified) with PTS 17300000000
+2025-06-04 20:21:34,220 INFO: No detections found in left_173.jpg.
+2025-06-04 20:21:34,247 INFO: No detections found in right_174.jpg.
+2025-06-04 20:21:34,367 DEBUG: Pushed left frame left_174.jpg (rectified) with PTS 17400000000
+2025-06-04 20:21:34,381 DEBUG: Pushed right frame right_175.jpg (rectified) with PTS 17500000000
+2025-06-04 20:21:34,407 INFO: No detections found in left_174.jpg.
+2025-06-04 20:21:34,421 INFO: Saved highest confidence cropped image (conf: 0.34) to data/cropped_images/right/right_175_cropped.jpg
+2025-06-04 20:21:34,421 DEBUG: Stored ROI metadata for right_175_cropped.jpg
+2025-06-04 20:21:34,421 INFO: Saved 1 highest confidence cropped image from right_175.jpg.
+2025-06-04 20:21:34,565 DEBUG: Pushed left frame left_175.jpg (rectified) with PTS 17600000000
+2025-06-04 20:21:34,583 DEBUG: Pushed right frame right_176.jpg (rectified) with PTS 17700000000
+2025-06-04 20:21:34,601 INFO: No detections found in left_175.jpg.
+2025-06-04 20:21:34,625 INFO: No detections found in right_176.jpg.
+2025-06-04 20:21:34,757 DEBUG: Pushed left frame left_176.jpg (rectified) with PTS 17800000000
+2025-06-04 20:21:34,772 DEBUG: Pushed right frame right_177.jpg (rectified) with PTS 17900000000
+2025-06-04 20:21:34,804 INFO: No detections found in left_176.jpg.
+2025-06-04 20:21:34,818 INFO: Saved highest confidence cropped image (conf: 0.77) to data/cropped_images/right/right_177_cropped.jpg
+2025-06-04 20:21:34,819 DEBUG: Stored ROI metadata for right_177_cropped.jpg
+2025-06-04 20:21:34,819 INFO: Saved 1 highest confidence cropped image from right_177.jpg.
+2025-06-04 20:21:34,943 DEBUG: Pushed left frame left_177.jpg (rectified) with PTS 18000000000
+2025-06-04 20:21:34,956 DEBUG: Pushed right frame right_178.jpg (rectified) with PTS 18100000000
+2025-06-04 20:21:34,999 INFO: Saved highest confidence cropped image (conf: 0.45) to data/cropped_images/left/left_177_cropped.jpg
+2025-06-04 20:21:34,999 DEBUG: Stored ROI metadata for left_177_cropped.jpg
+2025-06-04 20:21:34,999 INFO: Saved 1 highest confidence cropped image from left_177.jpg.
+2025-06-04 20:21:35,009 INFO: Saved highest confidence cropped image (conf: 0.60) to data/cropped_images/right/right_178_cropped.jpg
+2025-06-04 20:21:35,010 DEBUG: Stored ROI metadata for right_178_cropped.jpg
+2025-06-04 20:21:35,010 INFO: Saved 1 highest confidence cropped image from right_178.jpg.
+2025-06-04 20:21:35,120 DEBUG: Pushed left frame left_178.jpg (rectified) with PTS 18200000000
+2025-06-04 20:21:35,136 DEBUG: Pushed right frame right_179.jpg (rectified) with PTS 18300000000
+2025-06-04 20:21:35,149 INFO: Saved highest confidence cropped image (conf: 0.62) to data/cropped_images/left/left_178_cropped.jpg
+2025-06-04 20:21:35,149 DEBUG: Stored ROI metadata for left_178_cropped.jpg
+2025-06-04 20:21:35,149 INFO: Saved 1 highest confidence cropped image from left_178.jpg.
+2025-06-04 20:21:35,165 INFO: Saved highest confidence cropped image (conf: 0.79) to data/cropped_images/right/right_179_cropped.jpg
+2025-06-04 20:21:35,165 DEBUG: Stored ROI metadata for right_179_cropped.jpg
+2025-06-04 20:21:35,165 INFO: Saved 1 highest confidence cropped image from right_179.jpg.
+2025-06-04 20:21:35,385 DEBUG: Pushed left frame left_179.jpg (rectified) with PTS 18400000000
+2025-06-04 20:21:35,429 DEBUG: Pushed right frame right_18.jpg (rectified) with PTS 18500000000
+2025-06-04 20:21:35,455 INFO: Saved highest confidence cropped image (conf: 0.82) to data/cropped_images/left/left_179_cropped.jpg
+2025-06-04 20:21:35,455 DEBUG: Stored ROI metadata for left_179_cropped.jpg
+2025-06-04 20:21:35,455 INFO: Saved 1 highest confidence cropped image from left_179.jpg.
+2025-06-04 20:21:35,465 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_18_cropped.jpg
+2025-06-04 20:21:35,465 DEBUG: Stored ROI metadata for right_18_cropped.jpg
+2025-06-04 20:21:35,465 INFO: Saved 1 highest confidence cropped image from right_18.jpg.
+2025-06-04 20:21:35,603 DEBUG: Pushed left frame left_18.jpg (rectified) with PTS 18600000000
+2025-06-04 20:21:35,611 DEBUG: Pushed right frame right_180.jpg (rectified) with PTS 18700000000
+2025-06-04 20:21:35,648 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/left/left_18_cropped.jpg
+2025-06-04 20:21:35,648 DEBUG: Stored ROI metadata for left_18_cropped.jpg
+2025-06-04 20:21:35,649 INFO: Saved 1 highest confidence cropped image from left_18.jpg.
+2025-06-04 20:21:35,662 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_180_cropped.jpg
+2025-06-04 20:21:35,662 DEBUG: Stored ROI metadata for right_180_cropped.jpg
+2025-06-04 20:21:35,662 INFO: Saved 1 highest confidence cropped image from right_180.jpg.
+2025-06-04 20:21:35,784 DEBUG: Pushed left frame left_180.jpg (rectified) with PTS 18800000000
+2025-06-04 20:21:35,796 DEBUG: Pushed right frame right_181.jpg (rectified) with PTS 18900000000
+2025-06-04 20:21:35,834 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/left/left_180_cropped.jpg
+2025-06-04 20:21:35,835 DEBUG: Stored ROI metadata for left_180_cropped.jpg
+2025-06-04 20:21:35,835 INFO: Saved 1 highest confidence cropped image from left_180.jpg.
+2025-06-04 20:21:35,847 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/right/right_181_cropped.jpg
+2025-06-04 20:21:35,848 DEBUG: Stored ROI metadata for right_181_cropped.jpg
+2025-06-04 20:21:35,848 INFO: Saved 1 highest confidence cropped image from right_181.jpg.
+2025-06-04 20:21:35,964 DEBUG: Pushed left frame left_181.jpg (rectified) with PTS 19000000000
+2025-06-04 20:21:35,976 DEBUG: Pushed right frame right_182.jpg (rectified) with PTS 19100000000
+2025-06-04 20:21:36,001 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/left/left_181_cropped.jpg
+2025-06-04 20:21:36,001 DEBUG: Stored ROI metadata for left_181_cropped.jpg
+2025-06-04 20:21:36,002 INFO: Saved 1 highest confidence cropped image from left_181.jpg.
+2025-06-04 20:21:36,010 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_182_cropped.jpg
+2025-06-04 20:21:36,011 DEBUG: Stored ROI metadata for right_182_cropped.jpg
+2025-06-04 20:21:36,011 INFO: Saved 1 highest confidence cropped image from right_182.jpg.
+2025-06-04 20:21:36,150 DEBUG: Pushed left frame left_182.jpg (rectified) with PTS 19200000000
+2025-06-04 20:21:36,162 DEBUG: Pushed right frame right_183.jpg (rectified) with PTS 19300000000
+2025-06-04 20:21:36,200 INFO: Saved highest confidence cropped image (conf: 0.86) to data/cropped_images/left/left_182_cropped.jpg
+2025-06-04 20:21:36,200 DEBUG: Stored ROI metadata for left_182_cropped.jpg
+2025-06-04 20:21:36,200 INFO: Saved 1 highest confidence cropped image from left_182.jpg.
+2025-06-04 20:21:36,212 INFO: Saved highest confidence cropped image (conf: 0.87) to data/cropped_images/right/right_183_cropped.jpg
+2025-06-04 20:21:36,212 DEBUG: Stored ROI metadata for right_183_cropped.jpg
+2025-06-04 20:21:36,212 INFO: Saved 1 highest confidence cropped image from right_183.jpg.
+2025-06-04 20:21:36,330 DEBUG: Pushed left frame left_183.jpg (rectified) with PTS 19400000000
+2025-06-04 20:21:36,352 DEBUG: Pushed right frame right_184.jpg (rectified) with PTS 19500000000
+2025-06-04 20:21:36,374 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_183_cropped.jpg
+2025-06-04 20:21:36,374 DEBUG: Stored ROI metadata for left_183_cropped.jpg
+2025-06-04 20:21:36,375 INFO: Saved 1 highest confidence cropped image from left_183.jpg.
+2025-06-04 20:21:36,393 INFO: Saved highest confidence cropped image (conf: 0.85) to data/cropped_images/right/right_184_cropped.jpg
+2025-06-04 20:21:36,393 DEBUG: Stored ROI metadata for right_184_cropped.jpg
+2025-06-04 20:21:36,393 INFO: Saved 1 highest confidence cropped image from right_184.jpg.
+2025-06-04 20:21:36,543 DEBUG: Pushed left frame left_184.jpg (rectified) with PTS 19600000000
+2025-06-04 20:21:36,560 DEBUG: Pushed right frame right_185.jpg (rectified) with PTS 19700000000
+2025-06-04 20:21:36,615 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_184_cropped.jpg
+2025-06-04 20:21:36,615 DEBUG: Stored ROI metadata for left_184_cropped.jpg
+2025-06-04 20:21:36,615 INFO: Saved 1 highest confidence cropped image from left_184.jpg.
+2025-06-04 20:21:36,634 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/right/right_185_cropped.jpg
+2025-06-04 20:21:36,635 DEBUG: Stored ROI metadata for right_185_cropped.jpg
+2025-06-04 20:21:36,635 INFO: Saved 1 highest confidence cropped image from right_185.jpg.
+2025-06-04 20:21:36,744 DEBUG: Pushed left frame left_185.jpg (rectified) with PTS 19800000000
+2025-06-04 20:21:36,763 DEBUG: Pushed right frame right_186.jpg (rectified) with PTS 19900000000
+2025-06-04 20:21:36,774 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/left/left_185_cropped.jpg
+2025-06-04 20:21:36,775 DEBUG: Stored ROI metadata for left_185_cropped.jpg
+2025-06-04 20:21:36,775 INFO: Saved 1 highest confidence cropped image from left_185.jpg.
+2025-06-04 20:21:36,803 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_186_cropped.jpg
+2025-06-04 20:21:36,804 DEBUG: Stored ROI metadata for right_186_cropped.jpg
+2025-06-04 20:21:36,804 INFO: Saved 1 highest confidence cropped image from right_186.jpg.
+2025-06-04 20:21:36,934 DEBUG: Pushed left frame left_186.jpg (rectified) with PTS 20000000000
+2025-06-04 20:21:36,946 DEBUG: Pushed right frame right_187.jpg (rectified) with PTS 20100000000
+2025-06-04 20:21:36,992 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_186_cropped.jpg
+2025-06-04 20:21:36,992 DEBUG: Stored ROI metadata for left_186_cropped.jpg
+2025-06-04 20:21:36,992 INFO: Saved 1 highest confidence cropped image from left_186.jpg.
+2025-06-04 20:21:37,011 INFO: Saved highest confidence cropped image (conf: 0.87) to data/cropped_images/right/right_187_cropped.jpg
+2025-06-04 20:21:37,012 DEBUG: Stored ROI metadata for right_187_cropped.jpg
+2025-06-04 20:21:37,012 INFO: Saved 1 highest confidence cropped image from right_187.jpg.
+2025-06-04 20:21:37,121 DEBUG: Pushed left frame left_187.jpg (rectified) with PTS 20200000000
+2025-06-04 20:21:37,134 DEBUG: Pushed right frame right_188.jpg (rectified) with PTS 20300000000
+2025-06-04 20:21:37,164 INFO: Saved highest confidence cropped image (conf: 0.87) to data/cropped_images/left/left_187_cropped.jpg
+2025-06-04 20:21:37,164 DEBUG: Stored ROI metadata for left_187_cropped.jpg
+2025-06-04 20:21:37,164 INFO: Saved 1 highest confidence cropped image from left_187.jpg.
+2025-06-04 20:21:37,180 INFO: Saved highest confidence cropped image (conf: 0.87) to data/cropped_images/right/right_188_cropped.jpg
+2025-06-04 20:21:37,180 DEBUG: Stored ROI metadata for right_188_cropped.jpg
+2025-06-04 20:21:37,180 INFO: Saved 1 highest confidence cropped image from right_188.jpg.
+2025-06-04 20:21:37,308 DEBUG: Pushed left frame left_188.jpg (rectified) with PTS 20400000000
+2025-06-04 20:21:37,323 DEBUG: Pushed right frame right_189.jpg (rectified) with PTS 20500000000
+2025-06-04 20:21:37,382 INFO: Saved highest confidence cropped image (conf: 0.87) to data/cropped_images/left/left_188_cropped.jpg
+2025-06-04 20:21:37,383 DEBUG: Stored ROI metadata for left_188_cropped.jpg
+2025-06-04 20:21:37,383 INFO: Saved 1 highest confidence cropped image from left_188.jpg.
+2025-06-04 20:21:37,402 INFO: Saved highest confidence cropped image (conf: 0.87) to data/cropped_images/right/right_189_cropped.jpg
+2025-06-04 20:21:37,402 DEBUG: Stored ROI metadata for right_189_cropped.jpg
+2025-06-04 20:21:37,403 INFO: Saved 1 highest confidence cropped image from right_189.jpg.
+2025-06-04 20:21:37,510 DEBUG: Pushed left frame left_189.jpg (rectified) with PTS 20600000000
+2025-06-04 20:21:37,526 DEBUG: Pushed right frame right_19.jpg (rectified) with PTS 20700000000
+2025-06-04 20:21:37,561 INFO: Saved highest confidence cropped image (conf: 0.87) to data/cropped_images/left/left_189_cropped.jpg
+2025-06-04 20:21:37,562 DEBUG: Stored ROI metadata for left_189_cropped.jpg
+2025-06-04 20:21:37,563 INFO: Saved 1 highest confidence cropped image from left_189.jpg.
+2025-06-04 20:21:37,571 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/right/right_19_cropped.jpg
+2025-06-04 20:21:37,571 DEBUG: Stored ROI metadata for right_19_cropped.jpg
+2025-06-04 20:21:37,571 INFO: Saved 1 highest confidence cropped image from right_19.jpg.
+2025-06-04 20:21:37,698 DEBUG: Pushed left frame left_19.jpg (rectified) with PTS 20800000000
+2025-06-04 20:21:37,714 DEBUG: Pushed right frame right_190.jpg (rectified) with PTS 20900000000
+2025-06-04 20:21:37,761 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/left/left_19_cropped.jpg
+2025-06-04 20:21:37,761 DEBUG: Stored ROI metadata for left_19_cropped.jpg
+2025-06-04 20:21:37,761 INFO: Saved 1 highest confidence cropped image from left_19.jpg.
+2025-06-04 20:21:37,776 INFO: Saved highest confidence cropped image (conf: 0.87) to data/cropped_images/right/right_190_cropped.jpg
+2025-06-04 20:21:37,776 DEBUG: Stored ROI metadata for right_190_cropped.jpg
+2025-06-04 20:21:37,776 INFO: Saved 1 highest confidence cropped image from right_190.jpg.
+2025-06-04 20:21:37,884 DEBUG: Pushed left frame left_190.jpg (rectified) with PTS 21000000000
+2025-06-04 20:21:37,904 DEBUG: Pushed right frame right_191.jpg (rectified) with PTS 21100000000
+2025-06-04 20:21:37,930 INFO: Saved highest confidence cropped image (conf: 0.86) to data/cropped_images/left/left_190_cropped.jpg
+2025-06-04 20:21:37,930 DEBUG: Stored ROI metadata for left_190_cropped.jpg
+2025-06-04 20:21:37,931 INFO: Saved 1 highest confidence cropped image from left_190.jpg.
+2025-06-04 20:21:37,936 INFO: Saved highest confidence cropped image (conf: 0.50) to data/cropped_images/right/right_191_cropped.jpg
+2025-06-04 20:21:37,937 DEBUG: Stored ROI metadata for right_191_cropped.jpg
+2025-06-04 20:21:37,937 INFO: Saved 1 highest confidence cropped image from right_191.jpg.
+2025-06-04 20:21:38,074 DEBUG: Pushed left frame left_191.jpg (rectified) with PTS 21200000000
+2025-06-04 20:21:38,084 DEBUG: Pushed right frame right_192.jpg (rectified) with PTS 21300000000
+2025-06-04 20:21:38,131 INFO: Saved highest confidence cropped image (conf: 0.75) to data/cropped_images/left/left_191_cropped.jpg
+2025-06-04 20:21:38,131 DEBUG: Stored ROI metadata for left_191_cropped.jpg
+2025-06-04 20:21:38,131 INFO: Saved 1 highest confidence cropped image from left_191.jpg.
+2025-06-04 20:21:38,140 INFO: Saved highest confidence cropped image (conf: 0.65) to data/cropped_images/right/right_192_cropped.jpg
+2025-06-04 20:21:38,140 DEBUG: Stored ROI metadata for right_192_cropped.jpg
+2025-06-04 20:21:38,140 INFO: Saved 1 highest confidence cropped image from right_192.jpg.
+2025-06-04 20:21:38,261 DEBUG: Pushed left frame left_192.jpg (rectified) with PTS 21400000000
+2025-06-04 20:21:38,271 DEBUG: Pushed right frame right_193.jpg (rectified) with PTS 21500000000
+2025-06-04 20:21:38,310 INFO: Saved highest confidence cropped image (conf: 0.49) to data/cropped_images/right/right_193_cropped.jpg
+2025-06-04 20:21:38,311 DEBUG: Stored ROI metadata for right_193_cropped.jpg
+2025-06-04 20:21:38,311 INFO: Saved 1 highest confidence cropped image from right_193.jpg.
+2025-06-04 20:21:38,438 DEBUG: Pushed left frame left_193.jpg (rectified) with PTS 21600000000
+2025-06-04 20:21:38,449 DEBUG: Pushed right frame right_194.jpg (rectified) with PTS 21700000000
+2025-06-04 20:21:38,475 INFO: Saved highest confidence cropped image (conf: 0.50) to data/cropped_images/left/left_193_cropped.jpg
+2025-06-04 20:21:38,476 DEBUG: Stored ROI metadata for left_193_cropped.jpg
+2025-06-04 20:21:38,476 INFO: Saved 1 highest confidence cropped image from left_193.jpg.
+2025-06-04 20:21:38,486 INFO: No detections found in right_194.jpg.
+2025-06-04 20:21:38,616 DEBUG: Pushed left frame left_194.jpg (rectified) with PTS 21800000000
+2025-06-04 20:21:38,631 DEBUG: Pushed right frame right_195.jpg (rectified) with PTS 21900000000
+2025-06-04 20:21:38,649 INFO: Saved highest confidence cropped image (conf: 0.31) to data/cropped_images/left/left_194_cropped.jpg
+2025-06-04 20:21:38,649 DEBUG: Stored ROI metadata for left_194_cropped.jpg
+2025-06-04 20:21:38,649 INFO: Saved 1 highest confidence cropped image from left_194.jpg.
+2025-06-04 20:21:38,669 INFO: No detections found in right_195.jpg.
+2025-06-04 20:21:38,797 DEBUG: Pushed left frame left_195.jpg (rectified) with PTS 22000000000
+2025-06-04 20:21:38,807 DEBUG: Pushed right frame right_196.jpg (rectified) with PTS 22100000000
+2025-06-04 20:21:38,848 INFO: No detections found in left_195.jpg.
+2025-06-04 20:21:38,859 INFO: No detections found in right_196.jpg.
+2025-06-04 20:21:38,972 DEBUG: Pushed left frame left_196.jpg (rectified) with PTS 22200000000
+2025-06-04 20:21:38,980 DEBUG: Pushed right frame right_197.jpg (rectified) with PTS 22300000000
+2025-06-04 20:21:39,008 INFO: No detections found in left_196.jpg.
+2025-06-04 20:21:39,018 INFO: No detections found in right_197.jpg.
+2025-06-04 20:21:39,148 DEBUG: Pushed left frame left_197.jpg (rectified) with PTS 22400000000
+2025-06-04 20:21:39,157 DEBUG: Pushed right frame right_198.jpg (rectified) with PTS 22500000000
+2025-06-04 20:21:39,191 INFO: No detections found in left_197.jpg.
+2025-06-04 20:21:39,204 INFO: No detections found in right_198.jpg.
+2025-06-04 20:21:39,322 DEBUG: Pushed left frame left_198.jpg (rectified) with PTS 22600000000
+2025-06-04 20:21:39,340 DEBUG: Pushed right frame right_199.jpg (rectified) with PTS 22700000000
+2025-06-04 20:21:39,355 INFO: No detections found in left_198.jpg.
+2025-06-04 20:21:39,368 INFO: No detections found in right_199.jpg.
+2025-06-04 20:21:39,508 DEBUG: Pushed left frame left_199.jpg (rectified) with PTS 22800000000
+2025-06-04 20:21:39,518 DEBUG: Pushed right frame right_200.jpg (rectified) with PTS 22900000000
+2025-06-04 20:21:39,553 INFO: No detections found in left_199.jpg.
+2025-06-04 20:21:39,569 INFO: No detections found in right_200.jpg.
+2025-06-04 20:21:39,768 DEBUG: Pushed left frame left_200.jpg (rectified) with PTS 23000000000
+2025-06-04 20:21:39,785 DEBUG: Pushed right frame right_201.jpg (rectified) with PTS 23100000000
+2025-06-04 20:21:39,822 INFO: No detections found in left_200.jpg.
+2025-06-04 20:21:39,832 INFO: No detections found in right_201.jpg.
+2025-06-04 20:21:39,965 DEBUG: Pushed left frame left_201.jpg (rectified) with PTS 23200000000
+2025-06-04 20:21:39,977 DEBUG: Pushed right frame right_202.jpg (rectified) with PTS 23300000000
+2025-06-04 20:21:40,051 INFO: No detections found in left_201.jpg.
+2025-06-04 20:21:40,074 INFO: No detections found in right_202.jpg.
+2025-06-04 20:21:40,180 DEBUG: Pushed left frame left_202.jpg (rectified) with PTS 23400000000
+2025-06-04 20:21:40,203 DEBUG: Pushed right frame right_203.jpg (rectified) with PTS 23500000000
+2025-06-04 20:21:40,247 INFO: No detections found in left_202.jpg.
+2025-06-04 20:21:40,264 INFO: Saved highest confidence cropped image (conf: 0.50) to data/cropped_images/right/right_203_cropped.jpg
+2025-06-04 20:21:40,264 DEBUG: Stored ROI metadata for right_203_cropped.jpg
+2025-06-04 20:21:40,264 INFO: Saved 1 highest confidence cropped image from right_203.jpg.
+2025-06-04 20:21:40,370 DEBUG: Pushed left frame left_203.jpg (rectified) with PTS 23600000000
+2025-06-04 20:21:40,378 DEBUG: Pushed right frame right_204.jpg (rectified) with PTS 23700000000
+2025-06-04 20:21:40,401 INFO: Saved highest confidence cropped image (conf: 0.66) to data/cropped_images/left/left_203_cropped.jpg
+2025-06-04 20:21:40,401 DEBUG: Stored ROI metadata for left_203_cropped.jpg
+2025-06-04 20:21:40,401 INFO: Saved 1 highest confidence cropped image from left_203.jpg.
+2025-06-04 20:21:40,410 INFO: No detections found in right_204.jpg.
+2025-06-04 20:21:40,547 DEBUG: Pushed left frame left_204.jpg (rectified) with PTS 23800000000
+2025-06-04 20:21:40,555 DEBUG: Pushed right frame right_205.jpg (rectified) with PTS 23900000000
+2025-06-04 20:21:40,605 INFO: Saved highest confidence cropped image (conf: 0.72) to data/cropped_images/left/left_204_cropped.jpg
+2025-06-04 20:21:40,606 DEBUG: Stored ROI metadata for left_204_cropped.jpg
+2025-06-04 20:21:40,606 INFO: Saved 1 highest confidence cropped image from left_204.jpg.
+2025-06-04 20:21:40,615 INFO: Saved highest confidence cropped image (conf: 0.64) to data/cropped_images/right/right_205_cropped.jpg
+2025-06-04 20:21:40,615 DEBUG: Stored ROI metadata for right_205_cropped.jpg
+2025-06-04 20:21:40,615 INFO: Saved 1 highest confidence cropped image from right_205.jpg.
+2025-06-04 20:21:40,748 DEBUG: Pushed left frame left_205.jpg (rectified) with PTS 24000000000
+2025-06-04 20:21:40,761 DEBUG: Pushed right frame right_206.jpg (rectified) with PTS 24100000000
+2025-06-04 20:21:40,788 INFO: Saved highest confidence cropped image (conf: 0.63) to data/cropped_images/left/left_205_cropped.jpg
+2025-06-04 20:21:40,788 DEBUG: Stored ROI metadata for left_205_cropped.jpg
+2025-06-04 20:21:40,788 INFO: Saved 1 highest confidence cropped image from left_205.jpg.
+2025-06-04 20:21:40,801 INFO: Saved highest confidence cropped image (conf: 0.73) to data/cropped_images/right/right_206_cropped.jpg
+2025-06-04 20:21:40,801 DEBUG: Stored ROI metadata for right_206_cropped.jpg
+2025-06-04 20:21:40,801 INFO: Saved 1 highest confidence cropped image from right_206.jpg.
+2025-06-04 20:21:40,939 DEBUG: Pushed left frame left_206.jpg (rectified) with PTS 24200000000
+2025-06-04 20:21:40,959 DEBUG: Pushed right frame right_207.jpg (rectified) with PTS 24300000000
+2025-06-04 20:21:41,005 INFO: Saved highest confidence cropped image (conf: 0.81) to data/cropped_images/left/left_206_cropped.jpg
+2025-06-04 20:21:41,006 DEBUG: Stored ROI metadata for left_206_cropped.jpg
+2025-06-04 20:21:41,006 INFO: Saved 1 highest confidence cropped image from left_206.jpg.
+2025-06-04 20:21:41,021 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/right/right_207_cropped.jpg
+2025-06-04 20:21:41,021 DEBUG: Stored ROI metadata for right_207_cropped.jpg
+2025-06-04 20:21:41,021 INFO: Saved 1 highest confidence cropped image from right_207.jpg.
+2025-06-04 20:21:41,130 DEBUG: Pushed left frame left_207.jpg (rectified) with PTS 24400000000
+2025-06-04 20:21:41,142 DEBUG: Pushed right frame right_208.jpg (rectified) with PTS 24500000000
+2025-06-04 20:21:41,182 INFO: Saved highest confidence cropped image (conf: 0.87) to data/cropped_images/left/left_207_cropped.jpg
+2025-06-04 20:21:41,183 DEBUG: Stored ROI metadata for left_207_cropped.jpg
+2025-06-04 20:21:41,184 INFO: Saved 1 highest confidence cropped image from left_207.jpg.
+2025-06-04 20:21:41,196 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/right/right_208_cropped.jpg
+2025-06-04 20:21:41,196 DEBUG: Stored ROI metadata for right_208_cropped.jpg
+2025-06-04 20:21:41,197 INFO: Saved 1 highest confidence cropped image from right_208.jpg.
+2025-06-04 20:21:41,318 DEBUG: Pushed left frame left_208.jpg (rectified) with PTS 24600000000
+2025-06-04 20:21:41,334 DEBUG: Pushed right frame right_209.jpg (rectified) with PTS 24700000000
+2025-06-04 20:21:41,368 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/left/left_208_cropped.jpg
+2025-06-04 20:21:41,369 DEBUG: Stored ROI metadata for left_208_cropped.jpg
+2025-06-04 20:21:41,369 INFO: Saved 1 highest confidence cropped image from left_208.jpg.
+2025-06-04 20:21:41,381 INFO: Saved highest confidence cropped image (conf: 0.73) to data/cropped_images/right/right_209_cropped.jpg
+2025-06-04 20:21:41,381 DEBUG: Stored ROI metadata for right_209_cropped.jpg
+2025-06-04 20:21:41,381 INFO: Saved 1 highest confidence cropped image from right_209.jpg.
+2025-06-04 20:21:41,512 DEBUG: Pushed left frame left_209.jpg (rectified) with PTS 24800000000
+2025-06-04 20:21:41,523 DEBUG: Pushed right frame right_210.jpg (rectified) with PTS 24900000000
+2025-06-04 20:21:41,565 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/left/left_209_cropped.jpg
+2025-06-04 20:21:41,566 DEBUG: Stored ROI metadata for left_209_cropped.jpg
+2025-06-04 20:21:41,566 INFO: Saved 1 highest confidence cropped image from left_209.jpg.
+2025-06-04 20:21:41,575 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_210_cropped.jpg
+2025-06-04 20:21:41,576 DEBUG: Stored ROI metadata for right_210_cropped.jpg
+2025-06-04 20:21:41,576 INFO: Saved 1 highest confidence cropped image from right_210.jpg.
+2025-06-04 20:21:41,688 DEBUG: Pushed left frame left_210.jpg (rectified) with PTS 25000000000
+2025-06-04 20:21:41,697 DEBUG: Pushed right frame right_211.jpg (rectified) with PTS 25100000000
+2025-06-04 20:21:41,722 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_210_cropped.jpg
+2025-06-04 20:21:41,722 DEBUG: Stored ROI metadata for left_210_cropped.jpg
+2025-06-04 20:21:41,722 INFO: Saved 1 highest confidence cropped image from left_210.jpg.
+2025-06-04 20:21:41,737 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_211_cropped.jpg
+2025-06-04 20:21:41,737 DEBUG: Stored ROI metadata for right_211_cropped.jpg
+2025-06-04 20:21:41,738 INFO: Saved 1 highest confidence cropped image from right_211.jpg.
+2025-06-04 20:21:41,863 DEBUG: Pushed left frame left_211.jpg (rectified) with PTS 25200000000
+2025-06-04 20:21:41,873 DEBUG: Pushed right frame right_212.jpg (rectified) with PTS 25300000000
+2025-06-04 20:21:41,917 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/left/left_211_cropped.jpg
+2025-06-04 20:21:41,918 DEBUG: Stored ROI metadata for left_211_cropped.jpg
+2025-06-04 20:21:41,918 INFO: Saved 1 highest confidence cropped image from left_211.jpg.
+2025-06-04 20:21:41,928 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_212_cropped.jpg
+2025-06-04 20:21:41,928 DEBUG: Stored ROI metadata for right_212_cropped.jpg
+2025-06-04 20:21:41,928 INFO: Saved 1 highest confidence cropped image from right_212.jpg.
+2025-06-04 20:21:42,041 DEBUG: Pushed left frame left_212.jpg (rectified) with PTS 25400000000
+2025-06-04 20:21:42,054 DEBUG: Pushed right frame right_213.jpg (rectified) with PTS 25500000000
+2025-06-04 20:21:42,093 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_212_cropped.jpg
+2025-06-04 20:21:42,093 DEBUG: Stored ROI metadata for left_212_cropped.jpg
+2025-06-04 20:21:42,094 INFO: Saved 1 highest confidence cropped image from left_212.jpg.
+2025-06-04 20:21:42,109 INFO: Saved highest confidence cropped image (conf: 0.67) to data/cropped_images/right/right_213_cropped.jpg
+2025-06-04 20:21:42,109 DEBUG: Stored ROI metadata for right_213_cropped.jpg
+2025-06-04 20:21:42,109 INFO: Saved 1 highest confidence cropped image from right_213.jpg.
+2025-06-04 20:21:42,238 DEBUG: Pushed left frame left_213.jpg (rectified) with PTS 25600000000
+2025-06-04 20:21:42,252 DEBUG: Pushed right frame right_214.jpg (rectified) with PTS 25700000000
+2025-06-04 20:21:42,297 INFO: Saved highest confidence cropped image (conf: 0.65) to data/cropped_images/left/left_213_cropped.jpg
+2025-06-04 20:21:42,297 DEBUG: Stored ROI metadata for left_213_cropped.jpg
+2025-06-04 20:21:42,297 INFO: Saved 1 highest confidence cropped image from left_213.jpg.
+2025-06-04 20:21:42,308 INFO: Saved highest confidence cropped image (conf: 0.61) to data/cropped_images/right/right_214_cropped.jpg
+2025-06-04 20:21:42,308 DEBUG: Stored ROI metadata for right_214_cropped.jpg
+2025-06-04 20:21:42,308 INFO: Saved 1 highest confidence cropped image from right_214.jpg.
+2025-06-04 20:21:42,459 DEBUG: Pushed left frame left_214.jpg (rectified) with PTS 25800000000
+2025-06-04 20:21:42,513 DEBUG: Pushed right frame right_215.jpg (rectified) with PTS 25900000000
+2025-06-04 20:21:42,541 INFO: Saved highest confidence cropped image (conf: 0.39) to data/cropped_images/left/left_214_cropped.jpg
+2025-06-04 20:21:42,542 DEBUG: Stored ROI metadata for left_214_cropped.jpg
+2025-06-04 20:21:42,544 INFO: Saved 1 highest confidence cropped image from left_214.jpg.
+2025-06-04 20:21:42,572 INFO: Saved highest confidence cropped image (conf: 0.46) to data/cropped_images/right/right_215_cropped.jpg
+2025-06-04 20:21:42,573 DEBUG: Stored ROI metadata for right_215_cropped.jpg
+2025-06-04 20:21:42,573 INFO: Saved 1 highest confidence cropped image from right_215.jpg.
+2025-06-04 20:21:42,691 DEBUG: Pushed left frame left_215.jpg (rectified) with PTS 26000000000
+2025-06-04 20:21:42,705 DEBUG: Pushed right frame right_216.jpg (rectified) with PTS 26100000000
+2025-06-04 20:21:42,729 INFO: Saved highest confidence cropped image (conf: 0.34) to data/cropped_images/left/left_215_cropped.jpg
+2025-06-04 20:21:42,730 DEBUG: Stored ROI metadata for left_215_cropped.jpg
+2025-06-04 20:21:42,730 INFO: Saved 1 highest confidence cropped image from left_215.jpg.
+2025-06-04 20:21:42,748 INFO: Saved highest confidence cropped image (conf: 0.65) to data/cropped_images/right/right_216_cropped.jpg
+2025-06-04 20:21:42,749 DEBUG: Stored ROI metadata for right_216_cropped.jpg
+2025-06-04 20:21:42,749 INFO: Saved 1 highest confidence cropped image from right_216.jpg.
+2025-06-04 20:21:42,874 DEBUG: Pushed left frame left_216.jpg (rectified) with PTS 26200000000
+2025-06-04 20:21:42,882 DEBUG: Pushed right frame right_38.jpg (rectified) with PTS 26300000000
+2025-06-04 20:21:42,915 INFO: Saved highest confidence cropped image (conf: 0.54) to data/cropped_images/left/left_216_cropped.jpg
+2025-06-04 20:21:42,915 DEBUG: Stored ROI metadata for left_216_cropped.jpg
+2025-06-04 20:21:42,915 INFO: Saved 1 highest confidence cropped image from left_216.jpg.
+2025-06-04 20:21:42,925 INFO: Saved highest confidence cropped image (conf: 0.91) to data/cropped_images/right/right_38_cropped.jpg
+2025-06-04 20:21:42,925 DEBUG: Stored ROI metadata for right_38_cropped.jpg
+2025-06-04 20:21:42,925 INFO: Saved 1 highest confidence cropped image from right_38.jpg.
+2025-06-04 20:21:43,045 DEBUG: Pushed left frame left_38.jpg (rectified) with PTS 26400000000
+2025-06-04 20:21:43,052 DEBUG: Pushed right frame right_39.jpg (rectified) with PTS 26500000000
+2025-06-04 20:21:43,075 INFO: Saved highest confidence cropped image (conf: 0.91) to data/cropped_images/left/left_38_cropped.jpg
+2025-06-04 20:21:43,075 DEBUG: Stored ROI metadata for left_38_cropped.jpg
+2025-06-04 20:21:43,076 INFO: Saved 1 highest confidence cropped image from left_38.jpg.
+2025-06-04 20:21:43,087 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/right/right_39_cropped.jpg
+2025-06-04 20:21:43,087 DEBUG: Stored ROI metadata for right_39_cropped.jpg
+2025-06-04 20:21:43,088 INFO: Saved 1 highest confidence cropped image from right_39.jpg.
+2025-06-04 20:21:43,222 DEBUG: Pushed left frame left_39.jpg (rectified) with PTS 26600000000
+2025-06-04 20:21:43,232 DEBUG: Pushed right frame right_53.jpg (rectified) with PTS 26700000000
+2025-06-04 20:21:43,264 INFO: Saved highest confidence cropped image (conf: 0.91) to data/cropped_images/left/left_39_cropped.jpg
+2025-06-04 20:21:43,265 DEBUG: Stored ROI metadata for left_39_cropped.jpg
+2025-06-04 20:21:43,265 INFO: Saved 1 highest confidence cropped image from left_39.jpg.
+2025-06-04 20:21:43,277 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_53_cropped.jpg
+2025-06-04 20:21:43,277 DEBUG: Stored ROI metadata for right_53_cropped.jpg
+2025-06-04 20:21:43,277 INFO: Saved 1 highest confidence cropped image from right_53.jpg.
+2025-06-04 20:21:43,407 DEBUG: Pushed left frame left_53.jpg (rectified) with PTS 26800000000
+2025-06-04 20:21:43,416 DEBUG: Pushed right frame right_54.jpg (rectified) with PTS 26900000000
+2025-06-04 20:21:43,445 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/left/left_53_cropped.jpg
+2025-06-04 20:21:43,446 DEBUG: Stored ROI metadata for left_53_cropped.jpg
+2025-06-04 20:21:43,446 INFO: Saved 1 highest confidence cropped image from left_53.jpg.
+2025-06-04 20:21:43,458 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_54_cropped.jpg
+2025-06-04 20:21:43,458 DEBUG: Stored ROI metadata for right_54_cropped.jpg
+2025-06-04 20:21:43,459 INFO: Saved 1 highest confidence cropped image from right_54.jpg.
+2025-06-04 20:21:43,581 DEBUG: Pushed left frame left_54.jpg (rectified) with PTS 27000000000
+2025-06-04 20:21:43,588 DEBUG: Pushed right frame right_55.jpg (rectified) with PTS 27100000000
+2025-06-04 20:21:43,617 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_54_cropped.jpg
+2025-06-04 20:21:43,617 DEBUG: Stored ROI metadata for left_54_cropped.jpg
+2025-06-04 20:21:43,618 INFO: Saved 1 highest confidence cropped image from left_54.jpg.
+2025-06-04 20:21:43,626 INFO: Saved highest confidence cropped image (conf: 0.86) to data/cropped_images/right/right_55_cropped.jpg
+2025-06-04 20:21:43,627 DEBUG: Stored ROI metadata for right_55_cropped.jpg
+2025-06-04 20:21:43,627 INFO: Saved 1 highest confidence cropped image from right_55.jpg.
+2025-06-04 20:21:43,757 DEBUG: Pushed left frame left_55.jpg (rectified) with PTS 27200000000
+2025-06-04 20:21:43,767 DEBUG: Pushed right frame right_56.jpg (rectified) with PTS 27300000000
+2025-06-04 20:21:43,805 INFO: Saved highest confidence cropped image (conf: 0.85) to data/cropped_images/left/left_55_cropped.jpg
+2025-06-04 20:21:43,805 DEBUG: Stored ROI metadata for left_55_cropped.jpg
+2025-06-04 20:21:43,806 INFO: Saved 1 highest confidence cropped image from left_55.jpg.
+2025-06-04 20:21:43,814 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/right/right_56_cropped.jpg
+2025-06-04 20:21:43,814 DEBUG: Stored ROI metadata for right_56_cropped.jpg
+2025-06-04 20:21:43,814 INFO: Saved 1 highest confidence cropped image from right_56.jpg.
+2025-06-04 20:21:43,933 DEBUG: Pushed left frame left_56.jpg (rectified) with PTS 27400000000
+2025-06-04 20:21:43,950 DEBUG: Pushed right frame right_57.jpg (rectified) with PTS 27500000000
+2025-06-04 20:21:43,967 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/left/left_56_cropped.jpg
+2025-06-04 20:21:43,968 DEBUG: Stored ROI metadata for left_56_cropped.jpg
+2025-06-04 20:21:43,968 INFO: Saved 1 highest confidence cropped image from left_56.jpg.
+2025-06-04 20:21:43,978 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_57_cropped.jpg
+2025-06-04 20:21:43,979 DEBUG: Stored ROI metadata for right_57_cropped.jpg
+2025-06-04 20:21:43,979 INFO: Saved 1 highest confidence cropped image from right_57.jpg.
+2025-06-04 20:21:44,124 DEBUG: Pushed left frame left_57.jpg (rectified) with PTS 27600000000
+2025-06-04 20:21:44,150 DEBUG: Pushed right frame right_58.jpg (rectified) with PTS 27700000000
+2025-06-04 20:21:44,169 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_57_cropped.jpg
+2025-06-04 20:21:44,169 DEBUG: Stored ROI metadata for left_57_cropped.jpg
+2025-06-04 20:21:44,169 INFO: Saved 1 highest confidence cropped image from left_57.jpg.
+2025-06-04 20:21:44,186 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_58_cropped.jpg
+2025-06-04 20:21:44,186 DEBUG: Stored ROI metadata for right_58_cropped.jpg
+2025-06-04 20:21:44,186 INFO: Saved 1 highest confidence cropped image from right_58.jpg.
+2025-06-04 20:21:44,338 DEBUG: Pushed left frame left_58.jpg (rectified) with PTS 27800000000
+2025-06-04 20:21:44,368 DEBUG: Pushed right frame right_59.jpg (rectified) with PTS 27900000000
+2025-06-04 20:21:44,405 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_58_cropped.jpg
+2025-06-04 20:21:44,410 DEBUG: Stored ROI metadata for left_58_cropped.jpg
+2025-06-04 20:21:44,410 INFO: Saved 1 highest confidence cropped image from left_58.jpg.
+2025-06-04 20:21:44,449 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_59_cropped.jpg
+2025-06-04 20:21:44,449 DEBUG: Stored ROI metadata for right_59_cropped.jpg
+2025-06-04 20:21:44,454 INFO: Saved 1 highest confidence cropped image from right_59.jpg.
+2025-06-04 20:21:44,625 DEBUG: Pushed left frame left_59.jpg (rectified) with PTS 28000000000
+2025-06-04 20:21:44,641 DEBUG: Pushed right frame right_60.jpg (rectified) with PTS 28100000000
+2025-06-04 20:21:44,659 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_59_cropped.jpg
+2025-06-04 20:21:44,659 DEBUG: Stored ROI metadata for left_59_cropped.jpg
+2025-06-04 20:21:44,660 INFO: Saved 1 highest confidence cropped image from left_59.jpg.
+2025-06-04 20:21:44,682 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_60_cropped.jpg
+2025-06-04 20:21:44,682 DEBUG: Stored ROI metadata for right_60_cropped.jpg
+2025-06-04 20:21:44,682 INFO: Saved 1 highest confidence cropped image from right_60.jpg.
+2025-06-04 20:21:44,817 DEBUG: Pushed left frame left_60.jpg (rectified) with PTS 28200000000
+2025-06-04 20:21:44,832 DEBUG: Pushed right frame right_61.jpg (rectified) with PTS 28300000000
+2025-06-04 20:21:44,866 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_60_cropped.jpg
+2025-06-04 20:21:44,866 DEBUG: Stored ROI metadata for left_60_cropped.jpg
+2025-06-04 20:21:44,866 INFO: Saved 1 highest confidence cropped image from left_60.jpg.
+2025-06-04 20:21:44,879 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_61_cropped.jpg
+2025-06-04 20:21:44,880 DEBUG: Stored ROI metadata for right_61_cropped.jpg
+2025-06-04 20:21:44,880 INFO: Saved 1 highest confidence cropped image from right_61.jpg.
+2025-06-04 20:21:45,007 DEBUG: Pushed left frame left_61.jpg (rectified) with PTS 28400000000
+2025-06-04 20:21:45,027 DEBUG: Pushed right frame right_62.jpg (rectified) with PTS 28500000000
+2025-06-04 20:21:45,052 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_61_cropped.jpg
+2025-06-04 20:21:45,053 DEBUG: Stored ROI metadata for left_61_cropped.jpg
+2025-06-04 20:21:45,053 INFO: Saved 1 highest confidence cropped image from left_61.jpg.
+2025-06-04 20:21:45,068 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_62_cropped.jpg
+2025-06-04 20:21:45,068 DEBUG: Stored ROI metadata for right_62_cropped.jpg
+2025-06-04 20:21:45,069 INFO: Saved 1 highest confidence cropped image from right_62.jpg.
+2025-06-04 20:21:45,193 DEBUG: Pushed left frame left_62.jpg (rectified) with PTS 28600000000
+2025-06-04 20:21:45,206 DEBUG: Pushed right frame right_63.jpg (rectified) with PTS 28700000000
+2025-06-04 20:21:45,234 INFO: Saved highest confidence cropped image (conf: 0.86) to data/cropped_images/left/left_62_cropped.jpg
+2025-06-04 20:21:45,234 DEBUG: Stored ROI metadata for left_62_cropped.jpg
+2025-06-04 20:21:45,234 INFO: Saved 1 highest confidence cropped image from left_62.jpg.
+2025-06-04 20:21:45,246 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_63_cropped.jpg
+2025-06-04 20:21:45,246 DEBUG: Stored ROI metadata for right_63_cropped.jpg
+2025-06-04 20:21:45,246 INFO: Saved 1 highest confidence cropped image from right_63.jpg.
+2025-06-04 20:21:45,371 DEBUG: Pushed left frame left_63.jpg (rectified) with PTS 28800000000
+2025-06-04 20:21:45,383 DEBUG: Pushed right frame right_64.jpg (rectified) with PTS 28900000000
+2025-06-04 20:21:45,406 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_63_cropped.jpg
+2025-06-04 20:21:45,407 DEBUG: Stored ROI metadata for left_63_cropped.jpg
+2025-06-04 20:21:45,407 INFO: Saved 1 highest confidence cropped image from left_63.jpg.
+2025-06-04 20:21:45,422 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_64_cropped.jpg
+2025-06-04 20:21:45,422 DEBUG: Stored ROI metadata for right_64_cropped.jpg
+2025-06-04 20:21:45,422 INFO: Saved 1 highest confidence cropped image from right_64.jpg.
+2025-06-04 20:21:45,546 DEBUG: Pushed left frame left_64.jpg (rectified) with PTS 29000000000
+2025-06-04 20:21:45,561 DEBUG: Pushed right frame right_65.jpg (rectified) with PTS 29100000000
+2025-06-04 20:21:45,585 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_64_cropped.jpg
+2025-06-04 20:21:45,586 DEBUG: Stored ROI metadata for left_64_cropped.jpg
+2025-06-04 20:21:45,586 INFO: Saved 1 highest confidence cropped image from left_64.jpg.
+2025-06-04 20:21:45,599 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_65_cropped.jpg
+2025-06-04 20:21:45,599 DEBUG: Stored ROI metadata for right_65_cropped.jpg
+2025-06-04 20:21:45,599 INFO: Saved 1 highest confidence cropped image from right_65.jpg.
+2025-06-04 20:21:45,724 DEBUG: Pushed left frame left_65.jpg (rectified) with PTS 29200000000
+2025-06-04 20:21:45,733 DEBUG: Pushed right frame right_66.jpg (rectified) with PTS 29300000000
+2025-06-04 20:21:45,762 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_65_cropped.jpg
+2025-06-04 20:21:45,762 DEBUG: Stored ROI metadata for left_65_cropped.jpg
+2025-06-04 20:21:45,762 INFO: Saved 1 highest confidence cropped image from left_65.jpg.
+2025-06-04 20:21:45,772 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_66_cropped.jpg
+2025-06-04 20:21:45,772 DEBUG: Stored ROI metadata for right_66_cropped.jpg
+2025-06-04 20:21:45,773 INFO: Saved 1 highest confidence cropped image from right_66.jpg.
+2025-06-04 20:21:45,897 DEBUG: Pushed left frame left_66.jpg (rectified) with PTS 29400000000
+2025-06-04 20:21:45,904 DEBUG: Pushed right frame right_67.jpg (rectified) with PTS 29500000000
+2025-06-04 20:21:45,939 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/left/left_66_cropped.jpg
+2025-06-04 20:21:45,939 DEBUG: Stored ROI metadata for left_66_cropped.jpg
+2025-06-04 20:21:45,939 INFO: Saved 1 highest confidence cropped image from left_66.jpg.
+2025-06-04 20:21:45,952 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/right/right_67_cropped.jpg
+2025-06-04 20:21:45,952 DEBUG: Stored ROI metadata for right_67_cropped.jpg
+2025-06-04 20:21:45,952 INFO: Saved 1 highest confidence cropped image from right_67.jpg.
+2025-06-04 20:21:46,068 DEBUG: Pushed left frame left_67.jpg (rectified) with PTS 29600000000
+2025-06-04 20:21:46,077 DEBUG: Pushed right frame right_68.jpg (rectified) with PTS 29700000000
+2025-06-04 20:21:46,115 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/left/left_67_cropped.jpg
+2025-06-04 20:21:46,117 DEBUG: Stored ROI metadata for left_67_cropped.jpg
+2025-06-04 20:21:46,117 INFO: Saved 1 highest confidence cropped image from left_67.jpg.
+2025-06-04 20:21:46,127 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_68_cropped.jpg
+2025-06-04 20:21:46,128 DEBUG: Stored ROI metadata for right_68_cropped.jpg
+2025-06-04 20:21:46,128 INFO: Saved 1 highest confidence cropped image from right_68.jpg.
+2025-06-04 20:21:46,279 DEBUG: Pushed left frame left_68.jpg (rectified) with PTS 29800000000
+2025-06-04 20:21:46,298 DEBUG: Pushed right frame right_72.jpg (rectified) with PTS 29900000000
+2025-06-04 20:21:46,366 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/left/left_68_cropped.jpg
+2025-06-04 20:21:46,366 DEBUG: Stored ROI metadata for left_68_cropped.jpg
+2025-06-04 20:21:46,366 INFO: Saved 1 highest confidence cropped image from left_68.jpg.
+2025-06-04 20:21:46,379 INFO: Saved highest confidence cropped image (conf: 0.78) to data/cropped_images/right/right_72_cropped.jpg
+2025-06-04 20:21:46,379 DEBUG: Stored ROI metadata for right_72_cropped.jpg
+2025-06-04 20:21:46,379 INFO: Saved 1 highest confidence cropped image from right_72.jpg.
+2025-06-04 20:21:46,542 DEBUG: Pushed left frame left_72.jpg (rectified) with PTS 30000000000
+2025-06-04 20:21:46,555 DEBUG: Pushed right frame right_73.jpg (rectified) with PTS 30100000000
+2025-06-04 20:21:46,586 INFO: Saved highest confidence cropped image (conf: 0.75) to data/cropped_images/left/left_72_cropped.jpg
+2025-06-04 20:21:46,586 DEBUG: Stored ROI metadata for left_72_cropped.jpg
+2025-06-04 20:21:46,586 INFO: Saved 1 highest confidence cropped image from left_72.jpg.
+2025-06-04 20:21:46,619 INFO: Saved highest confidence cropped image (conf: 0.78) to data/cropped_images/right/right_73_cropped.jpg
+2025-06-04 20:21:46,621 DEBUG: Stored ROI metadata for right_73_cropped.jpg
+2025-06-04 20:21:46,621 INFO: Saved 1 highest confidence cropped image from right_73.jpg.
+2025-06-04 20:21:46,738 DEBUG: Pushed left frame left_73.jpg (rectified) with PTS 30200000000
+2025-06-04 20:21:46,751 DEBUG: Pushed right frame right_74.jpg (rectified) with PTS 30300000000
+2025-06-04 20:21:46,792 INFO: Saved highest confidence cropped image (conf: 0.77) to data/cropped_images/left/left_73_cropped.jpg
+2025-06-04 20:21:46,792 DEBUG: Stored ROI metadata for left_73_cropped.jpg
+2025-06-04 20:21:46,792 INFO: Saved 1 highest confidence cropped image from left_73.jpg.
+2025-06-04 20:21:46,802 INFO: Saved highest confidence cropped image (conf: 0.78) to data/cropped_images/right/right_74_cropped.jpg
+2025-06-04 20:21:46,802 DEBUG: Stored ROI metadata for right_74_cropped.jpg
+2025-06-04 20:21:46,802 INFO: Saved 1 highest confidence cropped image from right_74.jpg.
+2025-06-04 20:21:46,929 DEBUG: Pushed left frame left_74.jpg (rectified) with PTS 30400000000
+2025-06-04 20:21:46,938 DEBUG: Pushed right frame right_75.jpg (rectified) with PTS 30500000000
+2025-06-04 20:21:46,962 INFO: Saved highest confidence cropped image (conf: 0.71) to data/cropped_images/left/left_74_cropped.jpg
+2025-06-04 20:21:46,962 DEBUG: Stored ROI metadata for left_74_cropped.jpg
+2025-06-04 20:21:46,962 INFO: Saved 1 highest confidence cropped image from left_74.jpg.
+2025-06-04 20:21:46,978 INFO: Saved highest confidence cropped image (conf: 0.76) to data/cropped_images/right/right_75_cropped.jpg
+2025-06-04 20:21:46,979 DEBUG: Stored ROI metadata for right_75_cropped.jpg
+2025-06-04 20:21:46,979 INFO: Saved 1 highest confidence cropped image from right_75.jpg.
+2025-06-04 20:21:47,102 DEBUG: Pushed left frame left_75.jpg (rectified) with PTS 30600000000
+2025-06-04 20:21:47,120 DEBUG: Pushed right frame right_76.jpg (rectified) with PTS 30700000000
+2025-06-04 20:21:47,138 INFO: Saved highest confidence cropped image (conf: 0.71) to data/cropped_images/left/left_75_cropped.jpg
+2025-06-04 20:21:47,138 DEBUG: Stored ROI metadata for left_75_cropped.jpg
+2025-06-04 20:21:47,138 INFO: Saved 1 highest confidence cropped image from left_75.jpg.
+2025-06-04 20:21:47,150 INFO: Saved highest confidence cropped image (conf: 0.74) to data/cropped_images/right/right_76_cropped.jpg
+2025-06-04 20:21:47,150 DEBUG: Stored ROI metadata for right_76_cropped.jpg
+2025-06-04 20:21:47,150 INFO: Saved 1 highest confidence cropped image from right_76.jpg.
+2025-06-04 20:21:47,284 DEBUG: Pushed left frame left_76.jpg (rectified) with PTS 30800000000
+2025-06-04 20:21:47,299 DEBUG: Pushed right frame right_77.jpg (rectified) with PTS 30900000000
+2025-06-04 20:21:47,318 INFO: Saved highest confidence cropped image (conf: 0.70) to data/cropped_images/left/left_76_cropped.jpg
+2025-06-04 20:21:47,318 DEBUG: Stored ROI metadata for left_76_cropped.jpg
+2025-06-04 20:21:47,318 INFO: Saved 1 highest confidence cropped image from left_76.jpg.
+2025-06-04 20:21:47,337 INFO: Saved highest confidence cropped image (conf: 0.72) to data/cropped_images/right/right_77_cropped.jpg
+2025-06-04 20:21:47,338 DEBUG: Stored ROI metadata for right_77_cropped.jpg
+2025-06-04 20:21:47,338 INFO: Saved 1 highest confidence cropped image from right_77.jpg.
+2025-06-04 20:21:47,465 DEBUG: Pushed left frame left_77.jpg (rectified) with PTS 31000000000
+2025-06-04 20:21:47,475 DEBUG: Pushed right frame right_78.jpg (rectified) with PTS 31100000000
+2025-06-04 20:21:47,503 INFO: Saved highest confidence cropped image (conf: 0.63) to data/cropped_images/left/left_77_cropped.jpg
+2025-06-04 20:21:47,503 DEBUG: Stored ROI metadata for left_77_cropped.jpg
+2025-06-04 20:21:47,503 INFO: Saved 1 highest confidence cropped image from left_77.jpg.
+2025-06-04 20:21:47,516 INFO: Saved highest confidence cropped image (conf: 0.86) to data/cropped_images/right/right_78_cropped.jpg
+2025-06-04 20:21:47,516 DEBUG: Stored ROI metadata for right_78_cropped.jpg
+2025-06-04 20:21:47,516 INFO: Saved 1 highest confidence cropped image from right_78.jpg.
+2025-06-04 20:21:47,638 DEBUG: Pushed left frame left_78.jpg (rectified) with PTS 31200000000
+2025-06-04 20:21:47,651 DEBUG: Pushed right frame right_79.jpg (rectified) with PTS 31300000000
+2025-06-04 20:21:47,675 INFO: Saved highest confidence cropped image (conf: 0.84) to data/cropped_images/left/left_78_cropped.jpg
+2025-06-04 20:21:47,675 DEBUG: Stored ROI metadata for left_78_cropped.jpg
+2025-06-04 20:21:47,676 INFO: Saved 1 highest confidence cropped image from left_78.jpg.
+2025-06-04 20:21:47,691 INFO: Saved highest confidence cropped image (conf: 0.83) to data/cropped_images/right/right_79_cropped.jpg
+2025-06-04 20:21:47,691 DEBUG: Stored ROI metadata for right_79_cropped.jpg
+2025-06-04 20:21:47,691 INFO: Saved 1 highest confidence cropped image from right_79.jpg.
+2025-06-04 20:21:47,816 DEBUG: Pushed left frame left_79.jpg (rectified) with PTS 31400000000
+2025-06-04 20:21:47,825 DEBUG: Pushed right frame right_80.jpg (rectified) with PTS 31500000000
+2025-06-04 20:21:47,859 INFO: Saved highest confidence cropped image (conf: 0.82) to data/cropped_images/left/left_79_cropped.jpg
+2025-06-04 20:21:47,859 DEBUG: Stored ROI metadata for left_79_cropped.jpg
+2025-06-04 20:21:47,859 INFO: Saved 1 highest confidence cropped image from left_79.jpg.
+2025-06-04 20:21:47,872 INFO: Saved highest confidence cropped image (conf: 0.86) to data/cropped_images/right/right_80_cropped.jpg
+2025-06-04 20:21:47,872 DEBUG: Stored ROI metadata for right_80_cropped.jpg
+2025-06-04 20:21:47,872 INFO: Saved 1 highest confidence cropped image from right_80.jpg.
+2025-06-04 20:21:47,993 DEBUG: Pushed left frame left_80.jpg (rectified) with PTS 31600000000
+2025-06-04 20:21:48,014 DEBUG: Pushed right frame right_81.jpg (rectified) with PTS 31700000000
+2025-06-04 20:21:48,030 INFO: Saved highest confidence cropped image (conf: 0.85) to data/cropped_images/left/left_80_cropped.jpg
+2025-06-04 20:21:48,030 DEBUG: Stored ROI metadata for left_80_cropped.jpg
+2025-06-04 20:21:48,030 INFO: Saved 1 highest confidence cropped image from left_80.jpg.
+2025-06-04 20:21:48,044 INFO: Saved highest confidence cropped image (conf: 0.73) to data/cropped_images/right/right_81_cropped.jpg
+2025-06-04 20:21:48,044 DEBUG: Stored ROI metadata for right_81_cropped.jpg
+2025-06-04 20:21:48,044 INFO: Saved 1 highest confidence cropped image from right_81.jpg.
+2025-06-04 20:21:48,246 DEBUG: Pushed left frame left_81.jpg (rectified) with PTS 31800000000
+2025-06-04 20:21:48,256 DEBUG: Pushed right frame right_82.jpg (rectified) with PTS 31900000000
+2025-06-04 20:21:48,293 INFO: Saved highest confidence cropped image (conf: 0.78) to data/cropped_images/left/left_81_cropped.jpg
+2025-06-04 20:21:48,293 DEBUG: Stored ROI metadata for left_81_cropped.jpg
+2025-06-04 20:21:48,294 INFO: Saved 1 highest confidence cropped image from left_81.jpg.
+2025-06-04 20:21:48,307 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/right/right_82_cropped.jpg
+2025-06-04 20:21:48,307 DEBUG: Stored ROI metadata for right_82_cropped.jpg
+2025-06-04 20:21:48,307 INFO: Saved 1 highest confidence cropped image from right_82.jpg.
+2025-06-04 20:21:48,424 DEBUG: Pushed left frame left_82.jpg (rectified) with PTS 32000000000
+2025-06-04 20:21:48,441 DEBUG: Pushed right frame right_83.jpg (rectified) with PTS 32100000000
+2025-06-04 20:21:48,464 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/left/left_82_cropped.jpg
+2025-06-04 20:21:48,464 DEBUG: Stored ROI metadata for left_82_cropped.jpg
+2025-06-04 20:21:48,464 INFO: Saved 1 highest confidence cropped image from left_82.jpg.
+2025-06-04 20:21:48,474 INFO: Saved highest confidence cropped image (conf: 0.83) to data/cropped_images/right/right_83_cropped.jpg
+2025-06-04 20:21:48,475 DEBUG: Stored ROI metadata for right_83_cropped.jpg
+2025-06-04 20:21:48,475 INFO: Saved 1 highest confidence cropped image from right_83.jpg.
+2025-06-04 20:21:48,606 DEBUG: Pushed left frame left_83.jpg (rectified) with PTS 32200000000
+2025-06-04 20:21:48,624 DEBUG: Pushed right frame right_87.jpg (rectified) with PTS 32300000000
+2025-06-04 20:21:48,649 INFO: Saved highest confidence cropped image (conf: 0.83) to data/cropped_images/left/left_83_cropped.jpg
+2025-06-04 20:21:48,649 DEBUG: Stored ROI metadata for left_83_cropped.jpg
+2025-06-04 20:21:48,650 INFO: Saved 1 highest confidence cropped image from left_83.jpg.
+2025-06-04 20:21:48,662 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_87_cropped.jpg
+2025-06-04 20:21:48,662 DEBUG: Stored ROI metadata for right_87_cropped.jpg
+2025-06-04 20:21:48,663 INFO: Saved 1 highest confidence cropped image from right_87.jpg.
+2025-06-04 20:21:48,950 DEBUG: Pushed left frame left_87.jpg (rectified) with PTS 32400000000
+2025-06-04 20:21:48,962 DEBUG: Pushed right frame right_88.jpg (rectified) with PTS 32500000000
+2025-06-04 20:21:48,976 INFO: Saved highest confidence cropped image (conf: 0.85) to data/cropped_images/left/left_87_cropped.jpg
+2025-06-04 20:21:48,976 DEBUG: Stored ROI metadata for left_87_cropped.jpg
+2025-06-04 20:21:48,976 INFO: Saved 1 highest confidence cropped image from left_87.jpg.
+2025-06-04 20:21:48,989 INFO: Saved highest confidence cropped image (conf: 0.91) to data/cropped_images/right/right_88_cropped.jpg
+2025-06-04 20:21:48,989 DEBUG: Stored ROI metadata for right_88_cropped.jpg
+2025-06-04 20:21:48,989 INFO: Saved 1 highest confidence cropped image from right_88.jpg.
+2025-06-04 20:21:49,129 DEBUG: Pushed left frame left_88.jpg (rectified) with PTS 32600000000
+2025-06-04 20:21:49,138 DEBUG: Pushed right frame right_89.jpg (rectified) with PTS 32700000000
+2025-06-04 20:21:49,171 INFO: Saved highest confidence cropped image (conf: 0.91) to data/cropped_images/left/left_88_cropped.jpg
+2025-06-04 20:21:49,171 DEBUG: Stored ROI metadata for left_88_cropped.jpg
+2025-06-04 20:21:49,172 INFO: Saved 1 highest confidence cropped image from left_88.jpg.
+2025-06-04 20:21:49,181 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/right/right_89_cropped.jpg
+2025-06-04 20:21:49,182 DEBUG: Stored ROI metadata for right_89_cropped.jpg
+2025-06-04 20:21:49,182 INFO: Saved 1 highest confidence cropped image from right_89.jpg.
+2025-06-04 20:21:49,301 DEBUG: Pushed left frame left_89.jpg (rectified) with PTS 32800000000
+2025-06-04 20:21:49,315 DEBUG: Pushed right frame right_90.jpg (rectified) with PTS 32900000000
+2025-06-04 20:21:49,333 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_89_cropped.jpg
+2025-06-04 20:21:49,333 DEBUG: Stored ROI metadata for left_89_cropped.jpg
+2025-06-04 20:21:49,334 INFO: Saved 1 highest confidence cropped image from left_89.jpg.
+2025-06-04 20:21:49,347 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_90_cropped.jpg
+2025-06-04 20:21:49,347 DEBUG: Stored ROI metadata for right_90_cropped.jpg
+2025-06-04 20:21:49,347 INFO: Saved 1 highest confidence cropped image from right_90.jpg.
+2025-06-04 20:21:49,479 DEBUG: Pushed left frame left_90.jpg (rectified) with PTS 33000000000
+2025-06-04 20:21:49,488 DEBUG: Pushed right frame right_91.jpg (rectified) with PTS 33100000000
+2025-06-04 20:21:49,516 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/left/left_90_cropped.jpg
+2025-06-04 20:21:49,516 DEBUG: Stored ROI metadata for left_90_cropped.jpg
+2025-06-04 20:21:49,516 INFO: Saved 1 highest confidence cropped image from left_90.jpg.
+2025-06-04 20:21:49,531 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_91_cropped.jpg
+2025-06-04 20:21:49,531 DEBUG: Stored ROI metadata for right_91_cropped.jpg
+2025-06-04 20:21:49,531 INFO: Saved 1 highest confidence cropped image from right_91.jpg.
+2025-06-04 20:21:49,650 DEBUG: Pushed left frame left_91.jpg (rectified) with PTS 33200000000
+2025-06-04 20:21:49,664 DEBUG: Pushed right frame right_92.jpg (rectified) with PTS 33300000000
+2025-06-04 20:21:49,680 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/left/left_91_cropped.jpg
+2025-06-04 20:21:49,680 DEBUG: Stored ROI metadata for left_91_cropped.jpg
+2025-06-04 20:21:49,680 INFO: Saved 1 highest confidence cropped image from left_91.jpg.
+2025-06-04 20:21:49,694 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/right/right_92_cropped.jpg
+2025-06-04 20:21:49,694 DEBUG: Stored ROI metadata for right_92_cropped.jpg
+2025-06-04 20:21:49,694 INFO: Saved 1 highest confidence cropped image from right_92.jpg.
+2025-06-04 20:21:49,842 DEBUG: Pushed left frame left_92.jpg (rectified) with PTS 33400000000
+2025-06-04 20:21:49,853 DEBUG: Pushed right frame right_93.jpg (rectified) with PTS 33500000000
+2025-06-04 20:21:49,893 INFO: Saved highest confidence cropped image (conf: 0.92) to data/cropped_images/left/left_92_cropped.jpg
+2025-06-04 20:21:49,893 DEBUG: Stored ROI metadata for left_92_cropped.jpg
+2025-06-04 20:21:49,893 INFO: Saved 1 highest confidence cropped image from left_92.jpg.
+2025-06-04 20:21:49,905 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_93_cropped.jpg
+2025-06-04 20:21:49,906 DEBUG: Stored ROI metadata for right_93_cropped.jpg
+2025-06-04 20:21:49,906 INFO: Saved 1 highest confidence cropped image from right_93.jpg.
+2025-06-04 20:21:50,017 DEBUG: Pushed left frame left_93.jpg (rectified) with PTS 33600000000
+2025-06-04 20:21:50,024 DEBUG: Pushed right frame right_94.jpg (rectified) with PTS 33700000000
+2025-06-04 20:21:50,052 INFO: Saved highest confidence cropped image (conf: 0.91) to data/cropped_images/left/left_93_cropped.jpg
+2025-06-04 20:21:50,053 DEBUG: Stored ROI metadata for left_93_cropped.jpg
+2025-06-04 20:21:50,053 INFO: Saved 1 highest confidence cropped image from left_93.jpg.
+2025-06-04 20:21:50,064 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_94_cropped.jpg
+2025-06-04 20:21:50,064 DEBUG: Stored ROI metadata for right_94_cropped.jpg
+2025-06-04 20:21:50,064 INFO: Saved 1 highest confidence cropped image from right_94.jpg.
+2025-06-04 20:21:50,187 DEBUG: Pushed left frame left_94.jpg (rectified) with PTS 33800000000
+2025-06-04 20:21:50,205 DEBUG: Pushed right frame right_95.jpg (rectified) with PTS 33900000000
+2025-06-04 20:21:50,224 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/left/left_94_cropped.jpg
+2025-06-04 20:21:50,224 DEBUG: Stored ROI metadata for left_94_cropped.jpg
+2025-06-04 20:21:50,225 INFO: Saved 1 highest confidence cropped image from left_94.jpg.
+2025-06-04 20:21:50,236 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_95_cropped.jpg
+2025-06-04 20:21:50,236 DEBUG: Stored ROI metadata for right_95_cropped.jpg
+2025-06-04 20:21:50,236 INFO: Saved 1 highest confidence cropped image from right_95.jpg.
+2025-06-04 20:21:50,380 DEBUG: Pushed left frame left_95.jpg (rectified) with PTS 34000000000
+2025-06-04 20:21:50,395 DEBUG: Pushed right frame right_96.jpg (rectified) with PTS 34100000000
+2025-06-04 20:21:50,430 INFO: Saved highest confidence cropped image (conf: 0.88) to data/cropped_images/left/left_95_cropped.jpg
+2025-06-04 20:21:50,430 DEBUG: Stored ROI metadata for left_95_cropped.jpg
+2025-06-04 20:21:50,430 INFO: Saved 1 highest confidence cropped image from left_95.jpg.
+2025-06-04 20:21:50,439 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_96_cropped.jpg
+2025-06-04 20:21:50,439 DEBUG: Stored ROI metadata for right_96_cropped.jpg
+2025-06-04 20:21:50,439 INFO: Saved 1 highest confidence cropped image from right_96.jpg.
+2025-06-04 20:21:50,563 DEBUG: Pushed left frame left_96.jpg (rectified) with PTS 34200000000
+2025-06-04 20:21:50,575 DEBUG: Pushed right frame right_97.jpg (rectified) with PTS 34300000000
+2025-06-04 20:21:50,598 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_96_cropped.jpg
+2025-06-04 20:21:50,599 DEBUG: Stored ROI metadata for left_96_cropped.jpg
+2025-06-04 20:21:50,599 INFO: Saved 1 highest confidence cropped image from left_96.jpg.
+2025-06-04 20:21:50,613 INFO: Saved highest confidence cropped image (conf: 0.89) to data/cropped_images/right/right_97_cropped.jpg
+2025-06-04 20:21:50,614 DEBUG: Stored ROI metadata for right_97_cropped.jpg
+2025-06-04 20:21:50,614 INFO: Saved 1 highest confidence cropped image from right_97.jpg.
+2025-06-04 20:21:50,740 DEBUG: Pushed left frame left_97.jpg (rectified) with PTS 34400000000
+2025-06-04 20:21:50,749 DEBUG: Pushed right frame right_98.jpg (rectified) with PTS 34500000000
+2025-06-04 20:21:50,798 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/left/left_97_cropped.jpg
+2025-06-04 20:21:50,798 DEBUG: Stored ROI metadata for left_97_cropped.jpg
+2025-06-04 20:21:50,798 INFO: Saved 1 highest confidence cropped image from left_97.jpg.
+2025-06-04 20:21:50,809 INFO: Saved highest confidence cropped image (conf: 0.87) to data/cropped_images/right/right_98_cropped.jpg
+2025-06-04 20:21:50,809 DEBUG: Stored ROI metadata for right_98_cropped.jpg
+2025-06-04 20:21:50,809 INFO: Saved 1 highest confidence cropped image from right_98.jpg.
+2025-06-04 20:21:50,911 DEBUG: Pushed left frame left_98.jpg (rectified) with PTS 34600000000
+2025-06-04 20:21:50,923 DEBUG: Pushed right frame right_99.jpg (rectified) with PTS 34700000000
+2025-06-04 20:21:50,944 INFO: Saved highest confidence cropped image (conf: 0.85) to data/cropped_images/left/left_98_cropped.jpg
+2025-06-04 20:21:50,944 DEBUG: Stored ROI metadata for left_98_cropped.jpg
+2025-06-04 20:21:50,944 INFO: Saved 1 highest confidence cropped image from left_98.jpg.
+2025-06-04 20:21:50,970 INFO: Saved highest confidence cropped image (conf: 0.90) to data/cropped_images/right/right_99_cropped.jpg
+2025-06-04 20:21:50,970 DEBUG: Stored ROI metadata for right_99_cropped.jpg
+2025-06-04 20:21:50,971 INFO: Saved 1 highest confidence cropped image from right_99.jpg.
+2025-06-04 20:21:51,023 INFO: All images processed by picamera_thread, sending EOS to appsrc.
+2025-06-04 20:21:55,613 INFO: Shutdown signal (Ctrl-C) received. Initiating graceful shutdown...
+2025-06-04 20:21:55,668 INFO: ROI metadata saved to data/cropped_images/roi_metadata.json

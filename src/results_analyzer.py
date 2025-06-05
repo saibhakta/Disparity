@@ -7,7 +7,7 @@ import logging
 
 # Assuming utils.py is structured to be importable
 # If src is a package, and utils is a module within src:
-from .utils import load_ground_truth_annotation
+from utils import load_ground_truth_annotation
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 

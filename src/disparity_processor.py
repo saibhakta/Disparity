@@ -9,8 +9,8 @@ import logging
 
 # Assuming disparity_algorithms and utils are structured to be importable
 # If src is a package, and these are modules within src:
-from .disparity_algorithms import AVAILABLE_ALGORITHMS, BaseDisparityMatcher
-from .utils import load_image # Assuming load_image can handle color images by default
+from disparity_algorithms import AVAILABLE_ALGORITHMS, BaseDisparityMatcher
+from utils import load_image # Assuming load_image can handle color images by default
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 

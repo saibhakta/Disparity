@@ -18,7 +18,7 @@ import glob
 import hailo
 from gstreamer_helpers import get_numpy_from_buffer
 import json
-from .utils import CalibrationData
+from utils import CalibrationData
 
 # Global map to associate PTS with original file paths
 pts_to_filepath_map = {}

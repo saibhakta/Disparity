@@ -1,0 +1,4842 @@
+{
+    "left_01_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_01.jpg",
+        "image_pair_id": "01",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 896,
+            "y": 484,
+            "w": 177,
+            "h": 180
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 916.0188217163086,
+            "y": 504.65904664993286,
+            "w": 137.4287338256836,
+            "h": 139.44686222076416
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8792722225189209
+    },
+    "right_01_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_01.jpg",
+        "image_pair_id": "01",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 799,
+            "y": 477,
+            "w": 180,
+            "h": 177
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 819.9711227416992,
+            "y": 497.5864477157593,
+            "w": 139.78942108154297,
+            "h": 136.8395233154297
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.897290050983429
+    },
+    "left_02_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_02.jpg",
+        "image_pair_id": "02",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1121,
+            "y": 442,
+            "w": 188,
+            "h": 207
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1141.7564163208008,
+            "y": 462.36991453170776,
+            "w": 148.10662078857422,
+            "h": 166.6969256401062
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9008936285972595
+    },
+    "right_02_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_02.jpg",
+        "image_pair_id": "02",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1025,
+            "y": 447,
+            "w": 185,
+            "h": 202
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1045.0117721557617,
+            "y": 467.9425964355469,
+            "w": 145.28121185302734,
+            "h": 161.43501091003418
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8936864733695984
+    },
+    "left_03_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_03.jpg",
+        "image_pair_id": "03",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1164,
+            "y": 464,
+            "w": 194,
+            "h": 195
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1184.9290466308594,
+            "y": 484.5828924179077,
+            "w": 153.1614990234375,
+            "h": 155.13156652450562
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "right_03_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_03.jpg",
+        "image_pair_id": "03",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1062,
+            "y": 467,
+            "w": 193,
+            "h": 198
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1082.8254089355469,
+            "y": 487.3434133529663,
+            "w": 152.58828735351562,
+            "h": 158.3349094390869
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9153079390525818
+    },
+    "left_04_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_04.jpg",
+        "image_pair_id": "04",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1402,
+            "y": 471,
+            "w": 201,
+            "h": 185
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1422.0546569824219,
+            "y": 491.87746238708496,
+            "w": 161.5840301513672,
+            "h": 144.45424604415894
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "right_04_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_04.jpg",
+        "image_pair_id": "04",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1307,
+            "y": 476,
+            "w": 193,
+            "h": 183
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1327.4942321777344,
+            "y": 496.0504174232483,
+            "w": 152.60833740234375,
+            "h": 143.74233198165894
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8936864733695984
+    },
+    "left_05_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_05.jpg",
+        "image_pair_id": "05",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1371,
+            "y": 769,
+            "w": 235,
+            "h": 237
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1391.8186340332031,
+            "y": 789.7840662002563,
+            "w": 194.403076171875,
+            "h": 196.9473638534546
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "right_05_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_05.jpg",
+        "image_pair_id": "05",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1252,
+            "y": 775,
+            "w": 227,
+            "h": 230
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1272.3896942138672,
+            "y": 795.5314435958862,
+            "w": 186.8803253173828,
+            "h": 189.87009143829346
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "left_06_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_06.jpg",
+        "image_pair_id": "06",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1122,
+            "y": 759,
+            "w": 234,
+            "h": 242
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1142.7578201293945,
+            "y": 779.5140724182129,
+            "w": 193.7072982788086,
+            "h": 201.52150440216064
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "right_06_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_06.jpg",
+        "image_pair_id": "06",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 993,
+            "y": 761,
+            "w": 237,
+            "h": 242
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1013.9074172973633,
+            "y": 781.1205139160156,
+            "w": 196.30748748779297,
+            "h": 202.63881397247314
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "left_07_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_07.jpg",
+        "image_pair_id": "07",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 813,
+            "y": 736,
+            "w": 236,
+            "h": 231
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 833.8480911254883,
+            "y": 756.3608751296997,
+            "w": 195.98277282714844,
+            "h": 191.50202465057373
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8936864733695984
+    },
+    "right_07_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_07.jpg",
+        "image_pair_id": "07",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 683,
+            "y": 736,
+            "w": 245,
+            "h": 236
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 703.3955383300781,
+            "y": 756.0894269943237,
+            "w": 204.75123596191406,
+            "h": 196.15094089508057
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.886479377746582
+    },
+    "left_08_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_08.jpg",
+        "image_pair_id": "08",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 873,
+            "y": 1042,
+            "w": 259,
+            "h": 254
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 893.7532424926758,
+            "y": 1062.3878259658813,
+            "w": 218.64344787597656,
+            "h": 235.34437465667725
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8688071966171265
+    },
+    "right_08_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_08.jpg",
+        "image_pair_id": "08",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 722,
+            "y": 1057,
+            "w": 266,
+            "h": 239
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 742.4173278808594,
+            "y": 1077.773775100708,
+            "w": 226.4681167602539,
+            "h": 227.8381462097168
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.897290050983429
+    },
+    "left_09_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_09.jpg",
+        "image_pair_id": "09",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1168,
+            "y": 1034,
+            "w": 268,
+            "h": 262
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1188.0688018798828,
+            "y": 1054.4312438964844,
+            "w": 228.9250030517578,
+            "h": 243.4852695465088
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8758706450462341
+    },
+    "right_09_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_09.jpg",
+        "image_pair_id": "09",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1024,
+            "y": 1020,
+            "w": 264,
+            "h": 276
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1044.1408996582031,
+            "y": 1040.7586469650269,
+            "w": 224.5667266845703,
+            "h": 264.0869779586792
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.886479377746582
+    },
+    "left_10_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_10.jpg",
+        "image_pair_id": "10",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1444,
+            "y": 956,
+            "w": 289,
+            "h": 297
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1464.035888671875,
+            "y": 976.3323554992676,
+            "w": 249.39459228515625,
+            "h": 257.5038585662842
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9044972062110901
+    },
+    "right_10_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_10.jpg",
+        "image_pair_id": "10",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1304,
+            "y": 960,
+            "w": 277,
+            "h": 289
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1324.1103057861328,
+            "y": 980.2254810333252,
+            "w": 237.18988037109375,
+            "h": 249.67319011688232
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "left_100_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_100.jpg",
+        "image_pair_id": "100",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 855,
+            "y": 145,
+            "w": 354,
+            "h": 398
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 875.0074768066406,
+            "y": 165.34505367279053,
+            "w": 314.0494079589844,
+            "h": 357.7058401107788
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8723389506340027
+    },
+    "right_100_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_100.jpg",
+        "image_pair_id": "100",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 643,
+            "y": 139,
+            "w": 372,
+            "h": 394
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 663.446159362793,
+            "y": 159.51090788841248,
+            "w": 331.69612884521484,
+            "h": 353.75732803344727
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8935293555259705
+    },
+    "left_101_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_101.jpg",
+        "image_pair_id": "101",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 421,
+            "y": 124,
+            "w": 369,
+            "h": 383
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 441.71836853027344,
+            "y": 144.3519026041031,
+            "w": 328.49649810791016,
+            "h": 343.3549704551697
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8758706450462341
+    },
+    "right_101_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_101.jpg",
+        "image_pair_id": "101",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 222,
+            "y": 143,
+            "w": 385,
+            "h": 377
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 242.40622329711914,
+            "y": 163.9243927001953,
+            "w": 344.9095573425293,
+            "h": 336.6973843574524
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8829341530799866
+    },
+    "left_102_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_102.jpg",
+        "image_pair_id": "102",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 640,
+            "y": 360,
+            "w": 435,
+            "h": 425
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 660.2868347167969,
+            "y": 380.41822385787964,
+            "w": 395.3125991821289,
+            "h": 385.28011178970337
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8935293555259705
+    },
+    "right_102_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_102.jpg",
+        "image_pair_id": "102",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 393,
+            "y": 389,
+            "w": 471,
+            "h": 440
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 413.7660942077637,
+            "y": 409.17430686950684,
+            "w": 431.19713973999023,
+            "h": 400.63195610046387
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8899976015090942
+    },
+    "left_103_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_103.jpg",
+        "image_pair_id": "103",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1421,
+            "y": 304,
+            "w": 467,
+            "h": 435
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1441.270980834961,
+            "y": 324.792058467865,
+            "w": 426.926513671875,
+            "h": 394.78798055648804
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8546802401542664
+    },
+    "right_103_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_103.jpg",
+        "image_pair_id": "103",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1259,
+            "y": 322,
+            "w": 414,
+            "h": 414
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1279.4684600830078,
+            "y": 342.71300411224365,
+            "w": 373.6358184814453,
+            "h": 373.74375915527344
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8829341530799866
+    },
+    "left_104_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_104.jpg",
+        "image_pair_id": "104",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1343,
+            "y": 92,
+            "w": 358,
+            "h": 371
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1363.5328216552734,
+            "y": 112.31919765472412,
+            "w": 318.0614776611328,
+            "h": 331.5465130805969
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "right_104_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_104.jpg",
+        "image_pair_id": "104",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1125,
+            "y": 170,
+            "w": 366,
+            "h": 378
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1145.4172668457031,
+            "y": 190.35570859909058,
+            "w": 325.9698486328125,
+            "h": 337.8260107040405
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "left_105_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_105.jpg",
+        "image_pair_id": "105",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1162,
+            "y": 478,
+            "w": 431,
+            "h": 420
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1182.7952270507812,
+            "y": 498.4883522987366,
+            "w": 390.2368469238281,
+            "h": 380.3566575050354
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "right_105_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_105.jpg",
+        "image_pair_id": "105",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 911,
+            "y": 476,
+            "w": 424,
+            "h": 427
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 931.1000289916992,
+            "y": 496.652060508728,
+            "w": 384.4918899536133,
+            "h": 387.1932649612427
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8829341530799866
+    },
+    "left_11_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_11.jpg",
+        "image_pair_id": "11",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1477,
+            "y": 797,
+            "w": 247,
+            "h": 241
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1497.9916076660156,
+            "y": 817.8061809539795,
+            "w": 206.7688751220703,
+            "h": 200.6747932434082
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.897290050983429
+    },
+    "right_11_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_11.jpg",
+        "image_pair_id": "11",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1368,
+            "y": 796,
+            "w": 225,
+            "h": 224
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1388.287353515625,
+            "y": 816.7894477844238,
+            "w": 185.10809326171875,
+            "h": 184.0367374420166
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9081007838249207
+    },
+    "left_12_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_12.jpg",
+        "image_pair_id": "12",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1540,
+            "y": 558,
+            "w": 221,
+            "h": 204
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1560.9605712890625,
+            "y": 578.8453817367554,
+            "w": 180.2940216064453,
+            "h": 163.51374435424805
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9153079390525818
+    },
+    "right_12_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_12.jpg",
+        "image_pair_id": "12",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1425,
+            "y": 542,
+            "w": 213,
+            "h": 202
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1445.639144897461,
+            "y": 562.3737945556641,
+            "w": 172.5040283203125,
+            "h": 162.26681327819824
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "left_127_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_127.jpg",
+        "image_pair_id": "127",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 424,
+            "y": 0,
+            "w": 269,
+            "h": 118
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 444.5478973388672,
+            "y": 2.2492399122565985,
+            "w": 229.13724517822266,
+            "h": 96.23755645751953
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.3027002513408661
+    },
+    "left_129_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_129.jpg",
+        "image_pair_id": "129",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 925,
+            "y": 547,
+            "w": 224,
+            "h": 170
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 945.5589294433594,
+            "y": 567.0784063339233,
+            "w": 184.20281982421875,
+            "h": 130.57605457305908
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.5837790966033936
+    },
+    "left_13_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_13.jpg",
+        "image_pair_id": "13",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1315,
+            "y": 380,
+            "w": 162,
+            "h": 157
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1335.5402069091797,
+            "y": 400.85775089263916,
+            "w": 122.35418701171875,
+            "h": 116.37210988998413
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8792722225189209
+    },
+    "right_13_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_13.jpg",
+        "image_pair_id": "13",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1206,
+            "y": 372,
+            "w": 159,
+            "h": 156
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1226.466293334961,
+            "y": 392.4445581436157,
+            "w": 119.15139770507812,
+            "h": 115.62149477005005
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.886479377746582
+    },
+    "left_131_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_131.jpg",
+        "image_pair_id": "131",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 253,
+            "y": 0,
+            "w": 266,
+            "h": 147
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 273.60370445251465,
+            "y": 5.325000084936619,
+            "w": 226.21665000915527,
+            "h": 121.94701266288757
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7963899970054626
+    },
+    "right_137_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_137.jpg",
+        "image_pair_id": "137",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 597,
+            "y": 837,
+            "w": 386,
+            "h": 459
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 617.5912170410156,
+            "y": 857.5268297195435,
+            "w": 345.693603515625,
+            "h": 439.44540882110596
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8970611095428467
+    },
+    "left_137_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_137.jpg",
+        "image_pair_id": "137",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 888,
+            "y": 833,
+            "w": 317,
+            "h": 463
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 908.5139923095703,
+            "y": 853.4222002029419,
+            "w": 276.52821350097656,
+            "h": 435.6537866592407
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8582119941711426
+    },
+    "right_138_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_138.jpg",
+        "image_pair_id": "138",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 738,
+            "y": 841,
+            "w": 430,
+            "h": 455
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 758.0824584960938,
+            "y": 861.5530529022217,
+            "w": 390.60482025146484,
+            "h": 439.22548484802246
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8723389506340027
+    },
+    "left_138_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_138.jpg",
+        "image_pair_id": "138",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1075,
+            "y": 835,
+            "w": 354,
+            "h": 461
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1095.3565521240234,
+            "y": 855.2536640167236,
+            "w": 313.77406311035156,
+            "h": 445.04130363464355
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8370215892791748
+    },
+    "right_139_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_139.jpg",
+        "image_pair_id": "139",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 761,
+            "y": 846,
+            "w": 431,
+            "h": 450
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 781.6272583007812,
+            "y": 866.3315906524658,
+            "w": 390.84027099609375,
+            "h": 436.33765983581543
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.886465847492218
+    },
+    "left_139_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_139.jpg",
+        "image_pair_id": "139",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1098,
+            "y": 852,
+            "w": 346,
+            "h": 444
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1118.9550476074219,
+            "y": 872.9644575119019,
+            "w": 305.2489471435547,
+            "h": 427.45024394989014
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8829341530799866
+    },
+    "right_14_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_14.jpg",
+        "image_pair_id": "14",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1106,
+            "y": 419,
+            "w": 187,
+            "h": 194
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1126.4794464111328,
+            "y": 439.93199157714844,
+            "w": 146.89544677734375,
+            "h": 153.39198875427246
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8900828957557678
+    },
+    "left_14_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_14.jpg",
+        "image_pair_id": "14",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1206,
+            "y": 394,
+            "w": 178,
+            "h": 182
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1226.5157318115234,
+            "y": 414.683066368103,
+            "w": 138.38832092285156,
+            "h": 141.58438110351562
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9008936285972595
+    },
+    "right_140_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_140.jpg",
+        "image_pair_id": "140",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 762,
+            "y": 852,
+            "w": 435,
+            "h": 444
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 782.5090484619141,
+            "y": 872.8302783966064,
+            "w": 394.97662353515625,
+            "h": 430.01092529296875
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8970611095428467
+    },
+    "left_140_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_140.jpg",
+        "image_pair_id": "140",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1108,
+            "y": 856,
+            "w": 348,
+            "h": 440
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1128.2078018188477,
+            "y": 876.1261253356934,
+            "w": 308.6223678588867,
+            "h": 423.4776306152344
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8794023990631104
+    },
+    "right_141_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_141.jpg",
+        "image_pair_id": "141",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 761,
+            "y": 825,
+            "w": 480,
+            "h": 471
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 781.4614334106445,
+            "y": 845.7542924880981,
+            "w": 439.57486724853516,
+            "h": 455.8789129257202
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8794023990631104
+    },
+    "left_141_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_141.jpg",
+        "image_pair_id": "141",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1130,
+            "y": 828,
+            "w": 376,
+            "h": 468
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1150.9496383666992,
+            "y": 848.1702117919922,
+            "w": 335.98120880126953,
+            "h": 455.1811351776123
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8334898352622986
+    },
+    "right_142_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_142.jpg",
+        "image_pair_id": "142",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 707,
+            "y": 848,
+            "w": 374,
+            "h": 448
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 727.6713409423828,
+            "y": 868.443154335022,
+            "w": 334.18521881103516,
+            "h": 421.7909288406372
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "left_142_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_142.jpg",
+        "image_pair_id": "142",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1025,
+            "y": 849,
+            "w": 339,
+            "h": 447
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1045.9391555786133,
+            "y": 869.4394941329956,
+            "w": 298.8097915649414,
+            "h": 430.91093730926514
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8935293555259705
+    },
+    "right_143_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_143.jpg",
+        "image_pair_id": "143",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 881,
+            "y": 817,
+            "w": 268,
+            "h": 298
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 901.0973968505859,
+            "y": 837.8459129333496,
+            "w": 228.52317810058594,
+            "h": 258.12616539001465
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.897290050983429
+    },
+    "left_143_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_143.jpg",
+        "image_pair_id": "143",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 982,
+            "y": 853,
+            "w": 280,
+            "h": 302
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1002.4721603393555,
+            "y": 873.9396314620972,
+            "w": 239.89478302001953,
+            "h": 261.5537967681885
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9044972062110901
+    },
+    "right_144_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_144.jpg",
+        "image_pair_id": "144",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 828,
+            "y": 440,
+            "w": 224,
+            "h": 222
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 848.8959274291992,
+            "y": 460.7834801673889,
+            "w": 183.3911361694336,
+            "h": 181.82757139205933
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9117043614387512
+    },
+    "left_144_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_144.jpg",
+        "image_pair_id": "144",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 948,
+            "y": 442,
+            "w": 228,
+            "h": 216
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 968.2114334106445,
+            "y": 462.1992745399475,
+            "w": 188.37728118896484,
+            "h": 176.2604899406433
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8756686449050903
+    },
+    "right_145_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_145.jpg",
+        "image_pair_id": "145",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 825,
+            "y": 444,
+            "w": 227,
+            "h": 229
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 845.8481826782227,
+            "y": 464.48561096191406,
+            "w": 187.01538848876953,
+            "h": 188.97888565063477
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9044972062110901
+    },
+    "left_145_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_145.jpg",
+        "image_pair_id": "145",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 944,
+            "y": 438,
+            "w": 238,
+            "h": 228
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 964.2266235351562,
+            "y": 458.09329319000244,
+            "w": 197.93284606933594,
+            "h": 188.47863006591797
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8576507568359375
+    },
+    "right_146_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_146.jpg",
+        "image_pair_id": "146",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 322
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 4.668923377990723,
+            "y": -0.546368679497391,
+            "w": 336.3164978027344,
+            "h": 303.0212073326111
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.455594003200531
+    },
+    "left_147_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_147.jpg",
+        "image_pair_id": "147",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 494,
+            "y": 0,
+            "w": 467,
+            "h": 312
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 514.3149261474609,
+            "y": 9.377444006502628,
+            "w": 426.72745513916016,
+            "h": 283.02656865119934
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.4308718740940094
+    },
+    "right_15_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_15.jpg",
+        "image_pair_id": "15",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 903,
+            "y": 535,
+            "w": 190,
+            "h": 191
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 923.1512145996094,
+            "y": 555.1444988250732,
+            "w": 150.3794174194336,
+            "h": 151.3467035293579
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9008936285972595
+    },
+    "left_15_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_15.jpg",
+        "image_pair_id": "15",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1021,
+            "y": 526,
+            "w": 193,
+            "h": 198
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1041.4729385375977,
+            "y": 546.8709697723389,
+            "w": 153.0117416381836,
+            "h": 158.0681734085083
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.897290050983429
+    },
+    "left_151_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_151.jpg",
+        "image_pair_id": "151",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 0,
+            "y": 0,
+            "w": 564,
+            "h": 381
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 19.92037582397461,
+            "y": 4.491000082343817,
+            "w": 524.9926414489746,
+            "h": 357.23134660720825
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7734503149986267
+    },
+    "left_152_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_152.jpg",
+        "image_pair_id": "152",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 0,
+            "y": 812,
+            "w": 236,
+            "h": 426
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 3.2199811935424805,
+            "y": 832.8503093719482,
+            "w": 213.63739013671875,
+            "h": 386.015625
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7734503149986267
+    },
+    "right_153_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_153.jpg",
+        "image_pair_id": "153",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 691,
+            "y": 859,
+            "w": 310,
+            "h": 326
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 711.2434158325195,
+            "y": 879.9583024978638,
+            "w": 269.9468536376953,
+            "h": 285.8453149795532
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.886465847492218
+    },
+    "left_153_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_153.jpg",
+        "image_pair_id": "153",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 854,
+            "y": 855,
+            "w": 300,
+            "h": 325
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 874.4170989990234,
+            "y": 875.151801109314,
+            "w": 260.54468536376953,
+            "h": 285.3992872238159
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8829341530799866
+    },
+    "right_154_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_154.jpg",
+        "image_pair_id": "154",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 824,
+            "y": 649,
+            "w": 168,
+            "h": 171
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 844.4682998657227,
+            "y": 669.8595314025879,
+            "w": 127.76344299316406,
+            "h": 130.5293197631836
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8756686449050903
+    },
+    "left_154_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_154.jpg",
+        "image_pair_id": "154",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 909,
+            "y": 640,
+            "w": 158,
+            "h": 174
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 929.3602066040039,
+            "y": 660.9382038116455,
+            "w": 118.2095947265625,
+            "h": 133.8163604736328
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8828758001327515
+    },
+    "right_155_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_155.jpg",
+        "image_pair_id": "155",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 801,
+            "y": 441,
+            "w": 183,
+            "h": 201
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 821.346061706543,
+            "y": 461.05774784088135,
+            "w": 142.9925537109375,
+            "h": 161.82769918441772
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8035971522331238
+    },
+    "left_155_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_155.jpg",
+        "image_pair_id": "155",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 907,
+            "y": 446,
+            "w": 160,
+            "h": 191
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 927.0258178710938,
+            "y": 466.3331036567688,
+            "w": 120.87700653076172,
+            "h": 150.73192834854126
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7063006162643433
+    },
+    "right_156_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_156.jpg",
+        "image_pair_id": "156",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 805,
+            "y": 465,
+            "w": 203,
+            "h": 228
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 825.2812271118164,
+            "y": 485.5616970062256,
+            "w": 163.44463348388672,
+            "h": 187.89680099487305
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8828758001327515
+    },
+    "left_156_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_156.jpg",
+        "image_pair_id": "156",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 915,
+            "y": 462,
+            "w": 205,
+            "h": 233
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 935.5618515014648,
+            "y": 482.96463203430176,
+            "w": 165.12698364257812,
+            "h": 192.30972576141357
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8900828957557678
+    },
+    "right_157_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_157.jpg",
+        "image_pair_id": "157",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 936,
+            "y": 446,
+            "w": 148,
+            "h": 181
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 956.3494262695312,
+            "y": 466.3804178237915,
+            "w": 108.08061218261719,
+            "h": 141.00595092773438
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.760354220867157
+    },
+    "left_157_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_157.jpg",
+        "image_pair_id": "157",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1018,
+            "y": 441,
+            "w": 145,
+            "h": 180
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1038.2224960327148,
+            "y": 461.39474058151245,
+            "w": 104.80167388916016,
+            "h": 139.9186520576477
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.760354220867157
+    },
+    "right_158_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_158.jpg",
+        "image_pair_id": "158",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1010,
+            "y": 463,
+            "w": 121,
+            "h": 147
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1030.445686340332,
+            "y": 483.0312967300415,
+            "w": 80.8634262084961,
+            "h": 107.67823791503906
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.3351324498653412
+    },
+    "left_158_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_158.jpg",
+        "image_pair_id": "158",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1081,
+            "y": 466,
+            "w": 106,
+            "h": 141
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1101.7715377807617,
+            "y": 486.1734595298767,
+            "w": 65.7524185180664,
+            "h": 101.27800226211548
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.34233957529067993
+    },
+    "right_159_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_159.jpg",
+        "image_pair_id": "159",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1093,
+            "y": 520,
+            "w": 96,
+            "h": 109
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1113.1660079956055,
+            "y": 540.0155138969421,
+            "w": 56.075111389160156,
+            "h": 69.3936996459961
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.5513468980789185
+    },
+    "left_159_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_159.jpg",
+        "image_pair_id": "159",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1146,
+            "y": 519,
+            "w": 100,
+            "h": 110
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1166.0046844482422,
+            "y": 539.8509378433228,
+            "w": 60.39088439941406,
+            "h": 69.71593809127808
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.6630577445030212
+    },
+    "right_16_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_16.jpg",
+        "image_pair_id": "16",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 906,
+            "y": 468,
+            "w": 152,
+            "h": 159
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 926.1696395874023,
+            "y": 488.52340936660767,
+            "w": 111.90069580078125,
+            "h": 118.81819438934326
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8720650672912598
+    },
+    "left_16_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_16.jpg",
+        "image_pair_id": "16",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 997,
+            "y": 458,
+            "w": 168,
+            "h": 164
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1017.4305953979492,
+            "y": 478.8640966415405,
+            "w": 128.45091247558594,
+            "h": 123.20748138427734
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8900828957557678
+    },
+    "right_160_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_160.jpg",
+        "image_pair_id": "160",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1103,
+            "y": 567,
+            "w": 85,
+            "h": 102
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1123.0706634521484,
+            "y": 587.5675649642944,
+            "w": 45.88728332519531,
+            "h": 61.4752779006958
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.5189147591590881
+    },
+    "left_160_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_160.jpg",
+        "image_pair_id": "160",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1143,
+            "y": 554,
+            "w": 89,
+            "h": 107
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1163.1431579589844,
+            "y": 574.1596570014954,
+            "w": 48.926788330078125,
+            "h": 66.87507963180542
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.6054005026817322
+    },
+    "right_161_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_161.jpg",
+        "image_pair_id": "161",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1158,
+            "y": 584,
+            "w": 84,
+            "h": 99
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1178.3180236816406,
+            "y": 604.1779274940491,
+            "w": 44.35304260253906,
+            "h": 59.183534145355225
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.6450398564338684
+    },
+    "left_161_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_161.jpg",
+        "image_pair_id": "161",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1184,
+            "y": 578,
+            "w": 90,
+            "h": 103
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1204.7766723632812,
+            "y": 598.7022686004639,
+            "w": 50.03448486328125,
+            "h": 62.90320014953613
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.6738684773445129
+    },
+    "right_162_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_162.jpg",
+        "image_pair_id": "162",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1178,
+            "y": 614,
+            "w": 83,
+            "h": 89
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1198.8006591796875,
+            "y": 634.7035217285156,
+            "w": 43.151824951171875,
+            "h": 49.16726016998291
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.3675646185874939
+    },
+    "left_162_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_162.jpg",
+        "image_pair_id": "162",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1215,
+            "y": 611,
+            "w": 85,
+            "h": 93
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1235.670639038086,
+            "y": 631.1174554824829,
+            "w": 44.82847595214844,
+            "h": 53.2062292098999
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.47206827998161316
+    },
+    "right_17_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_17.jpg",
+        "image_pair_id": "17",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 793,
+            "y": 597,
+            "w": 217,
+            "h": 247
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 813.1460723876953,
+            "y": 617.0258288383484,
+            "w": 177.18255615234375,
+            "h": 207.3925166130066
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8504436016082764
+    },
+    "left_17_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_17.jpg",
+        "image_pair_id": "17",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 869,
+            "y": 596,
+            "w": 206,
+            "h": 198
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 889.2732238769531,
+            "y": 616.0264763832092,
+            "w": 166.3077392578125,
+            "h": 158.56058835983276
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8828758001327515
+    },
+    "right_175_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_175.jpg",
+        "image_pair_id": "175",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1231,
+            "y": 639,
+            "w": 91,
+            "h": 97
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1251.6959838867188,
+            "y": 659.8389701843262,
+            "w": 50.45787048339844,
+            "h": 57.048062324523926
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.34233957529067993
+    },
+    "right_177_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_177.jpg",
+        "image_pair_id": "177",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1156,
+            "y": 615,
+            "w": 115,
+            "h": 127
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1176.7840576171875,
+            "y": 635.9206738471985,
+            "w": 74.88308715820312,
+            "h": 86.17925977706909
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7711649537086487
+    },
+    "left_177_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_177.jpg",
+        "image_pair_id": "177",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1215,
+            "y": 618,
+            "w": 115,
+            "h": 126
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1235.0188751220703,
+            "y": 638.8320980072021,
+            "w": 75.18589782714844,
+            "h": 86.09131336212158
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.4468432366847992
+    },
+    "right_178_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_178.jpg",
+        "image_pair_id": "178",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1058,
+            "y": 555,
+            "w": 140,
+            "h": 163
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1078.5167083740234,
+            "y": 575.7846765518188,
+            "w": 99.92724609375,
+            "h": 122.83259868621826
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.5981934070587158
+    },
+    "left_178_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_178.jpg",
+        "image_pair_id": "178",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1138,
+            "y": 554,
+            "w": 143,
+            "h": 160
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1158.7901000976562,
+            "y": 574.6296701431274,
+            "w": 103.02140808105469,
+            "h": 119.68166828155518
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.6162112355232239
+    },
+    "right_179_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_179.jpg",
+        "image_pair_id": "179",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 934,
+            "y": 485,
+            "w": 213,
+            "h": 207
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 954.1693954467773,
+            "y": 505.6754322052002,
+            "w": 173.48517608642578,
+            "h": 166.56340312957764
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7891828417778015
+    },
+    "left_179_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_179.jpg",
+        "image_pair_id": "179",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1050,
+            "y": 488,
+            "w": 202,
+            "h": 190
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1070.3063507080078,
+            "y": 508.00691986083984,
+            "w": 161.9809112548828,
+            "h": 150.37600994110107
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8216149806976318
+    },
+    "right_18_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_18.jpg",
+        "image_pair_id": "18",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1306,
+            "y": 583,
+            "w": 189,
+            "h": 183
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1326.4094696044922,
+            "y": 603.0778827667236,
+            "w": 149.14572143554688,
+            "h": 143.7687120437622
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8900828957557678
+    },
+    "left_18_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_18.jpg",
+        "image_pair_id": "18",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1386,
+            "y": 602,
+            "w": 200,
+            "h": 194
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1406.1842193603516,
+            "y": 622.7361273765564,
+            "w": 159.95599365234375,
+            "h": 153.65327882766724
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.886479377746582
+    },
+    "right_180_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_180.jpg",
+        "image_pair_id": "180",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 421,
+            "y": 490,
+            "w": 354,
+            "h": 311
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 441.80371856689453,
+            "y": 510.4228777885437,
+            "w": 313.4666519165039,
+            "h": 270.78801584243774
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.886465847492218
+    },
+    "left_180_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_180.jpg",
+        "image_pair_id": "180",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 595,
+            "y": 491,
+            "w": 335,
+            "h": 322
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 615.8737106323242,
+            "y": 511.5740990638733,
+            "w": 294.94871520996094,
+            "h": 281.57657289505005
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8899976015090942
+    },
+    "right_181_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_181.jpg",
+        "image_pair_id": "181",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1220,
+            "y": 502,
+            "w": 228,
+            "h": 265
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1240.4616394042969,
+            "y": 522.7727637290955,
+            "w": 187.71405029296875,
+            "h": 224.83054876327515
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8828758001327515
+    },
+    "left_181_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_181.jpg",
+        "image_pair_id": "181",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1336,
+            "y": 518,
+            "w": 242,
+            "h": 246
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1356.6354675292969,
+            "y": 538.6378412246704,
+            "w": 201.421142578125,
+            "h": 205.82543277740479
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8900828957557678
+    },
+    "right_182_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_182.jpg",
+        "image_pair_id": "182",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1075,
+            "y": 230,
+            "w": 226,
+            "h": 230
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1095.4264526367188,
+            "y": 250.1421411037445,
+            "w": 185.95761108398438,
+            "h": 190.07095456123352
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.886479377746582
+    },
+    "left_182_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_182.jpg",
+        "image_pair_id": "182",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1237,
+            "y": 240,
+            "w": 236,
+            "h": 230
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1257.7679901123047,
+            "y": 260.98502254486084,
+            "w": 195.38772583007812,
+            "h": 190.00264835357666
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8612543344497681
+    },
+    "right_183_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_183.jpg",
+        "image_pair_id": "183",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 936,
+            "y": 458,
+            "w": 241,
+            "h": 259
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 956.5809631347656,
+            "y": 478.03202390670776,
+            "w": 201.1919403076172,
+            "h": 219.32449293136597
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8684614896774292
+    },
+    "left_183_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_183.jpg",
+        "image_pair_id": "183",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1043,
+            "y": 444,
+            "w": 241,
+            "h": 252
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1063.3068237304688,
+            "y": 464.84102725982666,
+            "w": 200.99185180664062,
+            "h": 211.35412216186523
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.897290050983429
+    },
+    "right_184_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_184.jpg",
+        "image_pair_id": "184",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1122,
+            "y": 313,
+            "w": 261,
+            "h": 255
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1142.7301483154297,
+            "y": 333.3328642845154,
+            "w": 220.5655059814453,
+            "h": 215.5108551979065
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8546802401542664
+    },
+    "left_184_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_184.jpg",
+        "image_pair_id": "184",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1266,
+            "y": 303,
+            "w": 275,
+            "h": 273
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1286.4443664550781,
+            "y": 323.3437042236328,
+            "w": 234.79019165039062,
+            "h": 232.69261837005615
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9044972062110901
+    },
+    "right_185_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_185.jpg",
+        "image_pair_id": "185",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 995,
+            "y": 443,
+            "w": 278,
+            "h": 274
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1015.6471710205078,
+            "y": 463.7465829849243,
+            "w": 238.3136444091797,
+            "h": 234.0778226852417
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "left_185_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_185.jpg",
+        "image_pair_id": "185",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1151,
+            "y": 437,
+            "w": 287,
+            "h": 276
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1171.1477966308594,
+            "y": 457.10637760162354,
+            "w": 247.44342041015625,
+            "h": 236.82567501068115
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "right_186_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_186.jpg",
+        "image_pair_id": "186",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1228,
+            "y": 677,
+            "w": 643,
+            "h": 619
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1248.5615844726562,
+            "y": 697.7264556884766,
+            "w": 603.0997009277344,
+            "h": 601.5231971740723
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "left_186_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_186.jpg",
+        "image_pair_id": "186",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1517,
+            "y": 621,
+            "w": 614,
+            "h": 589
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1537.6331634521484,
+            "y": 641.3128280639648,
+            "w": 573.5391998291016,
+            "h": 549.2457160949707
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "right_187_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_187.jpg",
+        "image_pair_id": "187",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 762,
+            "y": 625,
+            "w": 802,
+            "h": 671
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 782.4894104003906,
+            "y": 645.626528263092,
+            "w": 762.3569641113281,
+            "h": 650.4726963043213
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8653315305709839
+    },
+    "left_187_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_187.jpg",
+        "image_pair_id": "187",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1258,
+            "y": 608,
+            "w": 917,
+            "h": 688
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1278.2631225585938,
+            "y": 628.139675617218,
+            "w": 876.9839172363281,
+            "h": 666.360523223877
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8653315305709839
+    },
+    "right_188_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_188.jpg",
+        "image_pair_id": "188",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 628,
+            "y": 645,
+            "w": 855,
+            "h": 651
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 648.942626953125,
+            "y": 665.4388818740845,
+            "w": 814.7250823974609,
+            "h": 630.7047986984253
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8653315305709839
+    },
+    "left_188_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_188.jpg",
+        "image_pair_id": "188",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1143,
+            "y": 630,
+            "w": 934,
+            "h": 666
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1163.696044921875,
+            "y": 650.900107383728,
+            "w": 893.4911499023438,
+            "h": 643.7858333587646
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8653315305709839
+    },
+    "right_189_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_189.jpg",
+        "image_pair_id": "189",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 655,
+            "y": 653,
+            "w": 848,
+            "h": 643
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 675.9666595458984,
+            "y": 673.064998626709,
+            "w": 807.0536041259766,
+            "h": 625.2080898284912
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8653315305709839
+    },
+    "left_189_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_189.jpg",
+        "image_pair_id": "189",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1161,
+            "y": 642,
+            "w": 910,
+            "h": 654
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1181.9712524414062,
+            "y": 662.5902214050293,
+            "w": 869.5143127441406,
+            "h": 632.6692056655884
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8653315305709839
+    },
+    "right_19_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_19.jpg",
+        "image_pair_id": "19",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1363,
+            "y": 443,
+            "w": 168,
+            "h": 185
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1383.8859558105469,
+            "y": 463.0969305038452,
+            "w": 127.33964538574219,
+            "h": 145.78904628753662
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8756686449050903
+    },
+    "left_19_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_19.jpg",
+        "image_pair_id": "19",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1451,
+            "y": 443,
+            "w": 185,
+            "h": 187
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1471.8136596679688,
+            "y": 463.53878688812256,
+            "w": 144.61001586914062,
+            "h": 146.56152248382568
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8792722225189209
+    },
+    "right_190_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_190.jpg",
+        "image_pair_id": "190",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 653,
+            "y": 640,
+            "w": 843,
+            "h": 656
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 673.3045349121094,
+            "y": 660.2415075302124,
+            "w": 803.2879028320312,
+            "h": 637.641016960144
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8653315305709839
+    },
+    "left_190_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_190.jpg",
+        "image_pair_id": "190",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1146,
+            "y": 604,
+            "w": 917,
+            "h": 692
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1166.3837127685547,
+            "y": 624.8576946258545,
+            "w": 877.5207366943359,
+            "h": 661.2065620422363
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.858544647693634
+    },
+    "right_191_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_191.jpg",
+        "image_pair_id": "191",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1203,
+            "y": 588,
+            "w": 98,
+            "h": 107
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1223.9719848632812,
+            "y": 608.7159161567688,
+            "w": 57.21624755859375,
+            "h": 67.08102178573608
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.49729329347610474
+    },
+    "left_191_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_191.jpg",
+        "image_pair_id": "191",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1251,
+            "y": 589,
+            "w": 102,
+            "h": 108
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1271.800277709961,
+            "y": 609.6307210922241,
+            "w": 61.40753173828125,
+            "h": 67.79421043395996
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7495434880256653
+    },
+    "right_192_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_192.jpg",
+        "image_pair_id": "192",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1171,
+            "y": 579,
+            "w": 88,
+            "h": 100
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1191.5469360351562,
+            "y": 599.881067276001,
+            "w": 47.75111389160156,
+            "h": 59.65254306793213
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.648643434047699
+    },
+    "right_193_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_193.jpg",
+        "image_pair_id": "193",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1174,
+            "y": 607,
+            "w": 91,
+            "h": 91
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1194.942123413086,
+            "y": 627.6641006469727,
+            "w": 50.84074401855469,
+            "h": 50.391634941101074
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.49368971586227417
+    },
+    "left_193_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_193.jpg",
+        "image_pair_id": "193",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1215,
+            "y": 601,
+            "w": 88,
+            "h": 95
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1235.8402404785156,
+            "y": 621.9195427894592,
+            "w": 47.86482238769531,
+            "h": 54.3657546043396
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.49729329347610474
+    },
+    "left_194_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_194.jpg",
+        "image_pair_id": "194",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1225,
+            "y": 634,
+            "w": 78,
+            "h": 78
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1245.5381469726562,
+            "y": 654.4059906005859,
+            "w": 37.607025146484375,
+            "h": 38.10733222961426
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.3099074065685272
+    },
+    "right_203_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_203.jpg",
+        "image_pair_id": "203",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1216,
+            "y": 612,
+            "w": 91,
+            "h": 102
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1236.5625915527344,
+            "y": 632.5417470932007,
+            "w": 50.845001220703125,
+            "h": 61.648080825805664
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.5045004487037659
+    },
+    "left_203_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_203.jpg",
+        "image_pair_id": "203",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1260,
+            "y": 614,
+            "w": 95,
+            "h": 97
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1280.343246459961,
+            "y": 634.0748805999756,
+            "w": 55.175811767578125,
+            "h": 57.56036853790283
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.6630577445030212
+    },
+    "left_204_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_204.jpg",
+        "image_pair_id": "204",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1170,
+            "y": 586,
+            "w": 95,
+            "h": 110
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1190.9797668457031,
+            "y": 606.3854327201843,
+            "w": 54.566619873046875,
+            "h": 70.24207162857056
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7243185043334961
+    },
+    "right_205_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_205.jpg",
+        "image_pair_id": "205",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1114,
+            "y": 563,
+            "w": 118,
+            "h": 127
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1134.978401184082,
+            "y": 583.5294842720032,
+            "w": 77.92142486572266,
+            "h": 86.99746656417847
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.6378327012062073
+    },
+    "left_205_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_205.jpg",
+        "image_pair_id": "205",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1147,
+            "y": 568,
+            "w": 124,
+            "h": 123
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1167.2514953613281,
+            "y": 588.8313360214233,
+            "w": 84.63825988769531,
+            "h": 83.10978698730469
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.6342291235923767
+    },
+    "right_206_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_206.jpg",
+        "image_pair_id": "206",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 999,
+            "y": 453,
+            "w": 138,
+            "h": 155
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1019.8255462646484,
+            "y": 473.89278745651245,
+            "w": 97.99598693847656,
+            "h": 114.98833465576172
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7279220819473267
+    },
+    "left_206_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_206.jpg",
+        "image_pair_id": "206",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1115,
+            "y": 472,
+            "w": 144,
+            "h": 155
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1135.9095611572266,
+            "y": 492.2423028945923,
+            "w": 103.46896362304688,
+            "h": 115.37032413482666
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8144078850746155
+    },
+    "right_207_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_207.jpg",
+        "image_pair_id": "207",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 872,
+            "y": 363,
+            "w": 188,
+            "h": 196
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 892.1707305908203,
+            "y": 383.68116331100464,
+            "w": 147.90900421142578,
+            "h": 155.63672733306885
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8756686449050903
+    },
+    "left_207_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_207.jpg",
+        "image_pair_id": "207",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 901,
+            "y": 354,
+            "w": 196,
+            "h": 201
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 921.2939758300781,
+            "y": 374.0041995048523,
+            "w": 155.94927978515625,
+            "h": 161.87509059906006
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8720650672912598
+    },
+    "right_208_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_208.jpg",
+        "image_pair_id": "208",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 928,
+            "y": 485,
+            "w": 274,
+            "h": 287
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 948.9970321655273,
+            "y": 505.6244101524353,
+            "w": 233.51282501220703,
+            "h": 246.5627760887146
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8792722225189209
+    },
+    "left_208_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_208.jpg",
+        "image_pair_id": "208",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1143,
+            "y": 484,
+            "w": 277,
+            "h": 276
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1163.5213623046875,
+            "y": 504.77441596984863,
+            "w": 237.40521240234375,
+            "h": 235.82052898406982
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "right_209_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_209.jpg",
+        "image_pair_id": "209",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 904,
+            "y": 81,
+            "w": 309,
+            "h": 331
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 924.6860733032227,
+            "y": 101.69947493076324,
+            "w": 268.7500991821289,
+            "h": 290.53694915771484
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7310694456100464
+    },
+    "left_209_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_209.jpg",
+        "image_pair_id": "209",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1036,
+            "y": 51,
+            "w": 296,
+            "h": 328
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1056.9730682373047,
+            "y": 71.88031500577927,
+            "w": 255.73233032226562,
+            "h": 287.2481896877289
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.886465847492218
+    },
+    "right_210_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_210.jpg",
+        "image_pair_id": "210",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1184,
+            "y": 446,
+            "w": 287,
+            "h": 297
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1204.8710174560547,
+            "y": 466.0869927406311,
+            "w": 246.3800811767578,
+            "h": 257.345694065094
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8936864733695984
+    },
+    "left_210_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_210.jpg",
+        "image_pair_id": "210",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1348,
+            "y": 476,
+            "w": 297,
+            "h": 304
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1368.6698913574219,
+            "y": 496.996778011322,
+            "w": 257.0167694091797,
+            "h": 263.08766412734985
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.897290050983429
+    },
+    "right_211_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_211.jpg",
+        "image_pair_id": "211",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1015,
+            "y": 426,
+            "w": 302,
+            "h": 279
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1035.4483108520508,
+            "y": 446.8153338432312,
+            "w": 261.72241973876953,
+            "h": 238.83291578292847
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9008936285972595
+    },
+    "left_211_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_211.jpg",
+        "image_pair_id": "211",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1180,
+            "y": 437,
+            "w": 289,
+            "h": 295
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1200.3795318603516,
+            "y": 457.7214617729187,
+            "w": 248.6781463623047,
+            "h": 255.20608949661255
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.886479377746582
+    },
+    "right_212_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_212.jpg",
+        "image_pair_id": "212",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1115,
+            "y": 598,
+            "w": 460,
+            "h": 483
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1135.5127487182617,
+            "y": 618.2880163192749,
+            "w": 419.94229888916016,
+            "h": 443.38117504119873
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "left_212_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_212.jpg",
+        "image_pair_id": "212",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1339,
+            "y": 534,
+            "w": 462,
+            "h": 454
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1359.9986572265625,
+            "y": 554.2497396469116,
+            "w": 421.1813507080078,
+            "h": 413.8449296951294
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8970611095428467
+    },
+    "right_213_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_213.jpg",
+        "image_pair_id": "213",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 704,
+            "y": 789,
+            "w": 725,
+            "h": 507
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 724.8674926757812,
+            "y": 809.2999048233032,
+            "w": 684.2953948974609,
+            "h": 485.17221450805664
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.6685110330581665
+    },
+    "left_213_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_213.jpg",
+        "image_pair_id": "213",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1110,
+            "y": 791,
+            "w": 716,
+            "h": 505
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1130.605224609375,
+            "y": 811.1693744659424,
+            "w": 675.9076080322266,
+            "h": 471.46470165252686
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.6481502652168274
+    },
+    "right_214_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_214.jpg",
+        "image_pair_id": "214",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 647,
+            "y": 812,
+            "w": 785,
+            "h": 484
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 667.0531768798828,
+            "y": 832.601185798645,
+            "w": 745.5097045898438,
+            "h": 452.5954256057739
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.6108222603797913
+    },
+    "left_214_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_214.jpg",
+        "image_pair_id": "214",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1089,
+            "y": 805,
+            "w": 811,
+            "h": 491
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1109.2399063110352,
+            "y": 825.7853965759277,
+            "w": 771.0003890991211,
+            "h": 471.7881374359131
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.39364102482795715
+    },
+    "right_215_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_215.jpg",
+        "image_pair_id": "215",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 661,
+            "y": 809,
+            "w": 771,
+            "h": 487
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 681.8703002929688,
+            "y": 829.6564292907715,
+            "w": 730.5525054931641,
+            "h": 457.96745681762695
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.46151015162467957
+    },
+    "left_215_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_215.jpg",
+        "image_pair_id": "215",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 61,
+            "y": 0,
+            "w": 306,
+            "h": 176
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 81.48647117614746,
+            "y": 2.8514622040092945,
+            "w": 266.26590156555176,
+            "h": 154.0843881368637
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.34233957529067993
+    },
+    "right_216_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_216.jpg",
+        "image_pair_id": "216",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 653,
+            "y": 797,
+            "w": 756,
+            "h": 499
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 673.1707077026367,
+            "y": 817.9281549453735,
+            "w": 716.4094619750977,
+            "h": 467.58926582336426
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.6515437364578247
+    },
+    "left_216_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_216.jpg",
+        "image_pair_id": "216",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1076,
+            "y": 800,
+            "w": 744,
+            "h": 496
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1096.6344680786133,
+            "y": 820.5127830505371,
+            "w": 703.6278305053711,
+            "h": 462.17320346832275
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.5429531335830688
+    },
+    "right_38_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_38.jpg",
+        "image_pair_id": "38",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1050,
+            "y": 355,
+            "w": 173,
+            "h": 180
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1070.139015197754,
+            "y": 375.7391424179077,
+            "w": 133.47049713134766,
+            "h": 139.96314668655396
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9081007838249207
+    },
+    "left_38_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_38.jpg",
+        "image_pair_id": "38",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1084,
+            "y": 323,
+            "w": 185,
+            "h": 186
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1104.1561889648438,
+            "y": 343.46632289886475,
+            "w": 145.65797424316406,
+            "h": 146.15037202835083
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9081007838249207
+    },
+    "right_39_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_39.jpg",
+        "image_pair_id": "39",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1150,
+            "y": 536,
+            "w": 210,
+            "h": 201
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1170.5105895996094,
+            "y": 556.5483584403992,
+            "w": 169.69468688964844,
+            "h": 160.64117574691772
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8792722225189209
+    },
+    "left_39_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_39.jpg",
+        "image_pair_id": "39",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1280,
+            "y": 508,
+            "w": 214,
+            "h": 208
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1300.9081420898438,
+            "y": 528.6379437446594,
+            "w": 173.2133331298828,
+            "h": 167.8345513343811
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9081007838249207
+    },
+    "right_53_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_53.jpg",
+        "image_pair_id": "53",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1231,
+            "y": 466,
+            "w": 444,
+            "h": 454
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1251.7303161621094,
+            "y": 486.22108268737793,
+            "w": 403.4962463378906,
+            "h": 413.9363136291504
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8899976015090942
+    },
+    "left_53_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_53.jpg",
+        "image_pair_id": "53",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1477,
+            "y": 434,
+            "w": 519,
+            "h": 471
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1497.6558380126953,
+            "y": 454.0730953216553,
+            "w": 479.2870788574219,
+            "h": 431.8515043258667
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8935293555259705
+    },
+    "right_54_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_54.jpg",
+        "image_pair_id": "54",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 499,
+            "y": 494,
+            "w": 471,
+            "h": 460
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 519.6554145812988,
+            "y": 514.4698419570923,
+            "w": 430.34741592407227,
+            "h": 420.15428352355957
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "left_54_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_54.jpg",
+        "image_pair_id": "54",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 762,
+            "y": 480,
+            "w": 456,
+            "h": 452
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 782.9141006469727,
+            "y": 500.0403342247009,
+            "w": 415.4425735473633,
+            "h": 412.8840079307556
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "right_55_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_55.jpg",
+        "image_pair_id": "55",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 584,
+            "y": 464,
+            "w": 293,
+            "h": 292
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 604.7327499389648,
+            "y": 484.48084831237793,
+            "w": 253.06883239746094,
+            "h": 251.63983726501465
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8617437481880188
+    },
+    "left_55_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_55.jpg",
+        "image_pair_id": "55",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 751,
+            "y": 456,
+            "w": 284,
+            "h": 299
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 771.602165222168,
+            "y": 476.77354431152344,
+            "w": 244.13605499267578,
+            "h": 259.15881156921387
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8511484861373901
+    },
+    "right_56_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_56.jpg",
+        "image_pair_id": "56",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1050,
+            "y": 440,
+            "w": 272,
+            "h": 265
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1070.3737106323242,
+            "y": 460.6749472618103,
+            "w": 232.19281768798828,
+            "h": 225.09867525100708
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "left_56_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_56.jpg",
+        "image_pair_id": "56",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1107,
+            "y": 439,
+            "w": 270,
+            "h": 269
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1127.7395095825195,
+            "y": 459.5924377441406,
+            "w": 229.96094512939453,
+            "h": 229.32408142089844
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "right_57_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_57.jpg",
+        "image_pair_id": "57",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1324,
+            "y": 536,
+            "w": 369,
+            "h": 337
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1344.4753875732422,
+            "y": 556.8789010047913,
+            "w": 329.13844299316406,
+            "h": 296.53233003616333
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8970611095428467
+    },
+    "left_57_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_57.jpg",
+        "image_pair_id": "57",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1486,
+            "y": 509,
+            "w": 404,
+            "h": 332
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1506.9236297607422,
+            "y": 529.4678921699524,
+            "w": 363.08056640625,
+            "h": 292.3371663093567
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "right_58_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_58.jpg",
+        "image_pair_id": "58",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 968,
+            "y": 621,
+            "w": 403,
+            "h": 398
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 988.4407653808594,
+            "y": 641.5705261230469,
+            "w": 363.43638610839844,
+            "h": 357.450382232666
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "left_58_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_58.jpg",
+        "image_pair_id": "58",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1204,
+            "y": 601,
+            "w": 434,
+            "h": 416
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1224.5314636230469,
+            "y": 621.3297185897827,
+            "w": 393.9969177246094,
+            "h": 376.2142152786255
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "right_59_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_59.jpg",
+        "image_pair_id": "59",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 543,
+            "y": 659,
+            "w": 461,
+            "h": 431
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 563.2546577453613,
+            "y": 679.3879480361938,
+            "w": 421.5421485900879,
+            "h": 391.20195293426514
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "left_59_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_59.jpg",
+        "image_pair_id": "59",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 815,
+            "y": 634,
+            "w": 442,
+            "h": 445
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 835.0523986816406,
+            "y": 654.1269721984863,
+            "w": 402.89158630371094,
+            "h": 405.5411968231201
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "right_60_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_60.jpg",
+        "image_pair_id": "60",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 511,
+            "y": 486,
+            "w": 390,
+            "h": 369
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 531.7097854614258,
+            "y": 506.35644721984863,
+            "w": 349.83524322509766,
+            "h": 328.81299018859863
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "left_60_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_60.jpg",
+        "image_pair_id": "60",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 725,
+            "y": 482,
+            "w": 370,
+            "h": 373
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 745.2814636230469,
+            "y": 502.017023563385,
+            "w": 330.04261779785156,
+            "h": 333.34298372268677
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "right_61_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_61.jpg",
+        "image_pair_id": "61",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 999,
+            "y": 494,
+            "w": 372,
+            "h": 382
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1019.4634780883789,
+            "y": 514.7959814071655,
+            "w": 331.66783905029297,
+            "h": 341.4969720840454
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "left_61_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_61.jpg",
+        "image_pair_id": "61",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1203,
+            "y": 490,
+            "w": 368,
+            "h": 392
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1223.1551513671875,
+            "y": 510.2812442779541,
+            "w": 328.7805633544922,
+            "h": 352.54376792907715
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8970611095428467
+    },
+    "right_62_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_62.jpg",
+        "image_pair_id": "62",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1280,
+            "y": 446,
+            "w": 404,
+            "h": 419
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1300.1860656738281,
+            "y": 466.70868158340454,
+            "w": 363.8375244140625,
+            "h": 378.606303691864
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "left_62_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_62.jpg",
+        "image_pair_id": "62",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1480,
+            "y": 480,
+            "w": 483,
+            "h": 400
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1500.0276489257812,
+            "y": 500.75128269195557,
+            "w": 443.57615661621094,
+            "h": 359.6817569732666
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8582119941711426
+    },
+    "right_63_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_63.jpg",
+        "image_pair_id": "63",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 696,
+            "y": 336,
+            "w": 507,
+            "h": 497
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 716.8041458129883,
+            "y": 356.5235266685486,
+            "w": 466.31778717041016,
+            "h": 456.664559841156
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "left_63_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_63.jpg",
+        "image_pair_id": "63",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1018,
+            "y": 323,
+            "w": 538,
+            "h": 515
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1038.439682006836,
+            "y": 343.1869955062866,
+            "w": 497.9974822998047,
+            "h": 475.44975185394287
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "right_64_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_64.jpg",
+        "image_pair_id": "64",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 232,
+            "y": 418,
+            "w": 526,
+            "h": 464
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 252.88136100769043,
+            "y": 438.2026877403259,
+            "w": 485.4166946411133,
+            "h": 424.6139817237854
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "left_64_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_64.jpg",
+        "image_pair_id": "64",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 562,
+            "y": 416,
+            "w": 529,
+            "h": 479
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 582.1459579467773,
+            "y": 436.10784816741943,
+            "w": 489.5233840942383,
+            "h": 439.4666519165039
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "right_65_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_65.jpg",
+        "image_pair_id": "65",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 690,
+            "y": 494,
+            "w": 471,
+            "h": 467
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 710.6801605224609,
+            "y": 514.0877752304077,
+            "w": 430.6160659790039,
+            "h": 427.3492040634155
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "left_65_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_65.jpg",
+        "image_pair_id": "65",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 876,
+            "y": 467,
+            "w": 491,
+            "h": 480
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 896.0145721435547,
+            "y": 487.6493139266968,
+            "w": 451.70411682128906,
+            "h": 440.22522354125977
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "right_66_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_66.jpg",
+        "image_pair_id": "66",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1118,
+            "y": 585,
+            "w": 357,
+            "h": 355
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1138.1187744140625,
+            "y": 605.0462679862976,
+            "w": 316.99525451660156,
+            "h": 314.9720320701599
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "left_66_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_66.jpg",
+        "image_pair_id": "66",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1314,
+            "y": 571,
+            "w": 374,
+            "h": 375
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1334.0059661865234,
+            "y": 591.9356088638306,
+            "w": 334.78074645996094,
+            "h": 334.7506284713745
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8899976015090942
+    },
+    "right_67_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_67.jpg",
+        "image_pair_id": "67",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 791,
+            "y": 638,
+            "w": 254,
+            "h": 264
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 811.5537414550781,
+            "y": 658.7936553955078,
+            "w": 213.89048767089844,
+            "h": 223.85603141784668
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "left_67_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_67.jpg",
+        "image_pair_id": "67",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 946,
+            "y": 640,
+            "w": 261,
+            "h": 270
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 966.8814697265625,
+            "y": 660.8049516677856,
+            "w": 221.01690673828125,
+            "h": 230.08412075042725
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "right_68_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_68.jpg",
+        "image_pair_id": "68",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 870,
+            "y": 519,
+            "w": 307,
+            "h": 303
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 890.0956192016602,
+            "y": 539.0960354804993,
+            "w": 267.2603530883789,
+            "h": 263.77493619918823
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "left_68_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_68.jpg",
+        "image_pair_id": "68",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1005,
+            "y": 514,
+            "w": 310,
+            "h": 297
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1025.1686096191406,
+            "y": 534.2628836631775,
+            "w": 270.0964050292969,
+            "h": 257.2465853691101
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "right_72_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_72.jpg",
+        "image_pair_id": "72",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 896,
+            "y": 562,
+            "w": 134,
+            "h": 131
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 916.5839309692383,
+            "y": 582.9242105484009,
+            "w": 94.18297576904297,
+            "h": 90.66568565368652
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7783721089363098
+    },
+    "left_72_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_72.jpg",
+        "image_pair_id": "72",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 965,
+            "y": 557,
+            "w": 135,
+            "h": 135
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 985.2900238037109,
+            "y": 577.4097347259521,
+            "w": 95.35899353027344,
+            "h": 95.27929973602295
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7531470656394958
+    },
+    "right_73_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_73.jpg",
+        "image_pair_id": "73",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1050,
+            "y": 545,
+            "w": 127,
+            "h": 133
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1070.9203491210938,
+            "y": 565.0920224189758,
+            "w": 86.78485107421875,
+            "h": 93.57996797561646
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7783721089363098
+    },
+    "left_73_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_73.jpg",
+        "image_pair_id": "73",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1103,
+            "y": 544,
+            "w": 133,
+            "h": 138
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1123.7904052734375,
+            "y": 564.6445269584656,
+            "w": 92.52040100097656,
+            "h": 97.82294797897339
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7675613760948181
+    },
+    "right_74_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_74.jpg",
+        "image_pair_id": "74",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 990,
+            "y": 565,
+            "w": 111,
+            "h": 116
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1010.3771667480469,
+            "y": 585.043267250061,
+            "w": 71.57352447509766,
+            "h": 76.6285572052002
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7783721089363098
+    },
+    "left_74_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_74.jpg",
+        "image_pair_id": "74",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1053,
+            "y": 553,
+            "w": 117,
+            "h": 121
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1073.5249328613281,
+            "y": 573.2799997329712,
+            "w": 77.09422302246094,
+            "h": 81.54583168029785
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7063006162643433
+    },
+    "right_75_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_75.jpg",
+        "image_pair_id": "75",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1043,
+            "y": 616,
+            "w": 107,
+            "h": 116
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1063.8801727294922,
+            "y": 636.6879358291626,
+            "w": 66.91655731201172,
+            "h": 75.84712028503418
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7639577984809875
+    },
+    "left_75_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_75.jpg",
+        "image_pair_id": "75",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1083,
+            "y": 612,
+            "w": 106,
+            "h": 117
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1103.9031600952148,
+            "y": 632.3074550628662,
+            "w": 65.91748809814453,
+            "h": 77.1304349899292
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7063006162643433
+    },
+    "right_76_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_76.jpg",
+        "image_pair_id": "76",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 954,
+            "y": 616,
+            "w": 109,
+            "h": 117
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 974.378059387207,
+            "y": 636.729688167572,
+            "w": 68.80476379394531,
+            "h": 77.05901956558228
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7387328147888184
+    },
+    "left_76_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_76.jpg",
+        "image_pair_id": "76",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1017,
+            "y": 614,
+            "w": 115,
+            "h": 116
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1037.4215927124023,
+            "y": 634.214891910553,
+            "w": 75.28889465332031,
+            "h": 76.45811033248901
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7026970386505127
+    },
+    "right_77_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_77.jpg",
+        "image_pair_id": "77",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 867,
+            "y": 511,
+            "w": 120,
+            "h": 132
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 887.1060333251953,
+            "y": 531.0462155342102,
+            "w": 80.74944305419922,
+            "h": 92.35057210922241
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7207149267196655
+    },
+    "left_77_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_77.jpg",
+        "image_pair_id": "77",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 931,
+            "y": 513,
+            "w": 126,
+            "h": 128
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 951.860481262207,
+            "y": 533.9130291938782,
+            "w": 86.04286193847656,
+            "h": 87.86858797073364
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.6306255459785461
+    },
+    "right_78_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_78.jpg",
+        "image_pair_id": "78",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1029,
+            "y": 443,
+            "w": 135,
+            "h": 149
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1049.4145431518555,
+            "y": 463.9384274482727,
+            "w": 94.62311553955078,
+            "h": 108.460524559021
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8576507568359375
+    },
+    "left_78_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_78.jpg",
+        "image_pair_id": "78",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1089,
+            "y": 442,
+            "w": 137,
+            "h": 150
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1109.4290771484375,
+            "y": 462.42445135116577,
+            "w": 97.1070556640625,
+            "h": 109.67045402526855
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8396328687667847
+    },
+    "right_79_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_79.jpg",
+        "image_pair_id": "79",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 827,
+            "y": 383,
+            "w": 129,
+            "h": 127
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 847.4496459960938,
+            "y": 403.5232186317444,
+            "w": 89.074951171875,
+            "h": 86.62362670898438
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8252185583114624
+    },
+    "left_79_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_79.jpg",
+        "image_pair_id": "79",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 897,
+            "y": 382,
+            "w": 127,
+            "h": 124
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 917.5409088134766,
+            "y": 402.4124364852905,
+            "w": 86.62836456298828,
+            "h": 83.80289125442505
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8216149806976318
+    },
+    "right_80_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_80.jpg",
+        "image_pair_id": "80",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 957,
+            "y": 814,
+            "w": 158,
+            "h": 158
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 977.4678955078125,
+            "y": 834.4722003936768,
+            "w": 118.01959991455078,
+            "h": 117.76384162902832
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8576507568359375
+    },
+    "left_80_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_80.jpg",
+        "image_pair_id": "80",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1025,
+            "y": 788,
+            "w": 154,
+            "h": 161
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1045.3535842895508,
+            "y": 808.7430267333984,
+            "w": 114.6042251586914,
+            "h": 120.70867538452148
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8504436016082764
+    },
+    "right_81_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_81.jpg",
+        "image_pair_id": "81",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1065,
+            "y": 800,
+            "w": 141,
+            "h": 154
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1085.2465209960938,
+            "y": 820.5884857177734,
+            "w": 101.58576965332031,
+            "h": 113.68462657928467
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7315256595611572
+    },
+    "left_81_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_81.jpg",
+        "image_pair_id": "81",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1144,
+            "y": 799,
+            "w": 136,
+            "h": 153
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1164.1787567138672,
+            "y": 819.7093305587769,
+            "w": 96.21153259277344,
+            "h": 112.93053531646729
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.7783721089363098
+    },
+    "right_82_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_82.jpg",
+        "image_pair_id": "82",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 955,
+            "y": 615,
+            "w": 201,
+            "h": 180
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 975.4100875854492,
+            "y": 635.3147048950195,
+            "w": 161.4862518310547,
+            "h": 139.68725681304932
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8828758001327515
+    },
+    "left_82_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_82.jpg",
+        "image_pair_id": "82",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1065,
+            "y": 622,
+            "w": 193,
+            "h": 177
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1085.8000259399414,
+            "y": 642.8858599662781,
+            "w": 152.77814483642578,
+            "h": 136.38109731674194
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.886479377746582
+    },
+    "right_83_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_83.jpg",
+        "image_pair_id": "83",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 790,
+            "y": 542,
+            "w": 160,
+            "h": 151
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 810.2188339233398,
+            "y": 562.036994934082,
+            "w": 120.3845443725586,
+            "h": 111.50207233428955
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.828822135925293
+    },
+    "left_83_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_83.jpg",
+        "image_pair_id": "83",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 875,
+            "y": 539,
+            "w": 155,
+            "h": 154
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 895.9108200073242,
+            "y": 559.3415551185608,
+            "w": 115.03433990478516,
+            "h": 114.18940114974976
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.828822135925293
+    },
+    "right_87_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_87.jpg",
+        "image_pair_id": "87",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 798,
+            "y": 513,
+            "w": 203,
+            "h": 214
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 818.7894744873047,
+            "y": 533.4175243377686,
+            "w": 163.1176528930664,
+            "h": 173.64013481140137
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.886479377746582
+    },
+    "left_87_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_87.jpg",
+        "image_pair_id": "87",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 904,
+            "y": 498,
+            "w": 213,
+            "h": 229
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 924.0818939208984,
+            "y": 518.643337726593,
+            "w": 173.01846313476562,
+            "h": 188.35669469833374
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8540471792221069
+    },
+    "right_88_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_88.jpg",
+        "image_pair_id": "88",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1094,
+            "y": 508,
+            "w": 222,
+            "h": 227
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1114.4720764160156,
+            "y": 528.9583282470703,
+            "w": 181.96792602539062,
+            "h": 187.040433883667
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9117043614387512
+    },
+    "left_88_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_88.jpg",
+        "image_pair_id": "88",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1198,
+            "y": 499,
+            "w": 227,
+            "h": 228
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1218.5426788330078,
+            "y": 519.9120526313782,
+            "w": 186.4716339111328,
+            "h": 187.8613829612732
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9081007838249207
+    },
+    "right_89_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_89.jpg",
+        "image_pair_id": "89",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1369,
+            "y": 407,
+            "w": 209,
+            "h": 201
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1389.029067993164,
+            "y": 427.1893787384033,
+            "w": 169.63522338867188,
+            "h": 160.903817653656
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9153079390525818
+    },
+    "left_89_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_89.jpg",
+        "image_pair_id": "89",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1477,
+            "y": 392,
+            "w": 221,
+            "h": 208
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1497.415512084961,
+            "y": 412.61476135253906,
+            "w": 180.60205078125,
+            "h": 167.7294945716858
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.897290050983429
+    },
+    "right_90_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_90.jpg",
+        "image_pair_id": "90",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1349,
+            "y": 214,
+            "w": 185,
+            "h": 210
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1369.444839477539,
+            "y": 234.2814474105835,
+            "w": 145.32398986816406,
+            "h": 169.87829160690308
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.897290050983429
+    },
+    "left_90_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_90.jpg",
+        "image_pair_id": "90",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1444,
+            "y": 210,
+            "w": 193,
+            "h": 205
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1464.6496124267578,
+            "y": 230.34931182861328,
+            "w": 152.56878662109375,
+            "h": 165.1448278427124
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8936864733695984
+    },
+    "right_91_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_91.jpg",
+        "image_pair_id": "91",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1320,
+            "y": 449,
+            "w": 215,
+            "h": 218
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1340.887939453125,
+            "y": 469.81747341156006,
+            "w": 175.0510711669922,
+            "h": 177.38347721099854
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9008936285972595
+    },
+    "left_91_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_91.jpg",
+        "image_pair_id": "91",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1433,
+            "y": 449,
+            "w": 214,
+            "h": 214
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1453.0326690673828,
+            "y": 469.89278984069824,
+            "w": 174.3833770751953,
+            "h": 173.27073669433594
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "right_92_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_92.jpg",
+        "image_pair_id": "92",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1040,
+            "y": 627,
+            "w": 235,
+            "h": 246
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1060.5314025878906,
+            "y": 647.0286111831665,
+            "w": 194.829345703125,
+            "h": 206.17884063720703
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "left_92_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_92.jpg",
+        "image_pair_id": "92",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1165,
+            "y": 625,
+            "w": 236,
+            "h": 244
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1185.320571899414,
+            "y": 645.8667297363281,
+            "w": 195.85025024414062,
+            "h": 203.95557689666748
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9189115166664124
+    },
+    "right_93_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_93.jpg",
+        "image_pair_id": "93",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 755,
+            "y": 553,
+            "w": 229,
+            "h": 208
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 775.2008743286133,
+            "y": 573.2358527183533,
+            "w": 188.92007446289062,
+            "h": 168.28652715682983
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.897290050983429
+    },
+    "left_93_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_93.jpg",
+        "image_pair_id": "93",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 876,
+            "y": 565,
+            "w": 220,
+            "h": 215
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 896.9997711181641,
+            "y": 585.1040225028992,
+            "w": 179.3397216796875,
+            "h": 175.76595067977905
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9117043614387512
+    },
+    "right_94_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_94.jpg",
+        "image_pair_id": "94",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 692,
+            "y": 337,
+            "w": 185,
+            "h": 184
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 712.9004287719727,
+            "y": 357.65037631988525,
+            "w": 144.78984832763672,
+            "h": 143.44168424606323
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8936864733695984
+    },
+    "left_94_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_94.jpg",
+        "image_pair_id": "94",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 789,
+            "y": 354,
+            "w": 189,
+            "h": 183
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 809.2310256958008,
+            "y": 374.6706533432007,
+            "w": 149.2246856689453,
+            "h": 142.91628456115723
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8828758001327515
+    },
+    "right_95_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_95.jpg",
+        "image_pair_id": "95",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 681,
+            "y": 122,
+            "w": 215,
+            "h": 228
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 701.4318008422852,
+            "y": 142.16081249713898,
+            "w": 175.10181427001953,
+            "h": 187.86099672317505
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9044972062110901
+    },
+    "left_95_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_95.jpg",
+        "image_pair_id": "95",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 811,
+            "y": 129,
+            "w": 197,
+            "h": 208
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 831.9467010498047,
+            "y": 149.01202940940857,
+            "w": 156.86945343017578,
+            "h": 168.89097046852112
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8792722225189209
+    },
+    "right_96_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_96.jpg",
+        "image_pair_id": "96",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 541,
+            "y": 215,
+            "w": 349,
+            "h": 343
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 561.9583053588867,
+            "y": 235.34375667572021,
+            "w": 308.8659896850586,
+            "h": 303.45696115493774
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "left_96_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_96.jpg",
+        "image_pair_id": "96",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 696,
+            "y": 203,
+            "w": 336,
+            "h": 358
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 716.5045623779297,
+            "y": 223.88378262519836,
+            "w": 296.4733428955078,
+            "h": 317.8551642894745
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "right_97_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_97.jpg",
+        "image_pair_id": "97",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1189,
+            "y": 385,
+            "w": 389,
+            "h": 369
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1209.4888458251953,
+            "y": 405.23154973983765,
+            "w": 349.4017639160156,
+            "h": 328.78120279312134
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8935293555259705
+    },
+    "left_97_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_97.jpg",
+        "image_pair_id": "97",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1338,
+            "y": 400,
+            "w": 386,
+            "h": 362
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1358.6412963867188,
+            "y": 420.581346988678,
+            "w": 346.02662658691406,
+            "h": 321.9444794654846
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    },
+    "right_98_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_98.jpg",
+        "image_pair_id": "98",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1565,
+            "y": 139,
+            "w": 453,
+            "h": 427
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1585.0715789794922,
+            "y": 159.49703228473663,
+            "w": 413.19483947753906,
+            "h": 387.01335525512695
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8723389506340027
+    },
+    "left_98_cropped.jpg": {
+        "original_image_path": "data/basketball_images/left/left_98.jpg",
+        "image_pair_id": "98",
+        "side": "left",
+        "crop_bbox_in_rectified_image": {
+            "x": 1764,
+            "y": 168,
+            "w": 440,
+            "h": 410
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1784.1534576416016,
+            "y": 188.50829315185547,
+            "w": 399.8917694091797,
+            "h": 370.038152217865
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.8546802401542664
+    },
+    "right_99_cropped.jpg": {
+        "original_image_path": "data/basketball_images/right/right_99.jpg",
+        "image_pair_id": "99",
+        "side": "right",
+        "crop_bbox_in_rectified_image": {
+            "x": 1378,
+            "y": 123,
+            "w": 416,
+            "h": 451
+        },
+        "detection_bbox_in_rectified_image": {
+            "x": 1398.3795318603516,
+            "y": 143.44738125801086,
+            "w": 376.42469787597656,
+            "h": 410.78360652923584
+        },
+        "rectified_image_width": 2304,
+        "rectified_image_height": 1296,
+        "detection_confidence": 0.9005928039550781
+    }
+}

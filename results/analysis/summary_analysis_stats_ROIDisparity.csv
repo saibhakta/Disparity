@@ -1,0 +1,2 @@
+algorithm,avg_absolute_error_pixels,std_dev_absolute_error_pixels,avg_runtime_ms_per_pair,std_dev_runtime_ms_per_pair,num_pairs_processed_by_algorithm,num_pairs_with_computed_disparity,num_pairs_successfully_compared_with_gt
+ROIDisparity,,,0.07035151304337527,0.26531197358375924,115,0,0
