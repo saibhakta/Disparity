@@ -142,3 +142,47 @@ The proposal outlines a verification strategy:
 2.  **Test Data Debugging:**
     *   The `evaluation_pipeline.py` or `utils.py` should include options to display the YOLO-detected ROI to ensure accurate cropping.
     *   It should also allow superimposing manually annotated points or epipolar lines on images to verify ground-truth consistency.
+
+Testing Workflow:
+1. Run pipeline_app.py to Process Raw Images and Generate Cropped Data + ROI Metadata:
+Open your terminal in the root directory of the project (Disparity/) and run:
+Apply to README.md
+Run
+pipeline_app
+This will:
+Load raw images from data/basketball_images/.
+Rectify them using the calibration file.
+Run YOLO to detect objects (e.g., basketballs).
+Save the rectified, cropped images of the detected objects to data/cropped_images/left/ and data/cropped_images/right/.
+Generate data/cropped_images/roi_metadata.json containing metadata about each crop, including the crop_bbox_in_rectified_image and the crucial detection_bbox_in_rectified_image.
+Check app.log for any errors or information.
+Let it run until it processes all images and prints "All images processed by picamera_thread, sending EOS to appsrc." and then gracefully shuts down.
+2. Run disparity_processor.py with the ROIDisparity Algorithm:
+Once pipeline_app.py has finished, run the disparity processor:
+Apply to README.md
+Run
+disparity_data
+This will:
+Load the roi_metadata.json.
+Load the cropped image pairs.
+For each pair, use the ROIDisparity algorithm. This algorithm will use the detection_bbox_in_rectified_image from the metadata to calculate disparity (center_x_left_detection - center_x_right_detection).
+Save the results (including computed disparity and runtime) to results/disparity_data/disparity_results_ROIDisparity.csv.
+Check the console output and logs for any warnings (e.g., if metadata is missing for some items).
+3. Run results_analyzer.py to Compare with Ground Truth:
+Finally, analyze the results produced by ROIDisparity against your ground truth data:
+Apply to README.md
+Run
+analysis
+This will:
+Load disparity_results_ROIDisparity.csv.
+Load the ground truth JSON files from data/annotations/ based on image_pair_id.
+Calculate the absolute error between the computed_disparity from ROIDisparity and the gt_avg_disparity.
+Save a detailed CSV with these comparisons to results/analysis/detailed_analysis_results_ROIDisparity.csv.
+Save and print a summary CSV with overall metrics (average error, std dev error, average runtime, etc.) to results/analysis/summary_analysis_stats_ROIDisparity.csv.
+Expected Outcomes & Verification:
+data/cropped_images/: Should contain left/ and right/ subdirectories with rectified, cropped images.
+data/cropped_images/roi_metadata.json: Should exist and be a valid JSON containing entries for each cropped image, with both crop_bbox_in_rectified_image and detection_bbox_in_rectified_image fields.
+results/disparity_data/disparity_results_ROIDisparity.csv: Should contain columns like image_pair_id, computed_disparity, runtime_ms, etc. The computed_disparity values should be the result of (left_detection_center_x - right_detection_center_x).
+results/analysis/detailed_analysis_results_ROIDisparity.csv: Will have the data from the previous CSV plus gt_avg_disparity and absolute_error.
+results/analysis/summary_analysis_stats_ROIDisparity.csv (and console output): Will show the performance metrics for the ROIDisparity algorithm. Since ROIDisparity is very basic, the error might be significant, but the pipeline itself should function.
+This provides a complete end-to-end test of the new refactored system using your newly created ROIDisparity algorithm. Remember to replace placeholder paths/parameters with your actual ones if they differ.

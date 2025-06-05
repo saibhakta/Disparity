@@ -6,13 +6,15 @@ class BaseDisparityMatcher(ABC):
         pass
 
     @abstractmethod
-    def compute_disparity(self, left_roi_image: np.ndarray, right_roi_image: np.ndarray) -> np.ndarray:
+    def compute_disparity(self, left_roi_image: np.ndarray, right_roi_image: np.ndarray, left_metadata: dict, right_metadata: dict) -> np.ndarray:
         """
         Computes the disparity map for the given stereo ROI images.
 
         Args:
-            left_roi_image: The left camera's region of interest (grayscale or color).
-            right_roi_image: The right camera's region of interest (grayscale or color).
+            left_roi_image: The left camera's region of interest (cropped image).
+            right_roi_image: The right camera's region of interest (cropped image).
+            left_metadata: Dictionary containing metadata for the left image (e.g., from roi_metadata.json).
+            right_metadata: Dictionary containing metadata for the right image.
 
         Returns:
             A 2D numpy array representing the disparity map.

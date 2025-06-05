@@ -5,6 +5,7 @@ from .census_cost_matching import CensusCostMatcher
 from .cascade_matching import CascadeMatcher
 from .efficient_large_scale_stereo import EfficientLargeScaleStereoMatcher
 from .feature_based_matching import FeatureBasedMatcher
+from .roi_disparity import ROIDisparity
 
 # You can define a list of available algorithms here for easy access
 AVAILABLE_ALGORITHMS = {
@@ -14,4 +15,7 @@ AVAILABLE_ALGORITHMS = {
     "Cascade": CascadeMatcher,
     "ELAS": EfficientLargeScaleStereoMatcher,
     "FeatureBased": FeatureBasedMatcher,
+    "ROIDisparity": ROIDisparity,
 }
+
+__all__ = ['BaseDisparityMatcher', 'AVAILABLE_ALGORITHMS', 'ROIDisparity']

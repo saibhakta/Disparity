@@ -1,0 +1,35 @@
+.
+├── README.md
+├── app.log
+├── cleanup_unmatched.sh
+├── data
+│   ├── annotations
+│   ├── basketball_images
+│   ├── calibrated_params
+│   │   ├── calibration.npz
+│   ├── calibration_images
+│   ├── cropped_images
+│   ├── ground_truth_annotations
+├── requirements.txt
+├── resources
+│   ├── libyolo_hailortpp_postprocess.so
+│   └── yolov11n.hef
+├── results
+├── setup_env.sh
+├── src
+│   ├── __init__.py
+│   ├── calibration.py
+│   ├── capture_calibration_images.py
+│   ├── data_acquisition.py
+│   ├── disparity_algorithms
+│   │   ├── __init__.py
+│   │   ├── base_disparity.py
+│   ├── ground_truth_tool.py
+│   ├── gstreamer_helpers.py
+│   ├── main_evaluator.py
+│   ├── pipeline_app.py
+│   ├── pipeline_helpers.py
+│   ├── utils.py
+│   ├── verify_annotations.py
+│   └── yolo_detector.py
+└── venv_hailo_rpi5
